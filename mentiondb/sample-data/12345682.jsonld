@@ -1,0 +1,102 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345682/ann/0",
+    "target": "PMID:12345682/text#char=127,132",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345682/ann/1",
+    "target": "PMID:12345682/text#char=929,934",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345682/ann/2",
+    "target": "PMID:12345682/text#char=979,984",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345682/ann/3",
+    "target": "PMID:12345682/text#char=1085,1090",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345682/ann/4",
+    "target": "PMID:12345682/text#char=1200,1205",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345682/ann/5",
+    "target": "PMID:12345682/text#char=1246,1251",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345682/ann/6",
+    "target": "PMID:12345682/text#char=1395,1400",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345682/ann/7",
+    "target": "PMID:12345682/text#char=1597,1602",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345682/ann/1",
+      "to": "PMID:12345682/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345682/ann/8",
+    "target": "PMID:12345682/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345682/ann/4",
+      "to": "PMID:12345682/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345682/ann/9",
+    "target": "PMID:12345682/text",
+    "type": "Relation"
+  }
+]

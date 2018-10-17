@@ -1,0 +1,51 @@
+[
+  {
+    "body": {
+      "id": "MESH:D004009",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234593/ann/0",
+    "target": "PMID:1234593/text#char=14,27",
+    "text": "dicloxacillin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:1234593/ann/1",
+    "target": "PMID:1234593/text#char=118,140",
+    "text": "isoxazolyl penicillins",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004009",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234593/ann/2",
+    "target": "PMID:1234593/text#char=203,216",
+    "text": "dicloxacillin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234593/ann/0",
+      "to": "PMID:1234593/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234593/ann/3",
+    "target": "PMID:1234593/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234593/ann/1",
+      "to": "PMID:1234593/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234593/ann/4",
+    "target": "PMID:1234593/text",
+    "type": "Relation"
+  }
+]

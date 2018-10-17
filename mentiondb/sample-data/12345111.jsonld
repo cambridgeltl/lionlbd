@@ -1,0 +1,98 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345111/ann/0",
+    "target": "PMID:12345111/text#char=0,11",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345111/ann/1",
+    "target": "PMID:12345111/text#char=53,63",
+    "text": "Philippine",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345111/ann/2",
+    "target": "PMID:12345111/text#char=214,224",
+    "text": "Philippine",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345111/ann/3",
+    "target": "PMID:12345111/text#char=1640,1651",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345111/ann/4",
+    "target": "PMID:12345111/text#char=1023,1031",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345111/ann/5",
+    "target": "PMID:12345111/text#char=1113,1121",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345111/ann/6",
+    "target": "PMID:12345111/text#char=1216,1222",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345111/ann/0",
+      "to": "PMID:12345111/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345111/ann/7",
+    "target": "PMID:12345111/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345111/ann/4",
+      "to": "PMID:12345111/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345111/ann/8",
+    "target": "PMID:12345111/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345111/ann/5",
+      "to": "PMID:12345111/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345111/ann/9",
+    "target": "PMID:12345111/text",
+    "type": "Relation"
+  }
+]

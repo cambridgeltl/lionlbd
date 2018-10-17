@@ -1,0 +1,2 @@
+A simple infra-red optometer for accommodation studies.
+The design of a continuously-recording optometer of minimal mechanical and electronic complexity is described. It operates on the Scheiner principle and has good time response for dynamic measurements. Theoretical and experimental studies show that linearity over an adequate range can be achieved by a suitable choice of system parameters; the response depends partly on Scheiner and partly on defocus effects.

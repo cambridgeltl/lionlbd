@@ -1,0 +1,162 @@
+[
+  {
+    "body": {
+      "id": "MESH:D004194",
+      "type": "Disease"
+    },
+    "id": "PMID:12345655/ann/0",
+    "target": "PMID:12345655/text#char=482,499",
+    "text": "Tropical Diseases",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012552",
+      "type": "Disease"
+    },
+    "id": "PMID:12345655/ann/1",
+    "target": "PMID:12345655/text#char=1354,1369",
+    "text": "schistosomiasis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004194",
+      "type": "Disease"
+    },
+    "id": "PMID:12345655/ann/2",
+    "target": "PMID:12345655/text#char=112,129",
+    "text": "Tropical Diseases",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012552",
+      "type": "Disease"
+    },
+    "id": "PMID:12345655/ann/3",
+    "target": "PMID:12345655/text#char=1518,1533",
+    "text": "schistosomiasis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000208",
+      "type": "Disease"
+    },
+    "id": "PMID:12345655/ann/4",
+    "target": "PMID:12345655/text#char=904,935",
+    "text": "acute schistosomiasis infection",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012552",
+      "type": "Disease"
+    },
+    "id": "PMID:12345655/ann/5",
+    "target": "PMID:12345655/text#char=1099,1114",
+    "text": "schistosomiasis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:6185",
+      "type": "Species"
+    },
+    "id": "PMID:12345655/ann/6",
+    "target": "PMID:12345655/text#char=668,682",
+    "text": "S. haematobium",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:99802",
+      "type": "Species"
+    },
+    "id": "PMID:12345655/ann/7",
+    "target": "PMID:12345655/text#char=687,697",
+    "text": "S. mansoni",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345655/ann/8",
+    "target": "PMID:12345655/text#char=1074,1082",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345655/ann/9",
+    "target": "PMID:12345655/text#char=1312,1320",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:6185",
+      "type": "Species"
+    },
+    "id": "PMID:12345655/ann/10",
+    "target": "PMID:12345655/text#char=1389,1400",
+    "text": "Schistosoma",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345655/ann/1",
+      "to": "PMID:12345655/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345655/ann/11",
+    "target": "PMID:12345655/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345655/ann/1",
+      "to": "PMID:12345655/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345655/ann/12",
+    "target": "PMID:12345655/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345655/ann/5",
+      "to": "PMID:12345655/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345655/ann/13",
+    "target": "PMID:12345655/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345655/ann/6",
+      "to": "PMID:12345655/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345655/ann/14",
+    "target": "PMID:12345655/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345655/ann/9",
+      "to": "PMID:12345655/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345655/ann/15",
+    "target": "PMID:12345655/text",
+    "type": "Relation"
+  }
+]

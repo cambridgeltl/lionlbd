@@ -1,0 +1,62 @@
+[
+  {
+    "body": {
+      "id": "MESH:D003072",
+      "type": "Disease"
+    },
+    "id": "PMID:12345002/ann/0",
+    "target": "PMID:12345002/text#char=691,707",
+    "text": "cognitive skills",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:4230",
+      "type": "Species"
+    },
+    "id": "PMID:12345002/ann/1",
+    "target": "PMID:12345002/text#char=784,789",
+    "text": "Niger",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345002/ann/2",
+    "target": "PMID:12345002/text#char=861,873",
+    "text": "participants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345002/ann/3",
+    "target": "PMID:12345002/text#char=1444,1447",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345002/ann/0",
+      "to": "PMID:12345002/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345002/ann/4",
+    "target": "PMID:12345002/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345002/ann/1",
+      "to": "PMID:12345002/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345002/ann/5",
+    "target": "PMID:12345002/text",
+    "type": "Relation"
+  }
+]

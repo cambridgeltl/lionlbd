@@ -1,0 +1,132 @@
+[
+  {
+    "body": {
+      "id": "MESH:C535563",
+      "type": "Disease"
+    },
+    "id": "PMID:1234516/ann/0",
+    "target": "PMID:1234516/text#char=1128,1133",
+    "text": "tibia",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C535563",
+      "type": "Disease"
+    },
+    "id": "PMID:1234516/ann/1",
+    "target": "PMID:1234516/text#char=1265,1270",
+    "text": "tibia",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014947",
+      "type": "Disease"
+    },
+    "id": "PMID:1234516/ann/2",
+    "target": "PMID:1234516/text#char=39,54",
+    "text": "injury research",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:6497",
+      "type": "Gene"
+    },
+    "id": "PMID:1234516/ann/3",
+    "target": "PMID:1234516/text#char=35,38",
+    "text": "ski",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:6497",
+      "type": "Gene"
+    },
+    "id": "PMID:1234516/ann/4",
+    "target": "PMID:1234516/text#char=121,124",
+    "text": "ski",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:6497",
+      "type": "Gene"
+    },
+    "id": "PMID:1234516/ann/5",
+    "target": "PMID:1234516/text#char=594,597",
+    "text": "ski",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:6497",
+      "type": "Gene"
+    },
+    "id": "PMID:1234516/ann/6",
+    "target": "PMID:1234516/text#char=1305,1308",
+    "text": "ski",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:6497",
+      "type": "Gene"
+    },
+    "id": "PMID:1234516/ann/7",
+    "target": "PMID:1234516/text#char=889,892",
+    "text": "ski",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:6497",
+      "type": "Gene"
+    },
+    "id": "PMID:1234516/ann/8",
+    "target": "PMID:1234516/text#char=370,373",
+    "text": "ski",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234516/ann/1",
+      "to": "PMID:1234516/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234516/ann/9",
+    "target": "PMID:1234516/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234516/ann/2",
+      "to": "PMID:1234516/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234516/ann/10",
+    "target": "PMID:1234516/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234516/ann/2",
+      "to": "PMID:1234516/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234516/ann/11",
+    "target": "PMID:1234516/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234516/ann/3",
+      "to": "PMID:1234516/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234516/ann/12",
+    "target": "PMID:1234516/text",
+    "type": "Relation"
+  }
+]

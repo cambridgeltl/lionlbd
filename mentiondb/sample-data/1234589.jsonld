@@ -1,0 +1,162 @@
+[
+  {
+    "body": {
+      "id": "MESH:C100244",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234589/ann/0",
+    "target": "PMID:1234589/text#char=477,497",
+    "text": "indanylcarbenicillin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014031",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234589/ann/1",
+    "target": "PMID:1234589/text#char=499,509",
+    "text": "tobramycin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D005578",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234589/ann/2",
+    "target": "PMID:1234589/text#char=511,521",
+    "text": "fosfomycin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002437",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234589/ann/3",
+    "target": "PMID:1234589/text#char=526,535",
+    "text": "cefazolin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007674",
+      "type": "Disease"
+    },
+    "id": "PMID:1234589/ann/4",
+    "target": "PMID:1234589/text#char=55,71",
+    "text": "renal parenchyma",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:10116",
+      "type": "Species"
+    },
+    "id": "PMID:1234589/ann/5",
+    "target": "PMID:1234589/text#char=440,444",
+    "text": "rats",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234589/ann/0",
+      "to": "PMID:1234589/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234589/ann/6",
+    "target": "PMID:1234589/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234589/ann/0",
+      "to": "PMID:1234589/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234589/ann/7",
+    "target": "PMID:1234589/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234589/ann/0",
+      "to": "PMID:1234589/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234589/ann/8",
+    "target": "PMID:1234589/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234589/ann/0",
+      "to": "PMID:1234589/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234589/ann/9",
+    "target": "PMID:1234589/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234589/ann/1",
+      "to": "PMID:1234589/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234589/ann/10",
+    "target": "PMID:1234589/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234589/ann/1",
+      "to": "PMID:1234589/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234589/ann/11",
+    "target": "PMID:1234589/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234589/ann/1",
+      "to": "PMID:1234589/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234589/ann/12",
+    "target": "PMID:1234589/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234589/ann/2",
+      "to": "PMID:1234589/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234589/ann/13",
+    "target": "PMID:1234589/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234589/ann/2",
+      "to": "PMID:1234589/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234589/ann/14",
+    "target": "PMID:1234589/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234589/ann/3",
+      "to": "PMID:1234589/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234589/ann/15",
+    "target": "PMID:1234589/text",
+    "type": "Relation"
+  }
+]

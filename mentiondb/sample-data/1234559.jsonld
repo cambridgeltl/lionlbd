@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234559/ann/0",
+    "target": "PMID:1234559/text#char=54,59",
+    "text": "women",
+    "type": "Span"
+  }
+]

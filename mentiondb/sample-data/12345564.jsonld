@@ -1,0 +1,51 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345564/ann/0",
+    "target": "PMID:12345564/text#char=1606,1615",
+    "text": "Palestine",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345564/ann/1",
+    "target": "PMID:12345564/text#char=1151,1157",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345564/ann/2",
+    "target": "PMID:12345564/text#char=1188,1194",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345564/ann/3",
+    "target": "PMID:12345564/text#char=1474,1480",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345564/ann/1",
+      "to": "PMID:12345564/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345564/ann/4",
+    "target": "PMID:12345564/text",
+    "type": "Relation"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "body": {
+      "id": "MESH:D002245",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345843/ann/0",
+    "target": "PMID:12345843/text#char=1167,1181",
+    "text": "carbon dioxide",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D044342",
+      "type": "Disease"
+    },
+    "id": "PMID:12345843/ann/1",
+    "target": "PMID:12345843/text#char=1401,1413",
+    "text": "malnutrition",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345843/ann/2",
+    "target": "PMID:12345843/text#char=31,36",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345843/ann/3",
+    "target": "PMID:12345843/text#char=60,65",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345843/ann/4",
+    "target": "PMID:12345843/text#char=244,249",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345843/ann/5",
+    "target": "PMID:12345843/text#char=323,328",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345843/ann/6",
+    "target": "PMID:12345843/text#char=880,885",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345843/ann/7",
+    "target": "PMID:12345843/text#char=905,910",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345843/ann/2",
+      "to": "PMID:12345843/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345843/ann/8",
+    "target": "PMID:12345843/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345843/ann/4",
+      "to": "PMID:12345843/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345843/ann/9",
+    "target": "PMID:12345843/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345843/ann/6",
+      "to": "PMID:12345843/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345843/ann/10",
+    "target": "PMID:12345843/text",
+    "type": "Relation"
+  }
+]

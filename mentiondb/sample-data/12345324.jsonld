@@ -1,0 +1,72 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000031",
+      "type": "Disease"
+    },
+    "id": "PMID:12345324/ann/0",
+    "target": "PMID:12345324/text#char=638,654",
+    "text": "septic abortions",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345324/ann/1",
+    "target": "PMID:12345324/text#char=772,778",
+    "text": "deaths",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345324/ann/2",
+    "target": "PMID:12345324/text#char=557,563",
+    "text": "deaths",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345324/ann/3",
+    "target": "PMID:12345324/text#char=795,800",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345324/ann/4",
+    "target": "PMID:12345324/text#char=998,1003",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345324/ann/0",
+      "to": "PMID:12345324/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345324/ann/5",
+    "target": "PMID:12345324/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345324/ann/1",
+      "to": "PMID:12345324/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345324/ann/6",
+    "target": "PMID:12345324/text",
+    "type": "Relation"
+  }
+]

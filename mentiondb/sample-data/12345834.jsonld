@@ -1,0 +1,62 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345834/ann/0",
+    "target": "PMID:12345834/text#char=920,927",
+    "text": "persons",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345834/ann/1",
+    "target": "PMID:12345834/text#char=1504,1509",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345834/ann/2",
+    "target": "PMID:12345834/text#char=1524,1532",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345834/ann/3",
+    "target": "PMID:12345834/text#char=1704,1709",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345834/ann/4",
+    "target": "PMID:12345834/text#char=2004,2010",
+    "text": "Infant",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345834/ann/1",
+      "to": "PMID:12345834/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345834/ann/5",
+    "target": "PMID:12345834/text",
+    "type": "Relation"
+  }
+]

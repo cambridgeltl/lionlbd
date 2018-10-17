@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>LION - about</title>
+		<link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.png') }}?v=3">	    
+		<link rel="stylesheet" href="/static/css/semantic.min.css">	
+                <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">	
+                <link rel="stylesheet" href="/static/css/cam-dtal-lion.css">
+		<script src="static/js/jquery.min.js"></script>
+		<script src="static/js/semantic.min.js"></script>
+
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112981582-1"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'UA-112981582-1');
+                </script>
+
+
+	</head>
+	<body>
+
+            <div class="pusher">			
+
+
+            <!-- Top Menu -->
+            <div id="cam-dtal-lion-global-menu" style="padding: 6px; margin: 0; display: flex; flex-direction: row; justify-content: space-between; background-color: white; align-items: center;">
+                <div class="item" style="display: flex; flex-direction: row; align-items:center;">
+                    <div class="cam-dtal-lion-topbar-element cam-dtal-lion-topbar-element-title">
+                        <!--<a style="color: black;" href="/">
+                            <i class="ui student icon"></i>LION
+                        </a>  -->
+                        <a href="/">
+                        <img alt="Lion logo" 
+                        style="height: 33px; width: auto; margin: 0; padding: 0;" 
+                             src="/static/images/lionface.png" />
+                        </a>
+                    </div>
+		    <a class="cam-dtal-lion-menu-item" href="/">home</a>
+                <a class="cam-dtal-lion-menu-item" href="/help">help</a>
+				<a class="cam-dtal-lion-menu-item" href="/downloads">downloads</a>
+				<a class="cam-dtal-lion-menu-item" href="/about">about</a>
+                </div>
+            </div>
+
+            </div>
+
+	    <div class="ui container">
+		<div class="ui grid" >
+		    <div class="row">
+			<div class="column"><h1>About the LION LBD Tool</h1></div>
+		    </div>
+
+		    <div class="row">
+			<div class="sixteen wide column">
+
+				<p> The LION LBD Tool was developed and is maintained by the <a href="//lionproject.net/about.html">LION project </a></p>
+
+				<p>In addition to this tool, we share our software code under open licence which can be found here: <a href="https://github.com/cambridgeltl/lion-lbd">https://github.com/cambridgeltl/lion-lbd</a> </p>
+
+				<h2>Crediting</h2>
+				<p>
+					Please cite our publication:
+					<strong>
+					<a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty845/5124276">LION LBD: a Literature-Based Discovery System for Cancer Biology</a>
+					</strong>
+
+				</p>
+
+				<h2>Contact us</h2>
+				<p>
+				Email: <strong>ltllionproject@gmail.com</strong>
+				</p>
+			    <!--<div style="text-align: center;">-->
+				<!--<img src="/static/images/groupphoto.jpg" style="max-width: 100%;" />-->
+			    <!--</div>-->
+
+
+			</div>
+		    </div>
+		    
+		</div>
+	    </div>
+  
+        </body>
+</html>

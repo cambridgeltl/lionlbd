@@ -1,0 +1,242 @@
+[
+  {
+    "body": {
+      "id": "MESH:D003967",
+      "type": "Disease"
+    },
+    "id": "PMID:12345651/ann/0",
+    "target": "PMID:12345651/text#char=807,815",
+    "text": "diarrhea",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012640",
+      "type": "Disease"
+    },
+    "id": "PMID:12345651/ann/1",
+    "target": "PMID:12345651/text#char=790,801",
+    "text": "convulsions",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D008288",
+      "type": "Disease"
+    },
+    "id": "PMID:12345651/ann/2",
+    "target": "PMID:12345651/text#char=781,788",
+    "text": "malaria",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009155",
+      "type": "Disease"
+    },
+    "id": "PMID:12345651/ann/3",
+    "target": "PMID:12345651/text#char=821,838",
+    "text": "voluntary village",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345651/ann/4",
+    "target": "PMID:12345651/text#char=15,21",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345651/ann/5",
+    "target": "PMID:12345651/text#char=166,172",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345651/ann/6",
+    "target": "PMID:12345651/text#char=390,398",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345651/ann/7",
+    "target": "PMID:12345651/text#char=516,522",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345651/ann/8",
+    "target": "PMID:12345651/text#char=684,689",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345651/ann/9",
+    "target": "PMID:12345651/text#char=759,765",
+    "text": "infant",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345651/ann/10",
+    "target": "PMID:12345651/text#char=1383,1389",
+    "text": "infant",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345651/ann/11",
+    "target": "PMID:12345651/text#char=1681,1686",
+    "text": "Women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345651/ann/0",
+      "to": "PMID:12345651/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345651/ann/12",
+    "target": "PMID:12345651/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345651/ann/0",
+      "to": "PMID:12345651/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345651/ann/13",
+    "target": "PMID:12345651/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345651/ann/0",
+      "to": "PMID:12345651/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345651/ann/14",
+    "target": "PMID:12345651/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345651/ann/0",
+      "to": "PMID:12345651/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345651/ann/15",
+    "target": "PMID:12345651/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345651/ann/1",
+      "to": "PMID:12345651/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345651/ann/16",
+    "target": "PMID:12345651/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345651/ann/1",
+      "to": "PMID:12345651/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345651/ann/17",
+    "target": "PMID:12345651/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345651/ann/1",
+      "to": "PMID:12345651/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345651/ann/18",
+    "target": "PMID:12345651/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345651/ann/2",
+      "to": "PMID:12345651/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345651/ann/19",
+    "target": "PMID:12345651/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345651/ann/2",
+      "to": "PMID:12345651/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345651/ann/20",
+    "target": "PMID:12345651/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345651/ann/2",
+      "to": "PMID:12345651/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345651/ann/21",
+    "target": "PMID:12345651/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345651/ann/3",
+      "to": "PMID:12345651/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345651/ann/22",
+    "target": "PMID:12345651/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345651/ann/8",
+      "to": "PMID:12345651/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345651/ann/23",
+    "target": "PMID:12345651/text",
+    "type": "Relation"
+  }
+]

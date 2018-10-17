@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:D007410",
+      "type": "Disease"
+    },
+    "id": "PMID:123457/ann/0",
+    "target": "PMID:123457/text#char=90,109",
+    "text": "intestinal diseases",
+    "type": "Span"
+  }
+]

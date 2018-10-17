@@ -1,0 +1,11 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345295/ann/0",
+    "target": "PMID:12345295/text#char=197,208",
+    "text": "francophone",
+    "type": "Span"
+  }
+]

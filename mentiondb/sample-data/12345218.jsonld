@@ -1,0 +1,132 @@
+[
+  {
+    "body": {
+      "id": "CHEBI:16236",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345218/ann/0",
+    "target": "PMID:12345218/text#char=1067,1074",
+    "text": "alcohol",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:6717",
+      "type": "Gene"
+    },
+    "id": "PMID:12345218/ann/1",
+    "target": "PMID:12345218/text#char=678,681",
+    "text": "Sri",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345218/ann/2",
+    "target": "PMID:12345218/text#char=130,135",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345218/ann/3",
+    "target": "PMID:12345218/text#char=391,396",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345218/ann/4",
+    "target": "PMID:12345218/text#char=713,718",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345218/ann/5",
+    "target": "PMID:12345218/text#char=931,934",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345218/ann/6",
+    "target": "PMID:12345218/text#char=960,965",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345218/ann/7",
+    "target": "PMID:12345218/text#char=994,997",
+    "text": "Men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345218/ann/0",
+      "to": "PMID:12345218/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345218/ann/8",
+    "target": "PMID:12345218/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345218/ann/1",
+      "to": "PMID:12345218/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345218/ann/9",
+    "target": "PMID:12345218/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345218/ann/5",
+      "to": "PMID:12345218/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345218/ann/10",
+    "target": "PMID:12345218/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345218/ann/5",
+      "to": "PMID:12345218/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345218/ann/11",
+    "target": "PMID:12345218/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345218/ann/6",
+      "to": "PMID:12345218/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345218/ann/12",
+    "target": "PMID:12345218/text",
+    "type": "Relation"
+  }
+]

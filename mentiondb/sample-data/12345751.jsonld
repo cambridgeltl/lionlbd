@@ -1,0 +1,202 @@
+[
+  {
+    "body": {
+      "id": "MESH:D015766",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345751/ann/0",
+    "target": "PMID:12345751/text#char=1811,1822",
+    "text": "Albendazole",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D008463",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345751/ann/1",
+    "target": "PMID:12345751/text#char=1827,1838",
+    "text": "mebendazole",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007978",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345751/ann/2",
+    "target": "PMID:12345751/text#char=1881,1891",
+    "text": "Levamisole",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011716",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345751/ann/3",
+    "target": "PMID:12345751/text#char=1947,1963",
+    "text": "pyrantel pamoate",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007239",
+      "type": "Disease"
+    },
+    "id": "PMID:12345751/ann/4",
+    "target": "PMID:12345751/text#char=876,891",
+    "text": "heavy infection",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007239",
+      "type": "Disease"
+    },
+    "id": "PMID:12345751/ann/5",
+    "target": "PMID:12345751/text#char=2177,2187",
+    "text": "infections",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:6239",
+      "type": "Species"
+    },
+    "id": "PMID:12345751/ann/6",
+    "target": "PMID:12345751/text#char=175,184",
+    "text": "nematodes",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:6252",
+      "type": "Species"
+    },
+    "id": "PMID:12345751/ann/7",
+    "target": "PMID:12345751/text#char=186,206",
+    "text": "Ascaris lumbricoides",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:36087",
+      "type": "Species"
+    },
+    "id": "PMID:12345751/ann/8",
+    "target": "PMID:12345751/text#char=208,227",
+    "text": "Trichuris trichiura",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345751/ann/9",
+    "target": "PMID:12345751/text#char=1257,1263",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:36087",
+      "type": "Species"
+    },
+    "id": "PMID:12345751/ann/10",
+    "target": "PMID:12345751/text#char=1554,1566",
+    "text": "T. trichiura",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345751/ann/11",
+    "target": "PMID:12345751/text#char=1618,1626",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345751/ann/0",
+      "to": "PMID:12345751/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345751/ann/12",
+    "target": "PMID:12345751/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345751/ann/0",
+      "to": "PMID:12345751/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345751/ann/13",
+    "target": "PMID:12345751/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345751/ann/1",
+      "to": "PMID:12345751/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345751/ann/14",
+    "target": "PMID:12345751/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345751/ann/2",
+      "to": "PMID:12345751/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345751/ann/15",
+    "target": "PMID:12345751/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345751/ann/6",
+      "to": "PMID:12345751/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345751/ann/16",
+    "target": "PMID:12345751/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345751/ann/6",
+      "to": "PMID:12345751/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345751/ann/17",
+    "target": "PMID:12345751/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345751/ann/7",
+      "to": "PMID:12345751/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345751/ann/18",
+    "target": "PMID:12345751/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345751/ann/10",
+      "to": "PMID:12345751/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345751/ann/19",
+    "target": "PMID:12345751/text",
+    "type": "Relation"
+  }
+]

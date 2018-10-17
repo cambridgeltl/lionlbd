@@ -1,0 +1,119 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345271/ann/0",
+    "target": "PMID:12345271/text#char=70,81",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345271/ann/1",
+    "target": "PMID:12345271/text#char=1545,1556",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345271/ann/2",
+    "target": "PMID:12345271/text#char=1654,1665",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345271/ann/3",
+    "target": "PMID:12345271/text#char=0,3",
+    "text": "Man",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345271/ann/4",
+    "target": "PMID:12345271/text#char=644,647",
+    "text": "man",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345271/ann/5",
+    "target": "PMID:12345271/text#char=766,769",
+    "text": "man",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345271/ann/6",
+    "target": "PMID:12345271/text#char=887,892",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345271/ann/7",
+    "target": "PMID:12345271/text#char=1010,1016",
+    "text": "Humans",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345271/ann/8",
+    "target": "PMID:12345271/text#char=1092,1098",
+    "text": "Humans",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345271/ann/0",
+      "to": "PMID:12345271/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345271/ann/9",
+    "target": "PMID:12345271/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345271/ann/1",
+      "to": "PMID:12345271/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345271/ann/10",
+    "target": "PMID:12345271/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345271/ann/7",
+      "to": "PMID:12345271/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345271/ann/11",
+    "target": "PMID:12345271/text",
+    "type": "Relation"
+  }
+]

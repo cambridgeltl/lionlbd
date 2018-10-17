@@ -1,0 +1,22 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:8839",
+      "type": "Species"
+    },
+    "id": "PMID:1234509/ann/0",
+    "target": "PMID:1234509/text#char=89,94",
+    "text": "ducks",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:8839",
+      "type": "Species"
+    },
+    "id": "PMID:1234509/ann/1",
+    "target": "PMID:1234509/text#char=736,741",
+    "text": "ducks",
+    "type": "Span"
+  }
+]

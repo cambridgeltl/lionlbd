@@ -1,0 +1,172 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000031",
+      "type": "Disease"
+    },
+    "id": "PMID:12345515/ann/0",
+    "target": "PMID:12345515/text#char=427,446",
+    "text": "daughter's abortion",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345515/ann/1",
+    "target": "PMID:12345515/text#char=871,884",
+    "text": "breast cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D015430",
+      "type": "Disease"
+    },
+    "id": "PMID:12345515/ann/2",
+    "target": "PMID:12345515/text#char=2297,2311",
+    "text": "financial gain",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:57379",
+      "type": "Gene"
+    },
+    "id": "PMID:12345515/ann/3",
+    "target": "PMID:12345515/text#char=1018,1021",
+    "text": "Aid",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345515/ann/4",
+    "target": "PMID:12345515/text#char=488,495",
+    "text": "patient",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345515/ann/5",
+    "target": "PMID:12345515/text#char=982,990",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345515/ann/6",
+    "target": "PMID:12345515/text#char=1049,1057",
+    "text": "Children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345515/ann/7",
+    "target": "PMID:12345515/text#char=1093,1098",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345515/ann/8",
+    "target": "PMID:12345515/text#char=2477,2483",
+    "text": "person",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345515/ann/9",
+    "target": "PMID:12345515/text#char=2635,2640",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345515/ann/0",
+      "to": "PMID:12345515/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345515/ann/10",
+    "target": "PMID:12345515/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345515/ann/1",
+      "to": "PMID:12345515/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345515/ann/11",
+    "target": "PMID:12345515/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345515/ann/3",
+      "to": "PMID:12345515/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345515/ann/12",
+    "target": "PMID:12345515/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345515/ann/3",
+      "to": "PMID:12345515/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345515/ann/13",
+    "target": "PMID:12345515/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345515/ann/3",
+      "to": "PMID:12345515/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345515/ann/14",
+    "target": "PMID:12345515/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345515/ann/5",
+      "to": "PMID:12345515/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345515/ann/15",
+    "target": "PMID:12345515/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345515/ann/6",
+      "to": "PMID:12345515/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345515/ann/16",
+    "target": "PMID:12345515/text",
+    "type": "Relation"
+  }
+]

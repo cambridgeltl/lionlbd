@@ -1,0 +1,51 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345706/ann/0",
+    "target": "PMID:12345706/text#char=954,960",
+    "text": "famine",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345706/ann/1",
+    "target": "PMID:12345706/text#char=690,698",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345706/ann/2",
+    "target": "PMID:12345706/text#char=703,708",
+    "text": "woman",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345706/ann/3",
+    "target": "PMID:12345706/text#char=1881,1887",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345706/ann/1",
+      "to": "PMID:12345706/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345706/ann/4",
+    "target": "PMID:12345706/text",
+    "type": "Relation"
+  }
+]

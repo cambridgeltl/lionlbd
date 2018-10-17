@@ -1,0 +1,42 @@
+[
+  {
+    "body": {
+      "id": "MESH:C538276",
+      "type": "Disease"
+    },
+    "id": "PMID:12345174/ann/0",
+    "target": "PMID:12345174/text#char=225,246",
+    "text": "rural and urban areas",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D008288",
+      "type": "Disease"
+    },
+    "id": "PMID:12345174/ann/1",
+    "target": "PMID:12345174/text#char=381,388",
+    "text": "malaria",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345174/ann/2",
+    "target": "PMID:12345174/text#char=394,398",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345174/ann/1",
+      "to": "PMID:12345174/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345174/ann/3",
+    "target": "PMID:12345174/text",
+    "type": "Relation"
+  }
+]

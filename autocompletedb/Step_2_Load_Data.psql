@@ -1,0 +1,44 @@
+-- Creates Postgres trigram search extension for optimized free text searching
+
+CREATE EXTENSION IF NOT EXISTS pg_trgm;
+
+-- Drop 'nodetext' table so we're starting from scratch
+
+DROP TABLE IF EXISTS nodetext;
+
+-- Create 'nodetext' table
+
+CREATE TABLE IF NOT EXISTS nodetext 
+(
+    id 			SERIAL,
+    oid 		VARCHAR(255) 	NOT NULL,
+    text 		VARCHAR(500) 	NOT NULL,
+    type 		VARCHAR(100) 	NOT NULL,
+    count 		INTEGER 		NOT NULL,  
+    canonical 	INTEGER 		NOT NULL,
+    PRIMARY KEY (id)
+);
+
+-- Populate 'nodetext' table with data from aggregator
+
+COPY nodetext(oid, text, type, count, canonical) FROM '/srv/lion/lion-lbd/autocompletedb/nodetext.csv' DELIMITER ',' CSV HEADER;
+
+-- Create indices on 'nodetext' table including special trigram index 'gin(text gin_trgm_ops)'
+
+CREATE INDEX idx_nodetext_oid ON nodetext(oid);
+CREATE INDEX idx_nodetext_text ON nodetext USING gin(text gin_trgm_ops);
+CREATE INDEX idx_nodetext_type ON nodetext(type);
+CREATE INDEX idx_nodetext_count ON nodetext(count);
+CREATE INDEX idx_nodetext_canonical ON nodetext(canonical);
+
+-- Add hallmark nodes from predefined CSV file
+
+-- COPY nodetext(oid, text, type, count, canonical) FROM '/srv/lion/lion-lbd/hallmarks/hallmarks.csv' DELIMITER ',' CSV HEADER;
+
+COPY nodetext(oid, text, type, count, canonical) FROM '/srv/lion/lion-lbd/hallmarks/hallmarks_HOC_caps.csv' DELIMITER ',' CSV HEADER;
+
+-- Since lion user is not super user, I'm likely not running as lion
+
+ALTER TABLE nodetext OWNER TO lion;
+GRANT SELECT ON nodetext TO PUBLIC;
+

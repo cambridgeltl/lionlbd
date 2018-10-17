@@ -1,0 +1,61 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345372/ann/0",
+    "target": "PMID:12345372/text#char=1122,1126",
+    "text": "CFPA",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345372/ann/1",
+    "target": "PMID:12345372/text#char=458,463",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345372/ann/2",
+    "target": "PMID:12345372/text#char=1238,1243",
+    "text": "Women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345372/ann/3",
+    "target": "PMID:12345372/text#char=1248,1256",
+    "text": "Children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345372/ann/4",
+    "target": "PMID:12345372/text#char=1401,1406",
+    "text": "girls",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345372/ann/2",
+      "to": "PMID:12345372/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345372/ann/5",
+    "target": "PMID:12345372/text",
+    "type": "Relation"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345170/ann/0",
+    "target": "PMID:12345170/text#char=228,237",
+    "text": "migration",
+    "type": "Span"
+  }
+]

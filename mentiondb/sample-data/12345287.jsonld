@@ -1,0 +1,92 @@
+[
+  {
+    "body": {
+      "id": "EGID:4123",
+      "type": "Gene"
+    },
+    "id": "PMID:12345287/ann/0",
+    "target": "PMID:12345287/text#char=79,83",
+    "text": "Mana",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345287/ann/1",
+    "target": "PMID:12345287/text#char=166,171",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345287/ann/2",
+    "target": "PMID:12345287/text#char=368,373",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345287/ann/3",
+    "target": "PMID:12345287/text#char=407,412",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345287/ann/4",
+    "target": "PMID:12345287/text#char=417,422",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345287/ann/0",
+      "to": "PMID:12345287/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345287/ann/5",
+    "target": "PMID:12345287/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345287/ann/2",
+      "to": "PMID:12345287/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345287/ann/6",
+    "target": "PMID:12345287/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345287/ann/2",
+      "to": "PMID:12345287/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345287/ann/7",
+    "target": "PMID:12345287/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345287/ann/3",
+      "to": "PMID:12345287/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345287/ann/8",
+    "target": "PMID:12345287/text",
+    "type": "Relation"
+  }
+]

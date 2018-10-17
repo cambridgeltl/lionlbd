@@ -1,0 +1,152 @@
+[
+  {
+    "body": {
+      "id": "MESH:C537904",
+      "type": "Disease"
+    },
+    "id": "PMID:12345698/ann/0",
+    "target": "PMID:12345698/text#char=861,891",
+    "text": "Sub-Saharan francophone Africa",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345698/ann/1",
+    "target": "PMID:12345698/text#char=46,54",
+    "text": "Children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345698/ann/2",
+    "target": "PMID:12345698/text#char=83,91",
+    "text": "Children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345698/ann/3",
+    "target": "PMID:12345698/text#char=134,139",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345698/ann/4",
+    "target": "PMID:12345698/text#char=313,320",
+    "text": "infants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345698/ann/5",
+    "target": "PMID:12345698/text#char=520,525",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345698/ann/6",
+    "target": "PMID:12345698/text#char=583,588",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345698/ann/7",
+    "target": "PMID:12345698/text#char=1223,1228",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345698/ann/8",
+    "target": "PMID:12345698/text#char=1456,1461",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345698/ann/9",
+    "target": "PMID:12345698/text#char=1721,1733",
+    "text": "participants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345698/ann/10",
+    "target": "PMID:12345698/text#char=2051,2059",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345698/ann/1",
+      "to": "PMID:12345698/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345698/ann/11",
+    "target": "PMID:12345698/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345698/ann/1",
+      "to": "PMID:12345698/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345698/ann/12",
+    "target": "PMID:12345698/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345698/ann/2",
+      "to": "PMID:12345698/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345698/ann/13",
+    "target": "PMID:12345698/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345698/ann/5",
+      "to": "PMID:12345698/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345698/ann/14",
+    "target": "PMID:12345698/text",
+    "type": "Relation"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345781/ann/0",
+    "target": "PMID:12345781/text#char=649,655",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345781/ann/1",
+    "target": "PMID:12345781/text#char=872,878",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345781/ann/2",
+    "target": "PMID:12345781/text#char=1888,1893",
+    "text": "Women",
+    "type": "Span"
+  }
+]

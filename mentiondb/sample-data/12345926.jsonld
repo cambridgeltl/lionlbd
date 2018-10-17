@@ -1,0 +1,82 @@
+[
+  {
+    "body": {
+      "id": "MESH:D015658",
+      "type": "Disease"
+    },
+    "id": "PMID:12345926/ann/0",
+    "target": "PMID:12345926/text#char=1219,1232",
+    "text": "HIV-infection",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345926/ann/1",
+    "target": "PMID:12345926/text#char=458,461",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345926/ann/2",
+    "target": "PMID:12345926/text#char=995,998",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:57667",
+      "type": "Species"
+    },
+    "id": "PMID:12345926/ann/3",
+    "target": "PMID:12345926/text#char=1219,1222",
+    "text": "HIV",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345926/ann/4",
+    "target": "PMID:12345926/text#char=1252,1255",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345926/ann/0",
+      "to": "PMID:12345926/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345926/ann/5",
+    "target": "PMID:12345926/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345926/ann/0",
+      "to": "PMID:12345926/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345926/ann/6",
+    "target": "PMID:12345926/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345926/ann/3",
+      "to": "PMID:12345926/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345926/ann/7",
+    "target": "PMID:12345926/text",
+    "type": "Relation"
+  }
+]

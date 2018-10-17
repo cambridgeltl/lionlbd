@@ -1,0 +1,92 @@
+[
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:1234592/ann/0",
+    "target": "PMID:1234592/text#char=280,287",
+    "text": "tumours",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D064420",
+      "type": "Disease"
+    },
+    "id": "PMID:1234592/ann/1",
+    "target": "PMID:1234592/text#char=762,770",
+    "text": "toxicity",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D064420",
+      "type": "Disease"
+    },
+    "id": "PMID:1234592/ann/2",
+    "target": "PMID:1234592/text#char=874,882",
+    "text": "toxicity",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:1234592/ann/3",
+    "target": "PMID:1234592/text#char=93,99",
+    "text": "tumors",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000230",
+      "type": "Disease"
+    },
+    "id": "PMID:1234592/ann/4",
+    "target": "PMID:1234592/text#char=321,335",
+    "text": "adenocarcinoma",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:1234592/ann/5",
+    "target": "PMID:1234592/text#char=233,239",
+    "text": "tumour",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234592/ann/0",
+      "to": "PMID:1234592/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234592/ann/6",
+    "target": "PMID:1234592/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234592/ann/0",
+      "to": "PMID:1234592/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234592/ann/7",
+    "target": "PMID:1234592/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234592/ann/4",
+      "to": "PMID:1234592/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234592/ann/8",
+    "target": "PMID:1234592/text",
+    "type": "Relation"
+  }
+]

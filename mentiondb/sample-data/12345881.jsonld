@@ -1,0 +1,372 @@
+[
+  {
+    "body": {
+      "id": "MESH:D006973",
+      "type": "Disease"
+    },
+    "id": "PMID:12345881/ann/0",
+    "target": "PMID:12345881/text#char=289,301",
+    "text": "hypertension",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D008173",
+      "type": "Disease"
+    },
+    "id": "PMID:12345881/ann/1",
+    "target": "PMID:12345881/text#char=303,319",
+    "text": "obstructed labor",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004630",
+      "type": "Disease"
+    },
+    "id": "PMID:12345881/ann/2",
+    "target": "PMID:12345881/text#char=1321,1354",
+    "text": "planning of obstetric emergencies",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D008133",
+      "type": "Disease"
+    },
+    "id": "PMID:12345881/ann/3",
+    "target": "PMID:12345881/text#char=1426,1441",
+    "text": "prolonged labor",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003925",
+      "type": "Disease"
+    },
+    "id": "PMID:12345881/ann/4",
+    "target": "PMID:12345881/text#char=1231,1278",
+    "text": "obstetric emergencies and prevent complications",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011225",
+      "type": "Disease"
+    },
+    "id": "PMID:12345881/ann/5",
+    "target": "PMID:12345881/text#char=1635,1648",
+    "text": "pre-eclampsia",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000740",
+      "type": "Disease"
+    },
+    "id": "PMID:12345881/ann/6",
+    "target": "PMID:12345881/text#char=1418,1424",
+    "text": "anemia",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D008133",
+      "type": "Disease"
+    },
+    "id": "PMID:12345881/ann/7",
+    "target": "PMID:12345881/text#char=1497,1578",
+    "text": "prolonged or obstructed labor; the treatment of incomplete or inevitable abortion",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D006470",
+      "type": "Disease"
+    },
+    "id": "PMID:12345881/ann/8",
+    "target": "PMID:12345881/text#char=259,269",
+    "text": "hemorrhage",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D006470",
+      "type": "Disease"
+    },
+    "id": "PMID:12345881/ann/9",
+    "target": "PMID:12345881/text#char=1399,1409",
+    "text": "hemorrhage",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D018805",
+      "type": "Disease"
+    },
+    "id": "PMID:12345881/ann/10",
+    "target": "PMID:12345881/text#char=271,287",
+    "text": "puerperal sepsis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012421",
+      "type": "Disease"
+    },
+    "id": "PMID:12345881/ann/11",
+    "target": "PMID:12345881/text#char=1447,1462",
+    "text": "ruptured uterus",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345881/ann/12",
+    "target": "PMID:12345881/text#char=82,87",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345881/ann/13",
+    "target": "PMID:12345881/text#char=736,744",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345881/ann/14",
+    "target": "PMID:12345881/text#char=851,856",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/0",
+      "to": "PMID:12345881/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/15",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/0",
+      "to": "PMID:12345881/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/16",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/0",
+      "to": "PMID:12345881/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/17",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/1",
+      "to": "PMID:12345881/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/18",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/1",
+      "to": "PMID:12345881/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/19",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/2",
+      "to": "PMID:12345881/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/20",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/2",
+      "to": "PMID:12345881/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/21",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/2",
+      "to": "PMID:12345881/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/22",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/2",
+      "to": "PMID:12345881/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/23",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/2",
+      "to": "PMID:12345881/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/24",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/3",
+      "to": "PMID:12345881/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/25",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/3",
+      "to": "PMID:12345881/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/26",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/3",
+      "to": "PMID:12345881/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/27",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/3",
+      "to": "PMID:12345881/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/28",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/5",
+      "to": "PMID:12345881/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/29",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/6",
+      "to": "PMID:12345881/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/30",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/6",
+      "to": "PMID:12345881/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/31",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/6",
+      "to": "PMID:12345881/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/32",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/7",
+      "to": "PMID:12345881/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/33",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/7",
+      "to": "PMID:12345881/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/34",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/8",
+      "to": "PMID:12345881/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/35",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345881/ann/9",
+      "to": "PMID:12345881/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345881/ann/36",
+    "target": "PMID:12345881/text",
+    "type": "Relation"
+  }
+]

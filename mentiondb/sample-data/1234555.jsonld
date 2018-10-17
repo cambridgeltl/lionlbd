@@ -1,0 +1,201 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000450",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234555/ann/0",
+    "target": "PMID:1234555/text#char=53,64",
+    "text": "aldosterone",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:1234555/ann/1",
+    "target": "PMID:1234555/text#char=156,180",
+    "text": "Sar1-Ala8-angiotensin II",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000450",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234555/ann/2",
+    "target": "PMID:1234555/text#char=191,202",
+    "text": "aldosterone",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000450",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234555/ann/3",
+    "target": "PMID:1234555/text#char=291,302",
+    "text": "aldosterone",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "403838(Tax:9615)",
+      "type": "Gene"
+    },
+    "id": "PMID:1234555/ann/4",
+    "target": "PMID:1234555/text#char=211,216",
+    "text": "renin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "403838(Tax:9615)",
+      "type": "Gene"
+    },
+    "id": "PMID:1234555/ann/5",
+    "target": "PMID:1234555/text#char=443,448",
+    "text": "renin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9615",
+      "type": "Species"
+    },
+    "id": "PMID:1234555/ann/6",
+    "target": "PMID:1234555/text#char=72,75",
+    "text": "dog",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9615",
+      "type": "Species"
+    },
+    "id": "PMID:1234555/ann/7",
+    "target": "PMID:1234555/text#char=278,282",
+    "text": "dogs",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234555/ann/0",
+      "to": "PMID:1234555/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234555/ann/8",
+    "target": "PMID:1234555/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234555/ann/0",
+      "to": "PMID:1234555/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234555/ann/9",
+    "target": "PMID:1234555/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234555/ann/1",
+      "to": "PMID:1234555/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234555/ann/10",
+    "target": "PMID:1234555/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234555/ann/1",
+      "to": "PMID:1234555/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234555/ann/11",
+    "target": "PMID:1234555/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234555/ann/1",
+      "to": "PMID:1234555/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234555/ann/12",
+    "target": "PMID:1234555/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234555/ann/1",
+      "to": "PMID:1234555/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234555/ann/13",
+    "target": "PMID:1234555/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234555/ann/2",
+      "to": "PMID:1234555/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234555/ann/14",
+    "target": "PMID:1234555/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234555/ann/2",
+      "to": "PMID:1234555/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234555/ann/15",
+    "target": "PMID:1234555/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234555/ann/2",
+      "to": "PMID:1234555/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234555/ann/16",
+    "target": "PMID:1234555/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234555/ann/3",
+      "to": "PMID:1234555/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234555/ann/17",
+    "target": "PMID:1234555/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234555/ann/3",
+      "to": "PMID:1234555/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234555/ann/18",
+    "target": "PMID:1234555/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234555/ann/4",
+      "to": "PMID:1234555/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234555/ann/19",
+    "target": "PMID:1234555/text",
+    "type": "Relation"
+  }
+]

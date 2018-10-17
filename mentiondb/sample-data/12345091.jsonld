@@ -1,0 +1,22 @@
+[
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345091/ann/0",
+    "target": "PMID:12345091/text#char=619,628",
+    "text": "migration",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345091/ann/1",
+    "target": "PMID:12345091/text#char=227,236",
+    "text": "migration",
+    "type": "Span"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "body": {
+      "id": "MESH:D012892",
+      "type": "Disease"
+    },
+    "id": "PMID:12345578/ann/0",
+    "target": "PMID:12345578/text#char=1240,1251",
+    "text": "deprivation",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345578/ann/1",
+    "target": "PMID:12345578/text#char=608,614",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345578/ann/2",
+    "target": "PMID:12345578/text#char=640,646",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345578/ann/3",
+    "target": "PMID:12345578/text#char=1191,1196",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345578/ann/4",
+    "target": "PMID:12345578/text#char=1886,1891",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345578/ann/5",
+    "target": "PMID:12345578/text#char=1984,1989",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345578/ann/0",
+      "to": "PMID:12345578/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345578/ann/6",
+    "target": "PMID:12345578/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345578/ann/1",
+      "to": "PMID:12345578/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345578/ann/7",
+    "target": "PMID:12345578/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345578/ann/4",
+      "to": "PMID:12345578/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345578/ann/8",
+    "target": "PMID:12345578/text",
+    "type": "Relation"
+  }
+]

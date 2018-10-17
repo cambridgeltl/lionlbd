@@ -1,0 +1,32 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345454/ann/0",
+    "target": "PMID:12345454/text#char=499,507",
+    "text": "Children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345454/ann/1",
+    "target": "PMID:12345454/text#char=679,691",
+    "text": "Participants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345454/ann/2",
+    "target": "PMID:12345454/text#char=1078,1090",
+    "text": "participants",
+    "type": "Span"
+  }
+]

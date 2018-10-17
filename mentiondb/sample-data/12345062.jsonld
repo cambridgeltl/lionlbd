@@ -1,0 +1,142 @@
+[
+  {
+    "body": {
+      "id": "MESH:D002318",
+      "type": "Disease"
+    },
+    "id": "PMID:12345062/ann/0",
+    "target": "PMID:12345062/text#char=733,756",
+    "text": "cardiovascular diseases",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345062/ann/1",
+    "target": "PMID:12345062/text#char=722,727",
+    "text": "death",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345062/ann/2",
+    "target": "PMID:12345062/text#char=153,158",
+    "text": "death",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002318",
+      "type": "Disease"
+    },
+    "id": "PMID:12345062/ann/3",
+    "target": "PMID:12345062/text#char=46,69",
+    "text": "cardiovascular diseases",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345062/ann/4",
+    "target": "PMID:12345062/text#char=30,35",
+    "text": "death",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002318",
+      "type": "Disease"
+    },
+    "id": "PMID:12345062/ann/5",
+    "target": "PMID:12345062/text#char=389,412",
+    "text": "cardiovascular diseases",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345062/ann/6",
+    "target": "PMID:12345062/text#char=170,173",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345062/ann/7",
+    "target": "PMID:12345062/text#char=178,183",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345062/ann/0",
+      "to": "PMID:12345062/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345062/ann/8",
+    "target": "PMID:12345062/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345062/ann/2",
+      "to": "PMID:12345062/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345062/ann/9",
+    "target": "PMID:12345062/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345062/ann/2",
+      "to": "PMID:12345062/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345062/ann/10",
+    "target": "PMID:12345062/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345062/ann/2",
+      "to": "PMID:12345062/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345062/ann/11",
+    "target": "PMID:12345062/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345062/ann/3",
+      "to": "PMID:12345062/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345062/ann/12",
+    "target": "PMID:12345062/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345062/ann/6",
+      "to": "PMID:12345062/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345062/ann/13",
+    "target": "PMID:12345062/text",
+    "type": "Relation"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "OMIM:143470",
+      "type": "Disease"
+    },
+    "id": "PMID:1234512/ann/0",
+    "target": "PMID:1234512/text#char=804,831",
+    "text": "crosstalk transfer function",
+    "type": "Span"
+  }
+]

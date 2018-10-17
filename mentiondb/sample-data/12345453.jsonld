@@ -1,0 +1,72 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345453/ann/0",
+    "target": "PMID:12345453/text#char=21,26",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345453/ann/1",
+    "target": "PMID:12345453/text#char=210,215",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345453/ann/2",
+    "target": "PMID:12345453/text#char=327,332",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345453/ann/3",
+    "target": "PMID:12345453/text#char=355,360",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345453/ann/4",
+    "target": "PMID:12345453/text#char=1302,1307",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345453/ann/5",
+    "target": "PMID:12345453/text#char=1441,1446",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345453/ann/2",
+      "to": "PMID:12345453/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345453/ann/6",
+    "target": "PMID:12345453/text",
+    "type": "Relation"
+  }
+]

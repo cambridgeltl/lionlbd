@@ -1,0 +1,32 @@
+[
+  {
+    "body": {
+      "id": "MESH:D014125",
+      "type": "Disease"
+    },
+    "id": "PMID:1234590/ann/0",
+    "target": "PMID:1234590/text#char=161,181",
+    "text": "Toxoplasma infection",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014123",
+      "type": "Disease"
+    },
+    "id": "PMID:1234590/ann/1",
+    "target": "PMID:1234590/text#char=17,30",
+    "text": "toxoplasmosis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014123",
+      "type": "Disease"
+    },
+    "id": "PMID:1234590/ann/2",
+    "target": "PMID:1234590/text#char=355,368",
+    "text": "Toxoplasmosis",
+    "type": "Span"
+  }
+]

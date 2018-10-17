@@ -1,0 +1,122 @@
+[
+  {
+    "body": {
+      "id": "EGID:6717",
+      "type": "Gene"
+    },
+    "id": "PMID:12345373/ann/0",
+    "target": "PMID:12345373/text#char=24,27",
+    "text": "Sri",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:6717",
+      "type": "Gene"
+    },
+    "id": "PMID:12345373/ann/1",
+    "target": "PMID:12345373/text#char=61,64",
+    "text": "Sri",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:6717",
+      "type": "Gene"
+    },
+    "id": "PMID:12345373/ann/2",
+    "target": "PMID:12345373/text#char=986,989",
+    "text": "Sri",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:6717",
+      "type": "Gene"
+    },
+    "id": "PMID:12345373/ann/3",
+    "target": "PMID:12345373/text#char=346,349",
+    "text": "Sri",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345373/ann/4",
+    "target": "PMID:12345373/text#char=185,191",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345373/ann/5",
+    "target": "PMID:12345373/text#char=509,515",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345373/ann/6",
+    "target": "PMID:12345373/text#char=1107,1113",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345373/ann/7",
+    "target": "PMID:12345373/text#char=1210,1216",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345373/ann/8",
+    "target": "PMID:12345373/text#char=1263,1268",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345373/ann/0",
+      "to": "PMID:12345373/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345373/ann/9",
+    "target": "PMID:12345373/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345373/ann/6",
+      "to": "PMID:12345373/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345373/ann/10",
+    "target": "PMID:12345373/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345373/ann/7",
+      "to": "PMID:12345373/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345373/ann/11",
+    "target": "PMID:12345373/text",
+    "type": "Relation"
+  }
+]

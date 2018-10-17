@@ -1,0 +1,220 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345885/ann/0",
+    "target": "PMID:12345885/text#char=467,470",
+    "text": "TBA",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345885/ann/1",
+    "target": "PMID:12345885/text#char=785,789",
+    "text": "TBAs",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004630",
+      "type": "Disease"
+    },
+    "id": "PMID:12345885/ann/2",
+    "target": "PMID:12345885/text#char=1555,1595",
+    "text": "timely referral of obstetric emergencies",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:286826",
+      "type": "Gene"
+    },
+    "id": "PMID:12345885/ann/3",
+    "target": "PMID:12345885/text#char=42,46",
+    "text": "Bara",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:286826",
+      "type": "Gene"
+    },
+    "id": "PMID:12345885/ann/4",
+    "target": "PMID:12345885/text#char=1889,1893",
+    "text": "Bara",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:286826",
+      "type": "Gene"
+    },
+    "id": "PMID:12345885/ann/5",
+    "target": "PMID:12345885/text#char=2008,2012",
+    "text": "Bara",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:286826",
+      "type": "Gene"
+    },
+    "id": "PMID:12345885/ann/6",
+    "target": "PMID:12345885/text#char=1187,1191",
+    "text": "Bara",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345885/ann/7",
+    "target": "PMID:12345885/text#char=213,218",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345885/ann/8",
+    "target": "PMID:12345885/text#char=275,280",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345885/ann/9",
+    "target": "PMID:12345885/text#char=336,341",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345885/ann/10",
+    "target": "PMID:12345885/text#char=389,394",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345885/ann/11",
+    "target": "PMID:12345885/text#char=608,620",
+    "text": "participants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345885/ann/12",
+    "target": "PMID:12345885/text#char=957,962",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345885/ann/13",
+    "target": "PMID:12345885/text#char=1614,1619",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345885/ann/14",
+    "target": "PMID:12345885/text#char=1972,1977",
+    "text": "Child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345885/ann/0",
+      "to": "PMID:12345885/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345885/ann/15",
+    "target": "PMID:12345885/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345885/ann/2",
+      "to": "PMID:12345885/ann/13",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345885/ann/16",
+    "target": "PMID:12345885/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345885/ann/4",
+      "to": "PMID:12345885/ann/14",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345885/ann/17",
+    "target": "PMID:12345885/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345885/ann/5",
+      "to": "PMID:12345885/ann/14",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345885/ann/18",
+    "target": "PMID:12345885/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345885/ann/7",
+      "to": "PMID:12345885/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345885/ann/19",
+    "target": "PMID:12345885/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345885/ann/8",
+      "to": "PMID:12345885/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345885/ann/20",
+    "target": "PMID:12345885/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345885/ann/9",
+      "to": "PMID:12345885/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345885/ann/21",
+    "target": "PMID:12345885/text",
+    "type": "Relation"
+  }
+]

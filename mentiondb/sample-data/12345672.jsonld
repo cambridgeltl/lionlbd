@@ -1,0 +1,52 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345672/ann/0",
+    "target": "PMID:12345672/text#char=363,369",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345672/ann/1",
+    "target": "PMID:12345672/text#char=503,509",
+    "text": "People",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345672/ann/2",
+    "target": "PMID:12345672/text#char=1619,1622",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345672/ann/3",
+    "target": "PMID:12345672/text#char=1627,1632",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345672/ann/2",
+      "to": "PMID:12345672/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345672/ann/4",
+    "target": "PMID:12345672/text",
+    "type": "Relation"
+  }
+]

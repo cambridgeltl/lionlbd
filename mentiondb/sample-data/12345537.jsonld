@@ -1,0 +1,92 @@
+[
+  {
+    "body": {
+      "id": "MESH:D014801",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345537/ann/0",
+    "target": "PMID:12345537/text#char=1331,1340",
+    "text": "vitamin A",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003699",
+      "type": "Disease"
+    },
+    "id": "PMID:12345537/ann/1",
+    "target": "PMID:12345537/text#char=246,259",
+    "text": "Washington, D",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014802",
+      "type": "Disease"
+    },
+    "id": "PMID:12345537/ann/2",
+    "target": "PMID:12345537/text#char=1331,1351",
+    "text": "vitamin A deficiency",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345537/ann/3",
+    "target": "PMID:12345537/text#char=587,595",
+    "text": "Children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345537/ann/4",
+    "target": "PMID:12345537/text#char=1382,1390",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345537/ann/5",
+    "target": "PMID:12345537/text#char=1760,1768",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345537/ann/0",
+      "to": "PMID:12345537/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345537/ann/6",
+    "target": "PMID:12345537/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345537/ann/0",
+      "to": "PMID:12345537/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345537/ann/7",
+    "target": "PMID:12345537/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345537/ann/2",
+      "to": "PMID:12345537/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345537/ann/8",
+    "target": "PMID:12345537/text",
+    "type": "Relation"
+  }
+]

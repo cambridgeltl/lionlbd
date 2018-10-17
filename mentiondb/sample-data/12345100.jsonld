@@ -1,0 +1,62 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9103",
+      "type": "Species"
+    },
+    "id": "PMID:12345100/ann/0",
+    "target": "PMID:12345100/text#char=32,38",
+    "text": "Turkey",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345100/ann/1",
+    "target": "PMID:12345100/text#char=142,147",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9103",
+      "type": "Species"
+    },
+    "id": "PMID:12345100/ann/2",
+    "target": "PMID:12345100/text#char=247,253",
+    "text": "Turkey",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345100/ann/3",
+    "target": "PMID:12345100/text#char=361,366",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345100/ann/4",
+    "target": "PMID:12345100/text#char=727,732",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345100/ann/1",
+      "to": "PMID:12345100/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345100/ann/5",
+    "target": "PMID:12345100/text",
+    "type": "Relation"
+  }
+]

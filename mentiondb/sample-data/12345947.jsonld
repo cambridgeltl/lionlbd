@@ -1,0 +1,272 @@
+[
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345947/ann/0",
+    "target": "PMID:12345947/text#char=32,57",
+    "text": "decrease in breast cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345947/ann/1",
+    "target": "PMID:12345947/text#char=785,798",
+    "text": "breast cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345947/ann/2",
+    "target": "PMID:12345947/text#char=287,300",
+    "text": "breast cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345947/ann/3",
+    "target": "PMID:12345947/text#char=652,665",
+    "text": "Breast cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345947/ann/4",
+    "target": "PMID:12345947/text#char=8,21",
+    "text": "breast cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345947/ann/5",
+    "target": "PMID:12345947/text#char=479,493",
+    "text": "breast cancers",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345947/ann/6",
+    "target": "PMID:12345947/text#char=561,574",
+    "text": "breast cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C565133",
+      "type": "Disease"
+    },
+    "id": "PMID:12345947/ann/7",
+    "target": "PMID:12345947/text#char=0,3",
+    "text": "CCL",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345947/ann/8",
+    "target": "PMID:12345947/text#char=72,77",
+    "text": "woman",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345947/ann/9",
+    "target": "PMID:12345947/text#char=428,433",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345947/ann/10",
+    "target": "PMID:12345947/text#char=616,621",
+    "text": "woman",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345947/ann/11",
+    "target": "PMID:12345947/text#char=754,759",
+    "text": "Women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345947/ann/12",
+    "target": "PMID:12345947/text#char=880,888",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345947/ann/0",
+      "to": "PMID:12345947/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345947/ann/13",
+    "target": "PMID:12345947/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345947/ann/0",
+      "to": "PMID:12345947/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345947/ann/14",
+    "target": "PMID:12345947/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345947/ann/0",
+      "to": "PMID:12345947/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345947/ann/15",
+    "target": "PMID:12345947/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345947/ann/1",
+      "to": "PMID:12345947/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345947/ann/16",
+    "target": "PMID:12345947/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345947/ann/1",
+      "to": "PMID:12345947/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345947/ann/17",
+    "target": "PMID:12345947/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345947/ann/3",
+      "to": "PMID:12345947/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345947/ann/18",
+    "target": "PMID:12345947/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345947/ann/3",
+      "to": "PMID:12345947/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345947/ann/19",
+    "target": "PMID:12345947/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345947/ann/3",
+      "to": "PMID:12345947/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345947/ann/20",
+    "target": "PMID:12345947/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345947/ann/4",
+      "to": "PMID:12345947/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345947/ann/21",
+    "target": "PMID:12345947/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345947/ann/4",
+      "to": "PMID:12345947/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345947/ann/22",
+    "target": "PMID:12345947/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345947/ann/5",
+      "to": "PMID:12345947/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345947/ann/23",
+    "target": "PMID:12345947/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345947/ann/5",
+      "to": "PMID:12345947/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345947/ann/24",
+    "target": "PMID:12345947/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345947/ann/6",
+      "to": "PMID:12345947/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345947/ann/25",
+    "target": "PMID:12345947/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345947/ann/7",
+      "to": "PMID:12345947/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345947/ann/26",
+    "target": "PMID:12345947/text",
+    "type": "Relation"
+  }
+]

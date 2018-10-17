@@ -1,0 +1,32 @@
+[
+  {
+    "body": {
+      "id": "MESH:D003967",
+      "type": "Disease"
+    },
+    "id": "PMID:12345439/ann/0",
+    "target": "PMID:12345439/text#char=934,942",
+    "text": "diarrhea",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D044342",
+      "type": "Disease"
+    },
+    "id": "PMID:12345439/ann/1",
+    "target": "PMID:12345439/text#char=947,959",
+    "text": "malnutrition",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345439/ann/0",
+      "to": "PMID:12345439/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345439/ann/2",
+    "target": "PMID:12345439/text",
+    "type": "Relation"
+  }
+]

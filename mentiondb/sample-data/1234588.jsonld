@@ -1,0 +1,112 @@
+[
+  {
+    "body": {
+      "id": "CHEBI:35175",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234588/ann/0",
+    "target": "PMID:1234588/text#char=123,132",
+    "text": "sulphates",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012409",
+      "type": "Disease"
+    },
+    "id": "PMID:1234588/ann/1",
+    "target": "PMID:1234588/text#char=488,495",
+    "text": "rubella",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012409",
+      "type": "Disease"
+    },
+    "id": "PMID:1234588/ann/2",
+    "target": "PMID:1234588/text#char=148,155",
+    "text": "rubella",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012409",
+      "type": "Disease"
+    },
+    "id": "PMID:1234588/ann/3",
+    "target": "PMID:1234588/text#char=15,22",
+    "text": "rubella",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:11041",
+      "type": "Species"
+    },
+    "id": "PMID:1234588/ann/4",
+    "target": "PMID:1234588/text#char=15,28",
+    "text": "rubella virus",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:11041",
+      "type": "Species"
+    },
+    "id": "PMID:1234588/ann/5",
+    "target": "PMID:1234588/text#char=148,161",
+    "text": "rubella virus",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234588/ann/0",
+      "to": "PMID:1234588/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234588/ann/6",
+    "target": "PMID:1234588/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234588/ann/0",
+      "to": "PMID:1234588/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234588/ann/7",
+    "target": "PMID:1234588/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234588/ann/0",
+      "to": "PMID:1234588/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234588/ann/8",
+    "target": "PMID:1234588/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234588/ann/2",
+      "to": "PMID:1234588/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234588/ann/9",
+    "target": "PMID:1234588/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234588/ann/3",
+      "to": "PMID:1234588/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234588/ann/10",
+    "target": "PMID:1234588/text",
+    "type": "Relation"
+  }
+]

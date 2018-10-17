@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>LION Literature-Based Discovery</title>
+		<link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.png') }}?v=3">	    
+		<link rel="stylesheet" href="/static/css/semantic.min.css">	
+		<link rel="stylesheet" href="/static/css/range.css">		
+		<link rel="stylesheet" href="/static/css/calendar.min.css">	
+                <link rel="stylesheet" href="/static/css/cam-dtal-lion.css">
+                <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">	
+		<script src="static/js/jquery.min.js"></script>
+                <script src="static/js/semantic.min.js"></script>
+		<script src="static/js/range.js"></script>	
+		<script src="static/js/calendar.min.js"></script>
+		<script src="static/js/cola.min.js"></script>
+		<script src="static/js/cola.v3.min.js"></script>
+		<script src="static/js/cytoscape.min.js"></script>
+		<script src="static/js/cytoscape-cola.js"></script>
+		<script src="static/js/cytoscape-cose-bilkent.js"></script>
+		<script src="static/js/Chart.bundle.min.js"></script>
+		<script src="static/js/uuid.js"></script>	 
+		<script src="static/js/underscore-min.js"></script>	 
+		<script src="static/js/FileSaver.min.js"></script>	
+		<script src="static/js/cam-dtal-lion-cytoscape.js"></script>			
+		<script src="static/js/cam-dtal-lion.js"></script>	
+
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112981582-1"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'UA-112981582-1');
+
+                    (function($) {
+                        $.fn.drags = function(opt) {
+
+                            console.log('on drag function')
+
+                            opt = $.extend({handle:"",cursor:"move"}, opt);
+
+                            if(opt.handle === "") {
+                                var $el = this;
+                            } else {
+                                var $el = this.find(opt.handle);
+                            }
+
+                            return $el.css('cursor', opt.cursor).on("mousedown", function(e) {
+                            
+                                console.log('on drag mouse down')
+                                
+                                if(opt.handle === "") {
+                                    var $drag = $(this).addClass('draggable');
+                                } else {
+                                    var $drag = $(this).addClass('active-handle').parent().addClass('draggable');
+                                }
+                                var z_idx = $drag.css('z-index'),
+                                drg_h = $drag.outerHeight(),
+                                drg_w = $drag.outerWidth(),
+                                pos_y = $drag.offset().top + drg_h - e.pageY,
+                                pos_x = $drag.offset().left + drg_w - e.pageX;
+                                $drag.css('z-index', 1000).parents().on("mousemove", function(e) {
+                                    $('.draggable').offset({
+                                        top:e.pageY + pos_y - drg_h,
+                                        left:e.pageX + pos_x - drg_w
+                                    }).on("mouseup", function() {
+                                        $(this).removeClass('draggable').css('z-index', z_idx);
+                                    });
+                                });
+                                e.preventDefault(); // disable selection
+                            }).on("mouseup", function() {
+                                if(opt.handle === "") {
+                                    $(this).removeClass('draggable');
+                                } else {
+                                    $(this).removeClass('active-handle').parent().removeClass('draggable');
+                                }
+                            });
+
+                        }
+                    })(jQuery);
+
+                    $(function() {
+                        $('#cam-dtal-lion-tooltip').drags();
+                    });
+
+                </script>
+
+
+	</head>
+	<body>
+
+
+ 	<!-- Left-hand menu sidebar -->
+
+	<div id="cam-dtal-lion-sidebar-menu" class="ui labeled icon left inline vertical sidebar menu uncover cam-dtal-lion-sidebar-menu">
+		<a class="item">
+		  <i class="info icon"></i>
+		  About
+		</a>	
+		<!--
+		<a class="item cam-dtal-lion-bug-report">
+			<i class="bug icon red"></i>
+		  Report a bug
+		</a>
+		-->
+		<a class="item cam-dtal-lion-bug-tools">
+			<i class="record icon green"></i>
+		  Playback session
+		</a>
+	</div>
+
+	<!-- Right-hand mentions sidebar -->
+
+	<div id="cam-dtal-lion-sidebar-mentions" class="ui sidebar right cam-dtal-lion-sidebar-mentions">	
+
+		<div class="ui top attached segment inverted blue large cam-dtal-lion-sidebar-mentions-header">
+			<div><i id="cam-dtal-lion-sidebar-mentions-close" class="close icon"></i> Co-related mentions</div>
+		</div>
+		<div class="ui attached secondary segment">	
+			<div class="ui compact grid">
+				<div class="row">
+					<div class="three wide column right aligned cam-dtal-lion-sidebar-mentions-column-one">
+						<i id="cam-dtal-lion-sidebar-mentions-src-icon" class="ui icon large circular"></i>				
+					</div>
+					<div class="thirteen wide column">
+						<div class="ui item">
+							<div class="content">
+								<a id="cam-dtal-lion-sidebar-mentions-src-header" class="ui header small"></a>
+								<div class="meta small">
+									<span id="cam-dtal-lion-sidebar-mentions-src-details"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row cam-dtal-lion-sidebar-mentions-row">
+					<div class="three wide column right aligned cam-dtal-lion-sidebar-mentions-column-one">
+						<i id="cam-dtal-lion-sidebar-mentions-dest-icon" class="ui icon large circular"></i>				
+					</div>
+					<div class="thirteen wide column">
+						<div class="ui item">
+							<div class="content">
+								<a id="cam-dtal-lion-sidebar-mentions-dest-header" class="ui header small"></a>
+								<div class="meta">
+									<span id="cam-dtal-lion-sidebar-mentions-dest-details"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row cam-dtal-lion-sidebar-mentions-row">
+					<div class="three wide column right aligned cam-dtal-lion-sidebar-mentions-column-one">
+						<i class="ui icon align left large circular blue inverted"></i>				
+					</div>
+					<div class="thirteen wide column middle aligned">
+						<div class="ui item">
+							<div class="content">
+								<div class="ui header small">
+									<span id="cam-dtal-lion-sidebar-mentions-statistics"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+
+				<div class="row cam-dtal-lion-sidebar-mentions-row">
+					<div class="three wide column right aligned cam-dtal-lion-sidebar-mentions-column-one">
+						<i class="ui icon book large circular orange inverted"></i>				
+					</div>
+					<div class="thirteen wide column middle aligned">
+						<div class="ui item">
+							<div class="content">
+								<div class="ui header small">
+									<span id="cam-dtal-lion-sidebar-mentions-documentcount"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+
+				<div class="row cam-dtal-lion-sidebar-mentions-row">
+					<div class="three wide column right aligned cam-dtal-lion-sidebar-mentions-column-one">
+						<i class="ui icon calendar large circular"></i>				
+					</div>
+					<div class="thirteen wide column middle aligned">
+						<div class="ui item">
+							<div class="content">
+								<a class="ui header small">First published</a>
+								<div class="meta">
+									<span id="cam-dtal-lion-sidebar-mentions-year"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+
+				<div class="row cam-dtal-lion-sidebar-mentions-row">
+					<div class="three wide column right aligned cam-dtal-lion-sidebar-mentions-column-one">
+						<i class="ui icon law large circular cam-dtal-lion-sidebar-mentions-weight-icon"></i>				
+					</div>
+					<div class="thirteen wide column middle aligned">
+						<div class="ui item">
+							<div class="content">
+								<span id="cam-dtal-lion-sidebar-mentions-weight"></span>
+							</div>
+						</div>
+					</div>
+				</div>				
+
+			</div>		
+			
+		</div>
+		<div id="cam-dtal-lion-mentions-loader" class="ui active inverted dimmer"><div class="ui text loader">Loading</div></div>
+		<div id="cam-dtal-lion-mentions" class="ui attached segment"></div>
+	</div>
+
+
+
+    <!-- Main area -->
+
+	<div class="pusher">			
+
+
+		<div class="ui active inverted dimmer cam-dtal-lion-global-loader"><div class="ui text loader">Loading</div></div>
+
+        <!-- Top Menu -->
+        <div id="cam-dtal-lion-global-menu" style="padding: 6px; margin: 0; display: flex; flex-direction: row; justify-content: space-between; background-color: white; align-items: center;">
+            <div class="item" style="display: flex; flex-direction: row; align-items:center;">
+                <div class="cam-dtal-lion-topbar-element cam-dtal-lion-topbar-element-title">
+                    <!--<a style="color: black;" href="/">
+                        <i class="ui student icon"></i>LION
+                    </a>  -->
+                    <a href="/">
+                    <img alt="Lion logo" 
+                    style="height: 33px; width: auto; margin: 0; padding: 0;" 
+                         src="/static/images/lionface.png" />
+                    </a>
+                </div>
+                <a class="cam-dtal-lion-menu-item" href="/">home</a>
+                <a class="cam-dtal-lion-menu-item" href="/help">help</a>
+				<a class="cam-dtal-lion-menu-item" href="/downloads">downloads</a>
+				<a class="cam-dtal-lion-menu-item" href="/about">about</a>
+            </div>
+            <div class="item" style="display: flex; flex-direction: row;  ">
+                <!--
+                <div class="cam-dtal-lion-menu-item  cam-dtal-lion-topbar-element cam-dtal-lion-topbar-element-loadingdata" 
+                     data-tooltip="Loading data from server...">
+                    <i class="spinner loading orange icon cam-dtal-lion-networkactivity"></i>
+                </div>-->
+
+                <!--
+                <div class="cam-dtal-lion-menu-item cam-dtal-lion-topbar-dynamicstatus"></div>
+                -->
+
+                <div class="ui dropdown cam-dtal-lion-settings cam-dtal-lion-settings-functions pointing top right cam-dtal-lion-menu-item">
+                    <div class="popup" data-content="Settings">
+                    <i class="settings blue icon"></i>
+                    </div>
+                    <div class="menu">
+                        <div class="header">Settings</div>
+                        <!--
+                        <div class="divider"></div>
+                        <div class="item" data-value="discovery-mode">
+                            <div class="ui toggle checked checkbox cam-dtal-lion-menu-switch cam-dtal-lion-discovery-mode">
+                              <input type="checkbox">
+                              <label class="popup" data-content="In discovery mode, nodes beyond first level are only shown if they're not connected to starting node">Discovery mode</label>
+                            </div>											
+                        </div>	
+                        -->                
+                        <div class="divider"></div>		
+                        <div class="item" data-value="edge-sort">
+                            <i class="dropdown icon left"></i>
+                            <i class="ui icon fork"></i>Edge sorting
+                            <div class="menu left cam-dtal-lion-edge-metric-options">
+                            </div>
+                        </div>
+
+                        <div class="divider"></div>		
+                        <div class="item" data-value="aggregation-func">
+                            <i class="dropdown icon left"></i>
+                            <i class="ui icon fork"></i>Aggregration metric
+                            <div class="menu left cam-dtal-lion-aggregation-func-options">
+                            </div>
+                        </div>
+                        
+
+                        <div class="divider"></div>		
+
+                        <div class="item" data-value="weight-range" data-tooltip="Modify the range of edge weights retrieved from server" data-position="bottom left"><i class="ui law icon"></i>Weight range</div>
+
+                        <!--
+                        <div class="divider"></div>
+                        <div class="item" data-value="hide-lowfrequency">
+                            <div class="ui toggle checkbox cam-dtal-lion-menu-switch cam-dtal-lion-hide-lowfrequency">
+                              <input type="checkbox">
+                              <label class="popup" data-content="Hide low-frequency terms that may distort metrics">Hide low-frequency terms</label>
+                            </div>											
+                        </div>
+                        -->
+                        
+                        <div class="divider"></div>
+                        <div class="item" data-value="hide-lowfrequency">
+                            <div class="ui toggle checkbox cam-dtal-lion-menu-switch cam-dtal-lion-hide-lowfrequency">
+                              <input type="checkbox">
+                              <label class="popup" data-content="Use Neo4j db">Neo4J DB</label>
+                            </div>											
+                        </div>
+                       
+
+                        <div class="divider"></div>
+                        <div class="item" data-value="full-abstract">
+                            <div class="ui toggle checkbox cam-dtal-lion-menu-switch cam-dtal-lion-full-abstract">
+                              <input type="checkbox">
+                              <label class="popup" data-content="Show full abstract instead of individual co-occurrences when viewing mentions">Show full abstract</label>
+                            </div>											
+                        </div>
+
+                    </div>
+                </div>
+
+                
+                <div class="ui calendar cam-dtal-lion-popup cam-dtal-lion-popup-yearstart cam-dtal-lion-menu-item" style="display: none;"  id="cam-dtal-lion-date-start">	
+                    <div class="ui left icon input">
+                        <i class="calendar blue icon cam-dtal-lion-date"></i>
+                        <input class="cam-dtal-lion-date cam-dtal-lion-input-date-start" type="text" readonly="true" placeholder="Start" size="4" maxlength="4">
+                    </div>
+                </div> <!-- to -->
+                <div class="ui calendar cam-dtal-lion-popup cam-dtal-lion-popup-yearend cam-dtal-lion-menu-item" id="cam-dtal-lion-date-end">
+                    <div class="ui left icon input">
+                        <i class="calendar blue icon cam-dtal-lion-date"></i>
+                        <input class="cam-dtal-lion-date cam-dtal-lion-input-date-end" type="text" readonly="true" placeholder="End" size="4" maxlength="4">
+                    </div>
+                </div>
+
+
+                <div class="popup cam-dtal-lion-search-box cam-dtal-lion-menu-item" data-content="Toggle search box">
+                    <i class="search blue icon cam-dtal-lion-search-box-toggle"></i>
+                    <div class="cam-dtal-lion-search-term-src-input"></div>
+                    <div class="cam-dtal-lion-search-term-connector"> to </div>
+                    <div class="cam-dtal-lion-search-term-dest-input"></div>
+                    <i class="ui icon chevron up cam-dtal-lion-hide-search-box"></i>
+                </div>
+
+
+
+            </div>
+        </div>
+		<!-- Topbar -->
+
+		<div class="ui accordion cam-dtal-lion-topbar">
+
+
+            <div class="title active" style="display: none;"></div>
+ 
+			<div class="active content cam-dtal-lion-searcharea">
+
+                <div class="ui fluid cam-dtal-lion-container-type">
+                    <div class="ui multiple dropdown cam-dtal-lion-type">
+                        <div class="default text">Object types</div>
+                        <div class="ui menu cam-dtal-lion-type-options">
+                        </div>
+                        <div class="cam-dtal-lion-container-type-add" data-tooltip="Edit objects retrieved from server (excl. start/end nodes)" data-position="left center">
+                            <i class="left aligned blue write large icon cam-dtal-lion-type-add"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+			
+				<div class="ui three column centered grid fluid cam-dtal-lion-noleftrightpaddingbasic">
+					<div class="three column row cam-dtal-lion-searcharea-spaceabove">
+						<div class="column center left">
+						</div>
+						<div class="column">
+						</div>
+						<div class="column right aligned">
+							<div class="vertically fitted borderless item">
+							
+							</div>
+						</div>
+					</div>
+
+
+
+
+					
+					<div class="one column row">
+						<div class="column">
+
+							<div class="ui center aligned huge header cam-dtal-lion-maintitle" 
+                                 style="margin: 0; padding-bottom: 12px; ">
+                                <img alt="Lion logo" 
+                                style="height: 70px; width: auto; margin: 0; padding: 0; margin-bottom: 6px;" 
+                                     src="/static/images/lion.png" />
+                                <h1 style="margin: 0; padding: 0;">LION Literature-Based Discovery</h1>
+                            </div>
+
+							<div class="ui container cam-dtal-lion-mainsearch">
+								<div class="ui one column centered grid cam-dtal-lion-norightpadding">
+								
+									<div class="row">
+										<div class="left aligned column">
+											<div class="ui grid">
+												<div class="ten wide column left aligned cam-dtal-lion-norightpadding">
+													<div id="cam-dtal-lion-search-term-src" class="ui search fluid">
+														<div class="ui icon input fluid large">
+															<input id="cam-dtal-lion-search-term-src-input" class="prompt" type="text" placeholder="Enter search e.g. p53">
+															<i class="circular search icon"></i>												
+														</div>				  
+													</div>
+												</div>
+
+                                                <div class="six wide column  cam-dtal-lion-noleftrightpadding" 
+                                                     style="padding-left: 6; padding-right: 0;">
+
+                                                <!--
+												<span id="destination_neighbours" style="text-align: center;" >
+													<i id="cam-dtal-lion-set-neighbours" style="margin-right: 0;" class="disabled circular inverted large icon green popup fas fa-dot-circle" data-content="Node neighbours"></i>																	
+												</span>
+												<span id="destination_open"  style="text-align: center;">
+													<i id="cam-dtal-lion-set-open-discovery" style="margin-right: 0;"  class="disabled circular inverted large icon green popup fas fa-bullseye" data-content="Run open discovery"></i>																	
+												</span>
+												<span id="destination_add"  style="text-align: center;">
+													<i id="cam-dtal-lion-reveal-destination" style="margin-right: 0;"  class="disabled circular inverted add large icon green popup" data-content="Add closed discovery destination" data-content="Add destination term (optional)"></i>																	
+												</span>
+                                                -->
+
+                                                    <div class="ui icon buttons blue">
+                                                      <div id="cam-dtal-lion-set-neighbours" class="ui button">
+<i class="icon large popup fas fa-dot-circle" data-content="Node neighbours"></i>
+                                                      </div>
+                                                      <div id="cam-dtal-lion-set-open-discovery" class="ui button">
+<i class="icon large popup fas fa-bullseye" data-content="Run open discovery"></i>
+                                                      </div>
+                                                      <div id="cam-dtal-lion-reveal-destination" class="ui button">
+<i class="icon large popup fas fa-plus" data-content="Add closed discovery destination" data-content="Add destination term"></i>
+                                                      </div>
+                                                    </div>
+
+                                                </div>
+
+
+											</div>				
+										</div>
+									</div>
+									
+									<div class="row" id="cam-dtal-lion-search-destination">
+										<div class="left aligned column">
+											<div class="ui grid">
+												<div class="ten wide column left aligned cam-dtal-lion-norightpadding">
+													<div id="cam-dtal-lion-search-term-dest" class="ui search fluid">
+														<div class="ui icon input fluid large">
+															<input id="cam-dtal-lion-search-term-dest-input" class="prompt" type="text" placeholder="Enter destination term">
+															<i class="circular search icon"></i>												
+														</div>				  
+													</div>
+												</div>
+                                                <!-- 
+												<div class="two wide column">
+													<i id="cam-dtal-lion-hide-destination" class="circular inverted remove large icon red popup" data-content="Remove destination term" data-content="Remove destination term"></i>	
+												</div>
+                                                -->
+											</div>				
+										</div>				
+									</div>
+									
+								</div>
+							</div>		
+						
+						</div>				
+					</div>
+				</div>
+
+			</div>
+		</div>
+				
+		<div class="ui three column centered grid fluid cam-dtal-lion-noleftrightpaddingbasic">
+			
+			<div class="one column row">
+				<div class="column">
+
+					<div id="cam-dtal-lion-visualization-area">
+
+						<div class="ui grid cam-dtal-lion-noleftrightpadding">
+							<div class="one column wide stretched">
+								<div class="ui secondary vertical fluid menu cam-cat-lion-visualization-tabs">
+									<a class="item cam-dtal-lion-visualization-select cam-dtal-lion-visualization-select-tab-graph popup active" data-tab="cam-dtal-lion-visualization-select-graph" data-content="Node graph"><i class="ui icon object ungroup"></i></a>	
+									<a class="item cam-dtal-lion-visualization-select cam-dtal-lion-visualization-select-tab-text popup" data-tab="cam-dtal-lion-visualization-select-text" data-content="Text visualization"><i class="ui icon newspaper"></i></a>
+									<a class="item cam-dtal-lion-visualization-select cam-dtal-lion-visualization-select-tab-share popup" data-tab="cam-dtal-lion-visualization-select-share" data-content="Share this page"><i class="ui icon share"></i></a>      
+								</div>
+
+								<div class="ui tab active cam-dtal-lion-visualization-select cam-dtal-lion-visualization-select-graph" data-tab="cam-dtal-lion-visualization-select-graph">						
+									<div id="cam-dtal-lion-tooltip"></div>
+									<div id="cam-dtal-lion-visualization-graph-cytoscape"></div>
+
+									<div class="cam-dtal-lion-visualization-graph-elements cam-dtal-lion-visualization-graph-add-term">
+										<div id="cam-dtal-lion-search-term-searchadd" class="ui fluid search">
+											<div class="ui icon input cam-dtal-lion-container-search-term-searchadd-input">
+												<input id="cam-dtal-lion-search-term-searchadd-input" class="prompt" type="text" placeholder="Search or add node">
+											</div>				  
+										</div>
+									</div>			
+
+									<div class="cam-dtal-lion-visualization-graph-elements cam-dtal-lion-filter-type"></div>
+
+									<div class="ui cam-dtal-lion-visualization-graph-elements cam-dtal-lion-filter-date">
+
+										<div class="cam-dtal-lion-filter-icon" data-tooltip="Dynamic filter by year" data-position="top center"><i class="ui calendar icon"></i></div>
+										<div class="cam-dtal-lion-filter-range-year-play-container" data-tooltip="Play time sequence" data-position="right center"><i class="ui blue play icon cam-dtal-lion-filter-range-year-play"></i></div>
+										<div class="cam-dtal-lion-filter-range-year-min-container"><div class="ui cam-dtal-lion-filter-range-year-minmax cam-dtal-lion-filter-range-year-min"></div></div>
+										<div class="cam-dtal-lion-filter-range-year-max-container"><div class="ui cam-dtal-lion-filter-range-year-minmax cam-dtal-lion-filter-range-year-max"></div></div>
+
+										<div class="cam-dtal-lion-filter-range-slider">
+											<div class="ui range" id="cam-dtal-lion-filter-date-range-1"></div>
+										</div>
+
+										<div class="cam-dtal-lion-filter-range-slider">
+											<div class="ui range" id="cam-dtal-lion-filter-date-range-2"></div>
+										</div>
+
+									</div>
+
+									<div class="ui cam-dtal-lion-visualization-graph-elements cam-dtal-lion-filter-weight">
+
+										<div class="cam-dtal-lion-filter-icon" data-tooltip="Dynamic filter by weight" data-position="top center"><i class="ui law icon"></i></div>
+										<div class="cam-dtal-lion-filter-range-weight-min-container"><div class="ui cam-dtal-lion-filter-range-weight-minmax cam-dtal-lion-filter-range-weight-min"></div></div>
+										<div class="cam-dtal-lion-filter-range-weight-max-container"><div class="ui cam-dtal-lion-filter-range-weight-minmax cam-dtal-lion-filter-range-weight-max"></div></div>
+
+										<div class="cam-dtal-lion-filter-range-slider">
+											<div class="ui range" id="cam-dtal-lion-filter-weight-range-1"></div>
+										</div>
+
+										<div class="cam-dtal-lion-filter-range-slider">
+											<div class="ui range" id="cam-dtal-lion-filter-weight-range-2"></div>
+										</div>
+
+									</div>
+
+									<div class="fluid cam-dtal-lion-visualization-graph-elements 
+                                                cam-dtal-lion-visualization-graph-options-top
+                                                cam-dtal-lion-visualization-graph-options-button">
+										<div class="cam-dtal-lion-powermenu-icons popup" data-content="Add more B nodes">
+											<i class="plus large icon blue cam-dtal-lion-add-pages"></i>
+                                            Intermediates &nbsp;                            
+										</div>								
+                                    </div>
+
+									<div class="fluid cam-dtal-lion-visualization-graph-elements 
+                                                cam-dtal-lion-visualization-graph-options">
+										
+										<div class="ui dropdown cam-dtal-lion-visualization-graph-layout-set">
+											<div class="popup" data-content="Change graph type">
+											<i class="sitemap large icon blue"></i>
+											</div>
+											<div class="menu">
+												<div class="header">Graph type</div>
+												<div class="item" data-value="cola">Cola Optimization</div>
+												<div class="item" data-value="concentric">Concentric Circles</div>
+                                                                                                <!-- <div class="item" data-value="cose-bilkent">CoSE Bilkent Optimization</div> -->
+											</div>
+										</div>
+										
+										<div class="ui dropdown cam-dtal-lion-settings-functions">
+											<div class="popup" data-content="Functions">
+											<i class="configure large icon blue"></i>
+											</div>
+											<div class="menu">
+												<div class="header">Functions</div>
+												<div class="divider"></div>
+												<div class="item popup" data-value="picture-save-png" data-content="To save a higher resolution image, zoom in and then select 'Save as...'"><i class="ui icon save"></i>Save as PNG image</div>				
+												<div class="item popup" data-value="picture-save-jpg" data-content="To save a higher resolution image, zoom in and then select 'Save as...'"><i class="ui icon save"></i>Save as JPG image</div>				
+												<div class="divider"></div>
+												<div class="item" data-value="text-mode"><i class="ui icon newspaper"></i>View text mode</div>
+												<div class="divider"></div>
+												<div class="item" data-value="delete-orphans">Delete orphans</div>	
+											</div>
+										</div>
+									
+                                        <!--    
+										<div class="cam-dtal-lion-powermenu-icons popup" data-content="Refresh graph">
+											<i class="repeat large icon blue cam-dtal-lion-graph-refresh"></i>							
+										</div>
+                                        -->
+										<div class="cam-dtal-lion-powermenu-icons popup" 
+                                             data-content="Fit entire graph in window">
+											<i class="maximize large icon blue cam-dtal-lion-graph-fit"></i>							
+										</div>								
+										
+									</div>							
+									<div class="cam-dtal-lion-visualization-graph-info"></div>
+								</div>
+
+								<div class="ui tab cam-dtal-lion-visualization-select cam-dtal-lion-visualization-select-text" data-tab="cam-dtal-lion-visualization-select-text">
+                                                
+                                    <div class="fluid cam-dtal-lion-visualization-graph-elements 
+                                                cam-dtal-lion-visualization-graph-options-top 
+                                                cam-dtal-lion-visualization-graph-options-button">
+                                        <div class="cam-dtal-lion-powermenu-icons popup" data-content="Add more B nodes">
+                                            <i class="plus large icon blue cam-dtal-lion-add-pages"></i>
+                                            Intermediates &nbsp;                            
+                                        </div>								
+                                    </div>
+								
+									<div class="ui one column centered grid cam-dtal-lion-container-text">
+										<div class="row">
+											<div class="column">
+
+												<div class="ui container" id="cam-dtal-lion-visualization-text"></div>
+											</div>
+										</div>
+									</div>		
+									
+								</div>	  
+
+								<div class="ui tab cam-dtal-lion-visualization-select cam-dtal-lion-visualization-select-share" data-tab="cam-dtal-lion-visualization-select-share">
+								
+									<div class="ui one column centered grid cam-dtal-lion-container-share">
+										<div class="row">
+											<div class="column">
+
+												<div class="ui container">
+													<h2 class="ui header">
+														<i class="blue share icon"></i>
+														<div class="content">
+															Share this page
+														</div>
+													</h2>
+													
+													<div class="content">
+														<div class="ui form">
+															<div class="field">
+																<textarea autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="cam-dtal-lion-share-url cam-dtal-lion-code"></textarea>
+															</div>
+														</div>
+													</div>
+													
+												</div>
+											</div>
+										</div>
+									</div>		
+									
+								</div>	  
+								
+								<div class="cam-dtal-lion-copyright"><small>&copy; 2016-2017 LION Project</small></div>			
+							</div>
+						</div>
+						
+					</div>	
+				
+				</div>				
+			</div>
+		</div>  
+		
+                <button id="feedback-button" class="feedback-button" >Feedback</button>
+
+		<!-- Start of 'Feedback' dialog -->
+
+		<div class="ui modal small cam-dtal-lion-modal" id="cam-dtal-lion-dialog-feedback">
+			<i class="close icon cam-dtal-lion-dialog-feedback-cancel"></i>
+			
+			<h2 class="ui header">
+				<div class="content cam-dtal-lion-dialog-feedback-title">
+                                How can we improve?
+                                </div>
+			</h2>
+			
+			<div class="content cam-dtal-lion-dialog-feedback-message">
+                            <form id="feedback-form" class="ui form">
+                                <div class="fields">
+                                    <div class="field">
+                                        <label>Name</label>
+                                        <input type="text" placeholder="Name" name="feedbackformname" id="feedbackformname" />
+                                    </div>
+                                    <div class="field">
+                                        <label>Email</label>
+                                        <input type="email" placeholder="Email" name="feedbackformemail" id="feedbackformemail" />
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label>Let us know if there's anything LION needs to be part of your research workflow</label>
+                                    <textarea name="feedbackformfeedback" id="feedbackformfeedback"></textarea>
+                                </div>
+                            </form>
+			</div>
+			<div class="actions">
+				<div class="ui green button cam-dtal-lion-dialog-feedback-ok">Send</div>
+				<div class="ui red button cam-dtal-lion-dialog-feedback-cancel">Cancel</div>		
+                                <div  id="cam-dtal-lion-dialog-feedback-success" 
+                                      style="font-weight: bold; color: green; text-align: center; display: none;">
+                                    Thanks! We'll get back to you :-)
+                                </div>
+                                <div  id="cam-dtal-lion-dialog-feedback-failure" 
+                                      style="font-weight: bold; color: red; text-align: center; display: none;">
+                                    Check form, all fields required
+                                </div>
+			</div>
+		</div>
+
+		<!-- End of 'Feedback' dialog -->
+
+		<!-- Start of 'Confirm' dialog -->
+
+		<div class="ui modal small cam-dtal-lion-modal" id="cam-dtal-lion-dialog-confirm">
+			<i class="close icon cam-dtal-lion-dialog-confirm-cancel"></i>
+			
+			<h2 class="ui header">
+				<i class="undo orange circular inverted info icon"></i>
+				<div class="content cam-dtal-lion-dialog-confirm-title"></div>
+			</h2>
+			
+			<div class="content cam-dtal-lion-dialog-confirm-message">
+			</div>
+			<div class="actions">
+				<div class="ui green button cam-dtal-lion-dialog-confirm-ok">OK</div>
+				<div class="ui red button cam-dtal-lion-dialog-confirm-cancel">Cancel</div>		
+			</div>
+		</div>
+
+		<!-- End of 'Confirm' dialog -->
+
+		<!-- Start of 'Alert' dialog -->
+
+		<div class="ui modal small cam-dtal-lion-modal" id="cam-dtal-lion-dialog-alert">
+			<i class="close icon cam-dtal-lion-dialog-hide"></i>
+			
+			<h2 class="ui header">
+				<i class="undo red circular inverted warning icon"></i>
+				<div class="content cam-dtal-lion-dialog-alert-title"></div>
+			</h2>
+			
+			<div class="content">
+			<p class="cam-dtal-lion-dialog-alert-message"></p>
+			</div>
+			<div class="actions">
+				<div tabindex="0" class="ui button cam-dtal-lion-dialog-hide">OK</div>		
+			</div>
+		</div>
+
+		<!-- End of 'Alert' dialog -->
+
+		<!-- Start of 'Expand nodes by type' dialog -->
+
+		<div class="ui modal small cam-dtal-lion-modal" id="cam-dtal-lion-dialog-node-expandbytype">
+			<i class="close icon cam-dtal-lion-dialog-hide"></i>
+			
+			<h2 class="ui header">
+				<i class="blue circular inverted settings icon"></i>
+				<div class="content cam-dtal-lion-dialog-node-expandbytype-title">
+                                    Select Type to Expand Node by
+                                </div>
+			</h2>
+			
+                        <div class="content" >
+                            <div class="ui multiple-dropdown cam-dtal-lion-dialog-node-expandbytype-content">
+                            </div>
+                        </div>
+			
+                        <div class="actions">
+				<div tabindex="2" class="ui red button cam-dtal-lion-dialog-hide">Cancel</div>		
+			</div>
+		</div>
+
+		<!-- End of 'Alert' dialog -->
+
+
+
+			  
+		<!-- Start of 'Info' dialog -->
+
+		<div class="ui modal small cam-dtal-lion-modal" id="cam-dtal-lion-dialog-info">
+			<i class="close icon cam-dtal-lion-dialog-hide"></i>
+			
+			<h2 class="ui header">
+				<i class="blue circular inverted info icon"></i>
+				<div class="content cam-dtal-lion-dialog-info-title"></div>
+			</h2>
+			
+			<div class="content">
+			<p class="cam-dtal-lion-dialog-info-message"></p>
+			</div>
+			<div class="actions">
+				<div tabindex="0" class="ui button cam-dtal-lion-dialog-hide">OK</div>		
+			</div>
+		</div>
+
+		<!-- End of 'Info' dialog -->	 
+
+		<!-- Start of 'Weight range' dialog -->
+
+		<div class="ui modal small cam-dtal-lion-modal" id="cam-dtal-lion-dialog-weight-range">
+			<i class="close icon cam-dtal-lion-dialog-hide"></i>
+			
+			<h2 class="ui header">
+				<i class="blue circular inverted settings icon"></i>
+				<div class="content">Weight range</div>
+			</h2>
+			
+			<div class="content">
+
+				<div>Modify the range of edge weights retrieved from server</div>
+
+				<div class="ui warning message"><i class="ui circular warning inverted red icon"></i>Changing edge weights will reinitialize any loaded graphs</div>
+
+				<div class="ui error message cam-dtal-lion-dialog-error-message"></div>
+
+				<div class="ui form">
+						
+					<div class="one field">
+					
+						<div class="ui left labeled input field">
+						  <div class="ui basic label">Min</div>
+						  <input class="cam-dtal-lion-weight-start" type="text" placeholder="Enter minimum weight...">
+						</div>
+
+						<div class="ui left labeled input field">
+						  <div class="ui basic label">Max</div>
+						  <input class="cam-dtal-lion-weight-end" type="text" placeholder="Enter maximum weight...">
+						</div>
+
+					</div>
+				</div>	
+				
+			</div>
+			<div class="actions">
+				<div tabindex="0" class="ui green button cam-dtal-lion-weight-range-submit">OK</div>
+				<div tabindex="1" class="ui orange button cam-dtal-lion-weight-range-reset">Reset</div>
+				<div tabindex="2" class="ui red button cam-dtal-lion-dialog-hide">Cancel</div>		
+			</div>
+		</div>
+
+		<!-- End of 'Weight range' dialog -->
+
+		<!-- Start of 'Bug tools' dialog -->
+
+		<div class="ui modal small cam-dtal-lion-modal" id="cam-dtal-lion-dialog-bug-tools">
+			<i class="close icon cam-dtal-lion-dialog-hide"></i>
+			
+			<h2 class="ui header">
+				<i class="green circular inverted record icon"></i>
+				<div class="content">Playback session</div>
+			</h2>
+			
+			<div class="content">
+			
+				<div class="ui form">
+				
+					<div class="ui error message">
+						<div class="header">Call stack</div>
+					</div>
+				
+					<div class="one field cam-dtal-lion-bug-text cam-dtal-lion-form-bug-element">
+						<div class="field">
+							<label>Make a copy of the call stack below and then paste it below and click 'Run' to reproduce the current state</label>			
+							<textarea placeholder="Call stack data here" id="cam-dtal-lion-call-stack" class="cam-dtal-lion-code"></textarea>
+						</div>
+					</div>
+				</div>	
+				
+			</div>
+			<div class="actions">
+				<div tabindex="0" class="ui green button cam-dtal-lion-bug-tools-run">Run</div>
+				<div tabindex="1" class="ui red button cam-dtal-lion-dialog-hide">Cancel</div>		
+			</div>
+		</div>
+
+		<!-- End of 'Bug tools' dialog -->
+
+		<!-- Start of 'Report bug' dialog -->
+
+		<div class="ui modal small cam-dtal-lion-modal" id="cam-dtal-lion-dialog-bug-report">
+			<i class="close icon cam-dtal-lion-dialog-hide"></i>
+			
+			<h2 class="ui header">
+				<i class="cam-dtal-lion-loadbugfile bug red circular inverted icon"></i>
+				<div class="content">Report bug</div>
+			</h2>
+			
+			<div class="content">
+			
+			<div class="ui form cam-dtal-lion-form-bug cam-dtal-lion-form-bug-element">
+			
+				<div class="ui error message">
+					<div class="header">Missing fields</div>
+					<p>Please complete the missing field(s) below</p>
+				</div>
+		  
+				<div class="two fields">
+					<div class="field cam-dtal-lion-bug-name cam-dtal-lion-form-bug-element">
+						<label>Your name</label>
+						<input type="text" placeholder="Your name" class="cam-dtal-lion-bug-name" id="cam-dtal-lion-bug-name">
+					</div>
+					<div class="field cam-dtal-lion-bug-email cam-dtal-lion-form-bug-element">
+						<label>Your email</label>
+						<input type="text" placeholder="Your email" class="cam-dtal-lion-bug-email" id="cam-dtal-lion-bug-email">
+					</div>
+				</div>
+		  
+				<div class="one field cam-dtal-lion-bug-text cam-dtal-lion-form-bug-element">
+					<div class="field">
+						<label>Please describe the issue you are currently experiencing below</label>			
+						<textarea placeholder="Describe issue" class="cam-dtal-lion-bug-text" id="cam-dtal-lion-bug-text"></textarea>
+					</div>
+				</div>
+			</div>
+						
+			</div>
+			<div class="actions">
+				<div class="ui green button cam-dtal-lion-bug-confirm" type="submit">Report bug</div>
+				<div class="ui red button cam-dtal-lion-dialog-hide">Cancel</div>		
+			</div>
+		</div>
+
+		<!-- End of 'Report bug' dialog -->
+		
+		<div class="ui vertical footer center aligned segment form-page cam-dtal-lion-footer">
+		  <div class="ui container">
+			<div class="cam-dtal-lion-footer-area-images">
+				<img class="cam-dtal-lion-footer-image" alt="University of Cambridge" style="height:30px;" src="/static/images/cam_Logo.svg">
+				<img class="cam-dtal-lion-footer-image" alt="Karolinska Institutet" style="height:45px;" src="/static/images/KI_Logo.svg">
+			</div>					  
+			<small>&copy; 2016-2017 LION Project</small>
+            <small>&nbsp;&nbsp;</small>
+            <small><a href="https://www.freepik.com/free-vector/fun-pack-of-smiley-wild-animals_1229176.htm">[Logo by Freepik]</a></small>
+		  </div>
+		</div>
+		
+	</div>
+
+        <div class="ajax-loading-panel" style="display:flex; flex-direction: row; align-items:center; justify-content: center;">
+                <!-- <div class="cam-dtal-lion-menu-item  cam-dtal-lion-topbar-element cam-dtal-lion-topbar-element-loadingdata" 
+                    data-tooltip="Loading data from server..."> -->
+                <div class="cam-dtal-lion-topbar-element-loadingdata" data-tooltip="Loading data from server...">
+                    <!--<i class="spinner loading orange icon cam-dtal-lion-networkactivity"></i>-->
+                    <div class="css-spinner">
+                        <div class="rect1"></div>
+                        <div class="rect2"></div>
+                        <div class="rect3"></div>
+                        <div class="rect4"></div>
+                        <div class="rect5"></div>
+                    </div>
+                </div>
+                <div class="cam-dtal-lion-topbar-dynamicstatus"></div>
+        </div>
+</body>
+</html>

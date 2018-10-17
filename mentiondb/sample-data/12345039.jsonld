@@ -1,0 +1,92 @@
+[
+  {
+    "body": {
+      "id": "MESH:D007246",
+      "type": "Disease"
+    },
+    "id": "PMID:12345039/ann/0",
+    "target": "PMID:12345039/text#char=1022,1042",
+    "text": "adolescent sterility",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007246",
+      "type": "Disease"
+    },
+    "id": "PMID:12345039/ann/1",
+    "target": "PMID:12345039/text#char=424,444",
+    "text": "adolescent sterility",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007246",
+      "type": "Disease"
+    },
+    "id": "PMID:12345039/ann/2",
+    "target": "PMID:12345039/text#char=953,973",
+    "text": "adolescent sterility",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345039/ann/3",
+    "target": "PMID:12345039/text#char=629,634",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345039/ann/4",
+    "target": "PMID:12345039/text#char=747,752",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345039/ann/5",
+    "target": "PMID:12345039/text#char=1049,1054",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345039/ann/0",
+      "to": "PMID:12345039/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345039/ann/6",
+    "target": "PMID:12345039/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345039/ann/0",
+      "to": "PMID:12345039/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345039/ann/7",
+    "target": "PMID:12345039/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345039/ann/2",
+      "to": "PMID:12345039/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345039/ann/8",
+    "target": "PMID:12345039/text",
+    "type": "Relation"
+  }
+]

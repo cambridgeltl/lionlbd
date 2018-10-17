@@ -1,0 +1,152 @@
+[
+  {
+    "body": {
+      "id": "MESH:D010468",
+      "type": "Disease"
+    },
+    "id": "PMID:12345919/ann/0",
+    "target": "PMID:12345919/text#char=335,356",
+    "text": "Emotionally disturbed",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012141",
+      "type": "Disease"
+    },
+    "id": "PMID:12345919/ann/1",
+    "target": "PMID:12345919/text#char=747,781",
+    "text": "upper respiratory tract infections",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:10942",
+      "type": "Gene"
+    },
+    "id": "PMID:12345919/ann/2",
+    "target": "PMID:12345919/text#char=1310,1322",
+    "text": "test 1 and 2",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:10942",
+      "type": "Gene"
+    },
+    "id": "PMID:12345919/ann/3",
+    "target": "PMID:12345919/text#char=940,946",
+    "text": "test 1",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:10942",
+      "type": "Gene"
+    },
+    "id": "PMID:12345919/ann/4",
+    "target": "PMID:12345919/text#char=1226,1232",
+    "text": "test 1",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345919/ann/5",
+    "target": "PMID:12345919/text#char=169,176",
+    "text": "infants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345919/ann/6",
+    "target": "PMID:12345919/text#char=259,266",
+    "text": "persons",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345919/ann/7",
+    "target": "PMID:12345919/text#char=376,383",
+    "text": "infants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345919/ann/8",
+    "target": "PMID:12345919/text#char=722,727",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345919/ann/9",
+    "target": "PMID:12345919/text#char=1695,1700",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345919/ann/0",
+      "to": "PMID:12345919/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345919/ann/10",
+    "target": "PMID:12345919/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345919/ann/0",
+      "to": "PMID:12345919/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345919/ann/11",
+    "target": "PMID:12345919/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345919/ann/1",
+      "to": "PMID:12345919/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345919/ann/12",
+    "target": "PMID:12345919/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345919/ann/2",
+      "to": "PMID:12345919/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345919/ann/13",
+    "target": "PMID:12345919/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345919/ann/5",
+      "to": "PMID:12345919/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345919/ann/14",
+    "target": "PMID:12345919/text",
+    "type": "Relation"
+  }
+]

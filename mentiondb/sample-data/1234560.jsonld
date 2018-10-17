@@ -1,0 +1,32 @@
+[
+  {
+    "body": {
+      "id": "MESH:D001851",
+      "type": "Disease"
+    },
+    "id": "PMID:1234560/ann/0",
+    "target": "PMID:1234560/text#char=16,26",
+    "text": "osteopenia",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D010024",
+      "type": "Disease"
+    },
+    "id": "PMID:1234560/ann/1",
+    "target": "PMID:1234560/text#char=31,43",
+    "text": "osteoporosis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234560/ann/0",
+      "to": "PMID:1234560/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234560/ann/2",
+    "target": "PMID:1234560/text",
+    "type": "Relation"
+  }
+]

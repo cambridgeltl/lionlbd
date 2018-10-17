@@ -1,0 +1,202 @@
+[
+  {
+    "body": {
+      "id": "MESH:D010051",
+      "type": "Disease"
+    },
+    "id": "PMID:12345964/ann/0",
+    "target": "PMID:12345964/text#char=330,361",
+    "text": "ovarian and endometrial cancers",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345964/ann/1",
+    "target": "PMID:12345964/text#char=1322,1335",
+    "text": "breast cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345964/ann/2",
+    "target": "PMID:12345964/text#char=1456,1469",
+    "text": "breast cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345964/ann/3",
+    "target": "PMID:12345964/text#char=425,438",
+    "text": "breast cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345964/ann/4",
+    "target": "PMID:12345964/text#char=666,689",
+    "text": "breast cancer diagnosis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345964/ann/5",
+    "target": "PMID:12345964/text#char=1023,1046",
+    "text": "breast cancer diagnosis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345964/ann/6",
+    "target": "PMID:12345964/text#char=497,510",
+    "text": "breast cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:12345964/ann/7",
+    "target": "PMID:12345964/text#char=890,896",
+    "text": "Cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345964/ann/8",
+    "target": "PMID:12345964/text#char=1192,1205",
+    "text": "breast cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345964/ann/9",
+    "target": "PMID:12345964/text#char=24,37",
+    "text": "breast cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345964/ann/10",
+    "target": "PMID:12345964/text#char=151,156",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345964/ann/11",
+    "target": "PMID:12345964/text#char=558,563",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345964/ann/12",
+    "target": "PMID:12345964/text#char=1062,1067",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345964/ann/13",
+    "target": "PMID:12345964/text#char=1166,1171",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345964/ann/0",
+      "to": "PMID:12345964/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345964/ann/14",
+    "target": "PMID:12345964/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345964/ann/3",
+      "to": "PMID:12345964/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345964/ann/15",
+    "target": "PMID:12345964/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345964/ann/5",
+      "to": "PMID:12345964/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345964/ann/16",
+    "target": "PMID:12345964/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345964/ann/6",
+      "to": "PMID:12345964/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345964/ann/17",
+    "target": "PMID:12345964/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345964/ann/8",
+      "to": "PMID:12345964/ann/13",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345964/ann/18",
+    "target": "PMID:12345964/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345964/ann/12",
+      "to": "PMID:12345964/ann/13",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345964/ann/19",
+    "target": "PMID:12345964/text",
+    "type": "Relation"
+  }
+]

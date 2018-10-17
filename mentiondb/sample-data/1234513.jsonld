@@ -1,0 +1,11 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:1234513/ann/0",
+    "target": "PMID:1234513/text#char=648,659",
+    "text": "telecontrol",
+    "type": "Span"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:12345060/ann/0",
+    "target": "PMID:12345060/text#char=375,394",
+    "text": "malignant neoplasms",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345060/ann/1",
+    "target": "PMID:12345060/text#char=259,262",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345060/ann/2",
+    "target": "PMID:12345060/text#char=267,272",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345060/ann/1",
+      "to": "PMID:12345060/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345060/ann/3",
+    "target": "PMID:12345060/text",
+    "type": "Relation"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:12345064/ann/0",
+    "target": "PMID:12345064/text#char=366,372",
+    "text": "cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:12345064/ann/1",
+    "target": "PMID:12345064/text#char=16,23",
+    "text": "cancers",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:12345064/ann/2",
+    "target": "PMID:12345064/text#char=216,223",
+    "text": "cancers",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:12345064/ann/3",
+    "target": "PMID:12345064/text#char=128,134",
+    "text": "cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:4097",
+      "type": "Species"
+    },
+    "id": "PMID:12345064/ann/4",
+    "target": "PMID:12345064/text#char=0,7",
+    "text": "Tobacco",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:4097",
+      "type": "Species"
+    },
+    "id": "PMID:12345064/ann/5",
+    "target": "PMID:12345064/text#char=112,119",
+    "text": "tobacco",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:4097",
+      "type": "Species"
+    },
+    "id": "PMID:12345064/ann/6",
+    "target": "PMID:12345064/text#char=350,357",
+    "text": "tobacco",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345064/ann/0",
+      "to": "PMID:12345064/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345064/ann/7",
+    "target": "PMID:12345064/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345064/ann/1",
+      "to": "PMID:12345064/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345064/ann/8",
+    "target": "PMID:12345064/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345064/ann/1",
+      "to": "PMID:12345064/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345064/ann/9",
+    "target": "PMID:12345064/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345064/ann/2",
+      "to": "PMID:12345064/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345064/ann/10",
+    "target": "PMID:12345064/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345064/ann/2",
+      "to": "PMID:12345064/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345064/ann/11",
+    "target": "PMID:12345064/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345064/ann/3",
+      "to": "PMID:12345064/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345064/ann/12",
+    "target": "PMID:12345064/text",
+    "type": "Relation"
+  }
+]

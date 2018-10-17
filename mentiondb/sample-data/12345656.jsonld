@@ -1,0 +1,122 @@
+[
+  {
+    "body": {
+      "id": "MESH:C537904",
+      "type": "Disease"
+    },
+    "id": "PMID:12345656/ann/0",
+    "target": "PMID:12345656/text#char=158,179",
+    "text": "Diagnostics in Africa",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C537904",
+      "type": "Disease"
+    },
+    "id": "PMID:12345656/ann/1",
+    "target": "PMID:12345656/text#char=37,58",
+    "text": "Diagnostics in Africa",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003920",
+      "type": "Disease"
+    },
+    "id": "PMID:12345656/ann/2",
+    "target": "PMID:12345656/text#char=1216,1224",
+    "text": "Diabetes",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C537904",
+      "type": "Disease"
+    },
+    "id": "PMID:12345656/ann/3",
+    "target": "PMID:12345656/text#char=702,705",
+    "text": "DIA",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003967",
+      "type": "Disease"
+    },
+    "id": "PMID:12345656/ann/4",
+    "target": "PMID:12345656/text#char=1152,1160",
+    "text": "Diarrhea",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C537904",
+      "type": "Disease"
+    },
+    "id": "PMID:12345656/ann/5",
+    "target": "PMID:12345656/text#char=181,184",
+    "text": "DIA",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C537904",
+      "type": "Disease"
+    },
+    "id": "PMID:12345656/ann/6",
+    "target": "PMID:12345656/text#char=1663,1666",
+    "text": "DIA",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C537904",
+      "type": "Disease"
+    },
+    "id": "PMID:12345656/ann/7",
+    "target": "PMID:12345656/text#char=293,296",
+    "text": "DIA",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:57667",
+      "type": "Species"
+    },
+    "id": "PMID:12345656/ann/8",
+    "target": "PMID:12345656/text#char=1390,1393",
+    "text": "HIV",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345656/ann/0",
+      "to": "PMID:12345656/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345656/ann/9",
+    "target": "PMID:12345656/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345656/ann/0",
+      "to": "PMID:12345656/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345656/ann/10",
+    "target": "PMID:12345656/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345656/ann/2",
+      "to": "PMID:12345656/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345656/ann/11",
+    "target": "PMID:12345656/text",
+    "type": "Relation"
+  }
+]

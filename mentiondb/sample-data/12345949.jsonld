@@ -1,0 +1,72 @@
+[
+  {
+    "body": {
+      "id": "MESH:D012749",
+      "type": "Disease"
+    },
+    "id": "PMID:12345949/ann/0",
+    "target": "PMID:12345949/text#char=235,264",
+    "text": "sexually transmitted diseases",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002690",
+      "type": "Disease"
+    },
+    "id": "PMID:12345949/ann/1",
+    "target": "PMID:12345949/text#char=285,294",
+    "text": "chlamydia",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345949/ann/2",
+    "target": "PMID:12345949/text#char=46,50",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345949/ann/3",
+    "target": "PMID:12345949/text#char=276,280",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345949/ann/0",
+      "to": "PMID:12345949/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345949/ann/4",
+    "target": "PMID:12345949/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345949/ann/0",
+      "to": "PMID:12345949/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345949/ann/5",
+    "target": "PMID:12345949/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345949/ann/1",
+      "to": "PMID:12345949/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345949/ann/6",
+    "target": "PMID:12345949/text",
+    "type": "Relation"
+  }
+]

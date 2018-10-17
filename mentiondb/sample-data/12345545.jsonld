@@ -1,0 +1,52 @@
+[
+  {
+    "body": {
+      "id": "MESH:D020018",
+      "type": "Disease"
+    },
+    "id": "PMID:12345545/ann/0",
+    "target": "PMID:12345545/text#char=2081,2102",
+    "text": "Sexually active youth",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345545/ann/1",
+    "target": "PMID:12345545/text#char=1105,1110",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345545/ann/2",
+    "target": "PMID:12345545/text#char=1273,1278",
+    "text": "Girls",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345545/ann/3",
+    "target": "PMID:12345545/text#char=2018,2022",
+    "text": "Boys",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345545/ann/0",
+      "to": "PMID:12345545/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345545/ann/4",
+    "target": "PMID:12345545/text",
+    "type": "Relation"
+  }
+]

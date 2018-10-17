@@ -1,0 +1,134 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345835/ann/0",
+    "target": "PMID:12345835/text#char=33,44",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345835/ann/1",
+    "target": "PMID:12345835/text#char=147,158",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345835/ann/2",
+    "target": "PMID:12345835/text#char=405,416",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345835/ann/3",
+    "target": "PMID:12345835/text#char=525,536",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345835/ann/4",
+    "target": "PMID:12345835/text#char=769,780",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345835/ann/5",
+    "target": "PMID:12345835/text#char=974,985",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345835/ann/6",
+    "target": "PMID:12345835/text#char=1064,1075",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345835/ann/7",
+    "target": "PMID:12345835/text#char=1188,1199",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345835/ann/8",
+    "target": "PMID:12345835/text#char=438,444",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345835/ann/9",
+    "target": "PMID:12345835/text#char=562,568",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345835/ann/2",
+      "to": "PMID:12345835/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345835/ann/10",
+    "target": "PMID:12345835/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345835/ann/3",
+      "to": "PMID:12345835/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345835/ann/11",
+    "target": "PMID:12345835/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345835/ann/3",
+      "to": "PMID:12345835/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345835/ann/12",
+    "target": "PMID:12345835/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345835/ann/5",
+      "to": "PMID:12345835/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345835/ann/13",
+    "target": "PMID:12345835/text",
+    "type": "Relation"
+  }
+]

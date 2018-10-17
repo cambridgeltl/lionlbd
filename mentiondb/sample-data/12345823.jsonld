@@ -1,0 +1,91 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345823/ann/0",
+    "target": "PMID:12345823/text#char=1453,1458",
+    "text": "Benin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:246329",
+      "type": "Gene"
+    },
+    "id": "PMID:12345823/ann/1",
+    "target": "PMID:12345823/text#char=1520,1523",
+    "text": "Nam",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345823/ann/2",
+    "target": "PMID:12345823/text#char=47,52",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345823/ann/3",
+    "target": "PMID:12345823/text#char=59,66",
+    "text": "infants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345823/ann/4",
+    "target": "PMID:12345823/text#char=246,251",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345823/ann/5",
+    "target": "PMID:12345823/text#char=641,646",
+    "text": "Women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345823/ann/6",
+    "target": "PMID:12345823/text#char=1210,1215",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345823/ann/0",
+      "to": "PMID:12345823/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345823/ann/7",
+    "target": "PMID:12345823/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345823/ann/2",
+      "to": "PMID:12345823/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345823/ann/8",
+    "target": "PMID:12345823/text",
+    "type": "Relation"
+  }
+]

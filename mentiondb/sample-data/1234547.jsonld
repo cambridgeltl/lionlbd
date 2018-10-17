@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:D008659",
+      "type": "Disease"
+    },
+    "id": "PMID:1234547/ann/0",
+    "target": "PMID:1234547/text#char=68,87",
+    "text": "metabolic disorders",
+    "type": "Span"
+  }
+]

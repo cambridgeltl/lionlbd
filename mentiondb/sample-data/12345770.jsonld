@@ -1,0 +1,42 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345770/ann/0",
+    "target": "PMID:12345770/text#char=42,46",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345770/ann/1",
+    "target": "PMID:12345770/text#char=158,162",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345770/ann/2",
+    "target": "PMID:12345770/text#char=530,534",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345770/ann/3",
+    "target": "PMID:12345770/text#char=1068,1072",
+    "text": "AIDS",
+    "type": "Span"
+  }
+]

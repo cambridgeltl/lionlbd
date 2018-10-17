@@ -1,0 +1,112 @@
+[
+  {
+    "body": {
+      "id": "MESH:D010146",
+      "type": "Disease"
+    },
+    "id": "PMID:12345650/ann/0",
+    "target": "PMID:12345650/text#char=657,661",
+    "text": "pain",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345650/ann/1",
+    "target": "PMID:12345650/text#char=0,5",
+    "text": "Women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345650/ann/2",
+    "target": "PMID:12345650/text#char=70,75",
+    "text": "woman",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345650/ann/3",
+    "target": "PMID:12345650/text#char=216,221",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345650/ann/4",
+    "target": "PMID:12345650/text#char=579,584",
+    "text": "woman",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345650/ann/5",
+    "target": "PMID:12345650/text#char=745,750",
+    "text": "woman",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345650/ann/6",
+    "target": "PMID:12345650/text#char=819,824",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345650/ann/0",
+      "to": "PMID:12345650/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345650/ann/7",
+    "target": "PMID:12345650/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345650/ann/0",
+      "to": "PMID:12345650/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345650/ann/8",
+    "target": "PMID:12345650/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345650/ann/1",
+      "to": "PMID:12345650/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345650/ann/9",
+    "target": "PMID:12345650/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345650/ann/5",
+      "to": "PMID:12345650/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345650/ann/10",
+    "target": "PMID:12345650/text",
+    "type": "Relation"
+  }
+]

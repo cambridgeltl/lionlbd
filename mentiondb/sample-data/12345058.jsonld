@@ -1,0 +1,42 @@
+[
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345058/ann/0",
+    "target": "PMID:12345058/text#char=185,190",
+    "text": "death",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345058/ann/1",
+    "target": "PMID:12345058/text#char=36,41",
+    "text": "death",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:12345058/ann/2",
+    "target": "PMID:12345058/text#char=429,448",
+    "text": "malignant neoplasms",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345058/ann/3",
+    "target": "PMID:12345058/text#char=641,644",
+    "text": "men",
+    "type": "Span"
+  }
+]

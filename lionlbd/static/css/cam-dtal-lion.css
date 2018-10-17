@@ -1,0 +1,1122 @@
+
+/********************************************/
+/********************************************/
+/********************************************/
+/*** Stylesheet for LION main application ***/
+/********************************************/
+/********************************************/
+/********************************************/
+
+
+
+
+/********************************************/
+/*********** Used on help page **************/
+/********************************************/
+
+pre {
+
+  background-color: #e8f1f2;
+  padding: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+
+}
+
+
+
+
+
+
+
+/********************************************/
+/*********** Feedback button ****************/
+/********************************************/
+
+
+.feedback-button {
+    height:40px; 
+    border:solid 2px black !important; 
+    background:white !important;
+
+    width:100px; 
+    line-height:32px; 
+    -webkit-transform:rotate(-90deg); 
+    font-weight:600; 
+    color:black !important; 
+    transform:rotate(-90deg);  
+    -ms-transform:rotate(-90deg);  
+    -moz-transform:rotate(-90deg); 
+    text-align:center; 
+    font-size:17px; 
+    position:fixed; 
+    right:-40px; 
+    top:50%; 
+    z-index:999; 
+}
+
+
+.ajax-loading-panel {
+    position:    absolute;
+    width: 300px;
+    top:         5px;
+    left:        50%;    /* move the left edge to the center … */
+    margin-left: -150px; /* … and move it to the left half the box’ width. */
+    z-index:     9999;   /* Try to get it on top. */
+    text-align: 'center';
+    border: 1px solid rgba(34,36,38,.15);	
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    /* display: none; */
+}
+
+.css-spinner {
+    margin: 3px;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.css-spinner > div {
+    background-color: #2185D0;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.css-spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+
+.css-spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+.css-spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+.css-spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+    0%, 40%, 100% { 
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }  20% { 
+        transform: scaleY(1.0);
+        -webkit-transform: scaleY(1.0);
+    }
+}
+
+
+
+/********************************************/
+/****** Elements to hide by default *********/
+/********************************************/
+
+.cam-dtal-lion-global-loader,
+.cam-dtal-lion-visualization-area,
+.cam-dtal-lion-search-box-toggle,
+.cam-dtal-lion-search-term-connector,
+.cam-dtal-lion-networkactivity,
+.cam-dtal-lion-visualization-graph-elements,
+#cam-dtal-lion-search-destination {
+	display:				none;
+}
+
+/********************************************/
+/************** Global loader ***************/
+/****** Greys out screen while loading ******/
+/********************************************/
+
+.cam-dtal-lion-global-loader {
+	z-index: 				10000000!important;
+}
+
+/********************************************/
+/**************** Sidebars ******************/
+/************ Hidden by default *************/
+/********************************************/
+
+
+.cam-dtal-lion-sidebar-mentions-header {
+    position: sticky!important;
+    top: 0!important;
+    display: block!important;
+    height: 55px!important;
+    z-index: 1000!important;
+}
+
+
+.cam-dtal-lion-menu-item {
+    margin-left: 12px;
+}
+
+.cam-dtal-lion-sidebar-menu {
+	z-index: 				10;
+}
+
+.ui.right.sidebar {
+	background: 			white;
+	width: 					400px;
+	z-index: 				200;	
+}
+
+.ui.right.visible.sidebar {
+	box-shadow: 			0 0 60px rgba(34,36,38,.25);		
+}
+
+.cam-dtal-lion-sidebar-mentions {
+	overflow-x:				hidden;
+}
+
+.cam-dtal-lion-sidebar-mentions-row {
+	padding-top:			0px!important;
+}
+
+.cam-dtal-lion-sidebar-mentions-column-one {
+	padding-right: 			0px!important;
+}
+
+/* Minor modification of 'metric' icon position to improve presentation */
+
+.ui.icon.law.large.circular.cam-dtal-lion-sidebar-mentions-weight-icon {
+	padding-left:			9px!important;
+}
+
+/********************************************/
+/***************** Top bar ******************/
+/********************************************/
+
+/*
+.cam-dtal-lion-topbar.shadow {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+*/
+
+
+.cam-dtal-lion-topbar.shadow {
+	box-shadow: 			0 0 20px rgba(34,36,38,.1);		
+}
+
+/************** Left-hand area **************/
+
+.cam-dtal-lion-topbar-mainmenu-icon {
+	box-shadow: 			none!important;
+    display: none!important;
+}
+
+.cam-dtal-lion-topbar-dynamicstatus {
+	overflow: hidden;
+        display: 				inline;
+	/*margin-right:			10px!important;*/
+	color: 					#2185D0;
+}
+
+/************** Settings menu ***************/
+
+.cam-dtal-lion-settings-functions {
+	z-index: 				1000000;	
+}
+
+.cam-dtal-lion-settings {
+	padding-right: 			10px;	
+}
+
+/*************** Date inputs ****************/
+
+.cam-dtal-lion-date {
+	margin:					0px!important;
+	padding:				0px!important;
+	font-weight:			bold;
+}
+
+.ui[class*="left icon"].input>input.cam-dtal-lion-date {
+	padding-left:			1.7em!important;
+    padding-right: 			0em!important;
+	margin-right:			0px!important;
+    border: 				0px;
+}
+
+.ui.calendar {
+	z-index: 				1000000;
+}
+
+.ui.calendar.cam-dtal-lion-popup {
+	display: 				inline;
+}
+
+i.calendar.icon.cam-dtal-lion-date {
+	width:					1.7em!important;
+}
+
+/************* Right-hand area **************/
+
+.cam-dtal-lion-topbar-title {
+	display:				inline;
+}
+
+.cam-dtal-lion-topbar-element {
+	display:				inline;
+}
+
+.cam-dtal-lion-topbar-title-elements {
+	position:				absolute!important;
+	right:					30px!important;
+	top:					8px!important;
+	border:					0px!important;
+}
+
+.cam-dtal-lion-topbar-element-loadingdata {
+	padding-right:			5px;
+}
+
+/*
+.cam-dtal-lion-topbar-hide-search-box-link {
+	position:				absolute;
+	right:					0px;
+	top:					0px;
+	padding:				10px;
+	z-index:				300;	
+}
+*/
+
+/********************************************/
+/** Object type selector (beneath top bar) **/
+/********************************************/
+
+.ui.multiple.dropdown>.label {
+    -webkit-box-shadow: 	0 5px 10px rgba(0,0,0,.1)!important;
+    -moz-box-shadow: 		0 5px 10px rgba(0,0,0,.1)!important;
+    box-shadow: 			0 5px 10px rgba(0,0,0,.1)!important;	
+}
+
+.cam-dtal-lion-container-type {
+	text-align:				center!important;
+	padding-top:			10px;
+	padding-bottom:			10px;	
+}
+
+.cam-dtal-lion-type {
+	border:					0px!important;
+	z-index:				100000;
+}
+
+.ui.dropdown .menu.cam-dtal-lion-type-options {
+	right: 					10px;
+}
+
+.cam-dtal-lion-container-type-add {
+	display:				inline;
+}
+
+.cam-dtal-lion-type {
+	text-align:				center!important;
+	padding-left:			10px;
+}
+
+.cam-dtal-lion-type-options {
+	font-size:				0.9em!important;
+}
+
+.cam-dtal-lion-type-add {
+	padding-top:			6px!important;	
+	margin-top: 			-4px!important;
+	line-height:			1.1em!important;	
+}
+
+/********************************************/
+/***** Object Expand by Type Selector********/
+/********************************************/
+
+.nodeexpandtype {
+    padding: 0.5em;
+    margin: 0.2em;
+    font-size:				1.25em!important;
+    text-align: 'center';
+    font-weight: 'bold';
+    color: 'white';
+}
+
+
+/********************************************/
+/****** Main area of page on first load *****/
+/**** includes search-area-related items ****/
+/********************************************/
+
+.cam-dtal-lion-maintitle {
+	padding:				0em 0em 1em 0em!important;
+}
+
+.cam-dtal-lion-mainsearch {
+	width:					400px!important;
+}
+
+.cam-dtal-lion-searcharea-spaceabove {
+	height:					4em;
+}
+
+.cam-dtal-lion-search-box,
+.cam-dtal-lion-search-term-src-input,
+.cam-dtal-lion-search-term-dest-input {
+	display: 				inline;
+}
+
+/* Ensure 'src' autocomplete results are above 'dest' input */
+
+#cam-dtal-lion-search-term-src {
+	z-index:				95001;
+}
+
+#cam-dtal-lion-search-term-dest {
+	z-index:				95000;
+}
+
+.cam-dtal-lion-search-term-src-input,
+.cam-dtal-lion-search-term-dest-input {
+	font-weight:			bold;
+}
+
+#cam-dtal-lion-search-destination {
+	padding-top:			0px;
+}
+
+/********************************************/
+/***** Autocomplete input box settings ******/
+/********************************************/
+
+/* Maximum height on autocomplete search list */
+
+.ui.search>.results {
+	max-height:				300px;
+	overflow-y:				auto;
+}
+
+/* Maximum height on autocomplete equivalents list */
+
+.cam-dtal-lion-autocomplete-equivalents {
+	max-height:				4em!important;
+}
+
+div.cam-dtal-lion-autocomplete-name {
+	padding-top: 			15px!important;
+}
+
+div.cam-dtal-lion-autocomplete-description {
+	font-size:				8pt!important;
+}
+
+/********************************************/
+/************* Vertical icon menu ***********/
+/**** Allows selection of different views ***/
+/********************************************/
+
+.ui.secondary.menu.cam-cat-lion-visualization-tabs {
+	position: 				absolute!important;
+	top: 					80px!important;
+	width: 					50px!important;
+	z-index: 				300!important;
+}
+
+.ui.secondary.vertical.menu.cam-cat-lion-visualization-tabs>.item {
+	height: 				2.5em!important;
+	background: 			white;
+	box-shadow: 			0 0 20px rgba(34,36,38,.1);			
+}
+
+.ui.secondary.menu.cam-cat-lion-visualization-tabs .active.item {
+    background: 			#2185D0;
+	color:					white;
+}
+
+/********************************************/
+/************ Graph visualization ***********/
+/********************************************/
+
+#cam-dtal-lion-visualization-graph-cytoscape {
+	width:					100%;
+	height:					0px;
+}
+
+.cam-dtal-lion-visualization-graph-info {
+    position: 				absolute;
+    top: 					20px;
+    right: 					10px;
+}
+
+.cam-dtal-lion-visualization-graph-options {
+    position: 				absolute;
+    bottom: 				22px;
+    left: 					50%;
+	z-index:				20000;
+	background-color:		rgba(255, 255, 255, 0.8);	
+	padding: 				5px;
+	border: 				1px solid rgba(34,36,38,.15);	
+	-webkit-border-radius: 	20px;
+	-moz-border-radius: 	20px;
+	border-radius: 			20px;
+    -webkit-transform: 		translate(-50%, 0);
+    -moz-transform: 		translate(-50%, 0);
+    -ms-transform: 			translate(-50%, 0);
+    -o-transform: 			translate(-50%, 0);
+    transform: 				translate(-50%, 0);
+}
+
+
+.cam-dtal-lion-visualization-graph-options-top {
+    position: 				absolute;
+        top: 				22px;
+    left: 					50%;
+	z-index:				20000;
+	background-color:		rgba(255, 255, 255, 0.8);	
+	padding: 				5px;
+	border: 				1px solid rgba(34,36,38,.15);	
+	-webkit-border-radius: 	20px;
+	-moz-border-radius: 	20px;
+	border-radius: 			20px;
+    -webkit-transform: 		translate(-50%, 0);
+    -moz-transform: 		translate(-50%, 0);
+    -ms-transform: 			translate(-50%, 0);
+    -o-transform: 			translate(-50%, 0);
+    transform: 				translate(-50%, 0);
+    cursor: pointer;
+}
+
+
+
+.cam-dtal-lion-visualization-graph-add-term {
+	position:				absolute;
+	height:					50px;
+	left:					10px;
+    top: 					30px;	
+	z-index:				95000;
+}
+
+.cam-dtal-lion-container-search-term-searchadd-input {
+	width:					170px;
+}
+
+/* Visualization graph set graph type */
+
+.cam-dtal-lion-visualization-graph-layout-set {
+	margin-left:			5px;
+}
+
+/********************************************/
+/*************** Graph tooltips *************/
+/********************************************/
+
+#cam-dtal-lion-tooltip {
+	position:				absolute;
+	display:				none;
+}
+
+#cam-dtal-lion-tooltip {
+	position:				absolute;
+	z-index: 				10000;
+	padding:				13px;
+	width:					280px;
+    font-size: 				14px;
+    line-height: 			20px;
+    color: 					#333;
+    background-color: 		#fff;
+    border: 				1px solid #ccc;
+    border: 				1px solid rgba(0,0,0,.2);
+    -webkit-border-radius: 	6px;
+    -moz-border-radius: 	6px;
+    border-radius: 			6px;
+    -webkit-box-shadow: 	0 5px 10px rgba(0,0,0,.2);
+    -moz-box-shadow: 		0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 			0 5px 10px rgba(0,0,0,.2);	
+}
+
+.cam-dtal-lion-tooltip-fullscreen {
+    -webkit-box-shadow: 	none;
+    -moz-box-shadow: 		none;
+    box-shadow: 			none;	
+	z-index: 				100000;	
+}
+
+.ui.label.cam-dtal-lion-tooltip-node-count
+{
+    margin: 				0px 5px 0px 0px!important;
+    padding: 				5px;
+    font-size: 				70%!important;
+    position:				relative;
+    top: 					-2px;
+}
+
+.cam-dtal-lion-tooltip-icons,
+.cam-dtal-lion-powermenu-icons,
+.cam-dtal-lion-visualization-text,
+.cam-dtal-lion-visualization-text-icons {
+	display:				inline;
+}
+
+.ui.header.cam-dtal-lion-tooltip-header {
+	margin-top:				0px!important;
+	margin-bottom:			6px;
+}
+
+.cam-dtal-lion-tooltip-equivalents,
+.cam-dtal-lion-autocomplete-equivalents {
+	max-height:  			100px;
+	overflow-y: 			auto;
+	overflow-x:				hidden;
+	font-size:				70%;
+	color:					#999;
+}
+
+/********************************************/
+/*************** Graph filters **************/
+/********************************************/
+
+.cam-dtal-lion-filter-icon {
+	position: 				absolute;
+	left: 					95px;
+	top:					-26px;
+}
+
+.cam-dtal-lion-filter-range-slider {
+	margin: 				0px;
+	position: 				absolute;
+	top: 					0px;
+	left: 					0px;
+	width: 					200px!important;
+	background-color:		rgba(255,255,255,0);
+}
+
+.cam-dtal-lion-filter-type-element-description {
+	white-space: 			nowrap;
+}
+
+.item.cam-dtal-lion-filter-type-element {
+	padding-top: 			3px;
+	padding-bottom: 		3px;
+}
+
+.cam-dtal-lion-filter-type {
+	position: 				absolute;
+	top:					50px;
+	right:					0px;
+	z-index:				900;
+	width:					150px;
+}
+
+.cam-dtal-lion-type-element, 
+.cam-dtal-lion-filter-type-element {
+	font-weight: 			bold;
+	color: 					black;
+	background: 			rgba(255, 255, 255, 0.58);
+	cursor: 				pointer;
+}
+
+.cam-dtal-lion-type-element i,
+.cam-dtal-lion-filter-type-element i {
+	border:					2px white solid;
+	float:					left;
+	margin-right:			10px;
+    -webkit-box-shadow: 	0 5px 10px rgba(0,0,0,.2)!important;
+    -moz-box-shadow: 		0 5px 10px rgba(0,0,0,.2)!important;
+    box-shadow: 			0 5px 10px rgba(0,0,0,.2)!important;	
+
+}
+
+.disabled.cam-dtal-lion-type-element i,
+.disabled.cam-dtal-lion-type-element,
+.disabled.cam-dtal-lion-filter-type-element i,
+.disabled.cam-dtal-lion-filter-type-element {
+	border:					0px;
+	font-weight:			normal;
+	color:					#777;
+}
+
+.disabled.cam-dtal-lion-type-element i,
+.disabled.cam-dtal-lion-filter-type-element i {
+	opacity:				0.2!important;
+}
+
+.thumb {
+	z-index: 				1;
+}
+
+.cam-dtal-lion-filter-date {
+    position: 				absolute;
+    bottom: 				80px;
+    left: 					50px;
+    z-index: 				980;
+}
+
+.cam-dtal-lion-filter-weight {
+    position: 				absolute;
+    bottom: 				80px;
+    right: 					280px;
+    z-index: 				980;
+}
+
+.cam-dtal-lion-filter-type-element
+{
+	font-size: 				0.8em!important;
+	padding: 				1px!important;
+}
+
+.cam-dtal-lion-filter-range-year-start-value,
+.cam-dtal-lion-filter-range-year-end-value,
+.cam-dtal-lion-filter-range-year-minmax,
+.cam-dtal-lion-filter-range-weight-start-value,
+.cam-dtal-lion-filter-range-weight-end-value,
+.cam-dtal-lion-filter-range-weight-minmax
+ {
+	font-size: 				0.8em!important;
+	padding: 				4px!important;
+}
+
+.ui.range#cam-dtal-lion-filter-date-range-1 .inner .track-fill,
+.ui.range#cam-dtal-lion-filter-weight-range-1 .inner .track-fill {
+	background-color: 		#2185D0;
+}
+
+.ui.range#cam-dtal-lion-filter-date-range-2 .inner .track-fill,
+.ui.range#cam-dtal-lion-filter-weight-range-2 .inner .track-fill {
+	background-color: 		rgba(222, 222, 222, 1);
+}
+
+.ui.range#cam-dtal-lion-filter-date-range-1 .inner .track,
+.ui.range#cam-dtal-lion-filter-weight-range-1 .inner .track {
+	background-color: 		rgba(222, 222, 222, 1);
+}
+
+.cam-dtal-lion-filter-range-year-start-value {
+	position: 				absolute!important;
+    margin-left: 			-10px!important;
+    margin-top: 			-30px!important;
+}
+
+.cam-dtal-lion-filter-range-year-end-value {
+	position: 				absolute!important;
+    margin-left: 			-10px!important;
+    bottom: 				-30px!important;
+}
+
+.cam-dtal-lion-filter-range-weight-start-value {
+	position: 				absolute!important;
+	width:					50px!important;
+	text-align: 			center;
+    margin-left: 			-15px!important;
+    bottom: 				-30px!important;
+    overflow: 				hidden;
+    text-overflow: 			ellipsis;    
+}
+
+.cam-dtal-lion-filter-range-weight-end-value {
+	position: 				absolute!important;
+	width:					50px!important;
+	text-align: 			center;
+    margin-left: 			-15px!important;
+    top: 					-30px!important;
+    overflow: 				hidden;
+    text-overflow: 			ellipsis;        
+}
+
+.cam-dtal-lion-filter-range-year-minmax,
+.cam-dtal-lion-filter-range-weight-minmax {
+	position: 				absolute!important;
+	top: 					-0.4em!important;
+	left: 					0px;
+	width: 					100%;
+}
+
+.cam-dtal-lion-filter-range-year-min,
+.cam-dtal-lion-filter-range-weight-min {
+	text-align: 			right!important;
+}
+
+.cam-dtal-lion-filter-range-year-min-container,
+.cam-dtal-lion-filter-range-weight-min-container
+{
+	position:				absolute!important;
+	left:					-80px!important;
+	width:					80px!important;
+
+}
+
+.cam-dtal-lion-filter-range-year-max-container,
+.cam-dtal-lion-filter-range-weight-max-container
+{
+	position:				absolute!important;
+	left:					200px!important;
+}
+
+.cam-dtal-lion-filter-range-year-play-container
+{
+	position: 				absolute;
+	top:					20px;
+	left:					-25px;
+}
+
+/********************************************/
+/************* Text visualization ***********/
+/********************************************/
+
+.cam-dtal-lion-container-text {
+	margin: 				30px 10px 20px 30px!important;
+}
+
+.cam-dtal-lion-visualization-text-info {
+	line-height: 			1.5em;
+}
+
+.ui.label.cam-dtal-lion-visualization-text-edges-node-value
+{
+    margin: 				0px 0px 0px 5px;
+    padding: 				3px;
+    font-size: 				70%!important;
+    position:				relative;
+}
+
+.cam-dtal-lion-visualization-text-icons {
+	margin: 				0px 2px 0px 2px;
+	position:				relative;
+	top: 					-5px;
+}
+
+.ui.label.cam-dtal-lion-visualization-text-edges-node
+ {
+	margin-bottom:			7px!important;
+	margin-right:			5px!important;
+	font-size:				80%!important;
+    -webkit-box-shadow: 	0 5px 10px rgba(0,0,0,.1)!important;
+    -moz-box-shadow: 		0 5px 10px rgba(0,0,0,.1)!important;
+    box-shadow: 			0 5px 10px rgba(0,0,0,.1)!important;		
+}
+
+.ui.accordion.cam-dtal-lion-visualization-text-edge
+{
+	margin-bottom:			30px;
+}
+
+/********************************************/
+/***************** Share link ***************/
+/********************************************/
+
+.cam-dtal-lion-container-share {
+	margin: 				30px 10px 20px 50px!important;
+}
+
+.cam-dtal-lion-share-url {
+	margin-top: 			0px; 
+	margin-bottom: 			0px; 
+	height: 				400px;
+}
+
+textarea.cam-dtal-lion-code {
+    font-family: 			courier!important;
+    font-size: 				1em!important;
+    line-height: 			1.1em!important;
+}
+
+/********************************************/
+/****************** Footer ******************/
+/********************************************/
+
+.cam-dtal-lion-footer-area-images {
+	vertical-align: 		middle;
+	padding-top: 			20px;
+	padding-bottom: 		40px;
+}
+
+.cam-dtal-lion-footer-image {
+	vertical-align: 		middle;
+	width: 					auto;
+	margin: 				15px;
+}
+
+.cam-dtal-lion-copyright {
+    position: 				absolute;
+    bottom: 				20px;
+    right: 					10px;
+	pointer-events:			none;
+}
+
+/********************************************/
+/************** Generic spacing *************/
+/********************************************/
+
+.cam-dtal-lion-noleftrightpaddingbasic {
+	margin-left:			0px!important;
+	margin-right: 			0px!important;
+}
+
+.cam-dtal-lion-norightpadding {
+	padding-right: 			0px!important;
+	margin-right: 			0px!important;
+}
+
+.cam-dtal-lion-noleftrightpadding>.column:not(.row), .ui.grid.cam-dtal-lion-noleftrightpadding>.row>.column {
+	padding-left: 			0px!important;
+	margin-left: 			0px!important;
+	padding-right: 			0px!important;
+	margin-right: 			0px!important;
+}
+
+/********************************************/
+/************ Generic menu items ************/
+/********************************************/
+
+.cam-dtal-lion-menu-switch {
+	margin-left: 			5px;
+	margin-right: 			10px;
+}
+
+/********************************************/
+/************* Custom scrollbar *************/
+/********************************************/
+/* From https://css-tricks.com/examples/WebKitScrollbars/ */
+/********************************************/
+
+.cam-dtal-lion-custom-scrollbar::-webkit-scrollbar {
+    width: 					6px;
+}
+ 
+.cam-dtal-lion-custom-scrollbar::-webkit-scrollbar-track {
+    -webkit-box-shadow: 	inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 	6px;
+    border-radius: 			6px;
+}
+
+.cam-dtal-lion-custom-scrollbar::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 	6px;
+    border-radius: 			6px;
+    background: 			rgba(0,0,0,0.8); 
+    -webkit-box-shadow: 	inset 0 0 3px rgba(0,0,0,0.5); 
+}
+
+.cam-dtal-lion-custom-scrollbar::-webkit-scrollbar-thumb:window-inactive {
+	background: 			rgba(120,120,120,0.4); 
+}
+
+/********************************************/
+/********************************************/
+/********************************************/
+/******* Mobile-specific customization ******/
+/********************************************/
+/********************************************/
+/********************************************/
+
+@media only screen and (max-width: 767px) {
+
+	.cam-dtal-lion-filter-type {
+		width:				40px;
+	}
+
+	.cam-dtal-lion-filter-type-element i {
+		float:				none!important;
+	}
+
+	.cam-dtal-lion-filter-type-element-description {
+		display:			none;		
+	}
+
+	.disabled.cam-dtal-lion-filter-type-element i {
+		background: 		inherit;
+	}
+
+	.cam-dtal-lion-mainmenu-link {
+		display: 			none;
+	}
+
+	.cam-dtal-lion-topbar-mainmenu-icon {
+		padding-left: 		9px!important;
+		padding-right: 		0px!important;
+	}
+
+	.cam-dtal-lion-copyright {
+		top:				20px;
+		pointer-events:		none;
+		text-align:			center;
+		left:				50%;
+	    -webkit-transform: 	translate(-50%, 0);
+	    -moz-transform: 	translate(-50%, 0);
+	    -ms-transform: 		translate(-50%, 0);
+	    -o-transform: 		translate(-50%, 0);
+	    transform: 			translate(-50%, 0);
+	}
+
+	.cam-dtal-lion-filter-date {
+		text-align:			center;
+		width:				200px;
+	    bottom: 			115px;
+		left:				50%;
+	    -webkit-transform: 	translate(-50%, 0);
+	    -moz-transform: 	translate(-50%, 0);
+	    -ms-transform: 		translate(-50%, 0);
+	    -o-transform: 		translate(-50%, 0);
+	    transform: 			translate(-50%, 0);	    
+	}
+
+	.cam-dtal-lion-filter-weight {
+		text-align:			center;
+		width:				200px;
+	    bottom: 			200px;
+		left:				50%;
+	    -webkit-transform: 	translate(-50%, 0);
+	    -moz-transform: 	translate(-50%, 0);
+	    -ms-transform: 		translate(-50%, 0);
+	    -o-transform: 		translate(-50%, 0);
+	    transform: 			translate(-50%, 0);	    
+	}
+	
+	.ui.pointing.label.cam-dtal-lion-filter-range-year-start-value,
+	.ui.pointing.label.cam-dtal-lion-filter-range-year-end-value,
+	.ui.pointing.label.cam-dtal-lion-filter-range-weight-start-value,
+	.ui.pointing.label.cam-dtal-lion-filter-range-weight-end-value {
+	    left: 				3px!important;
+	}
+
+	.cam-dtal-lion-visualization-canvas-info {
+		text-align:			center;
+		width:				100%;
+	    top: 				40px;
+		left:				50%;
+	    -webkit-transform: 	translate(-50%, 0);
+	    -moz-transform: 	translate(-50%, 0);
+	    -ms-transform: 		translate(-50%, 0);
+	    -o-transform: 		translate(-50%, 0);
+	    transform: 			translate(-50%, 0);	    
+	}
+
+	.cam-dtal-lion-visualization-graph-add-term {
+		text-align:			center;
+	    top: 				65px;	
+		left:				50%;
+	    -webkit-transform: 	translate(-50%, 0);
+	    -moz-transform: 	translate(-50%, 0);
+	    -ms-transform: 		translate(-50%, 0);
+	    -o-transform: 		translate(-50%, 0);
+	    transform: 			translate(-50%, 0);
+	}
+
+	#cam-dtal-lion-tooltip {
+		border: 			0px;
+		-webkit-border-radius:	0px;
+		-moz-border-radius: 0px;
+		border-radius: 		0px;
+		-webkit-box-shadow: 0px 0px 20px rgba(0,0,0,.2);
+		-moz-box-shadow: 	0px 0px 20px rgba(0,0,0,.2);
+		box-shadow: 		0px 0px 20px rgba(0,0,0,.2);	
+	}
+
+	.cam-dtal-lion-topbar-element-title {
+		display:			none!important; 
+	}
+	
+	.ui.right.sidebar {
+		width: 				100%;
+	}
+}
+
+/********************************************/
+/********************************************/
+/********************************************/
+/************ Entity type colours ***********/
+/********************************************/
+/********************************************/
+/********************************************/
+
+a.ui.label[data-value='Chemical'],
+.Chemical {
+	fill: 					#8fcfff!important;
+	background: 			#8fcfff!important;	
+}
+
+a.ui.label[data-value='Disease'],
+.Disease {
+	fill: 					#ee5a5a!important;
+	background: 			#ee5a5a!important;	
+}
+
+
+a.ui.label[data-value='Mutation'],
+.Mutation {
+	fill: 					#ffa500!important;
+	background: 			#ffa500!important;	
+}
+
+a.ui.label[data-value='DNAMutation'],
+.DNAMutation {
+	fill: 					#ffa500!important;
+	background: 			#ffa500!important;	
+}
+
+/*
+a.ui.label[data-value='ProteinMutation'],
+.ProteinMutation {
+	color:					white!important;
+	fill: 					#008080!important;
+	background: 			#008080!important;	
+}
+
+a.ui.label[data-value='SNP'],
+.SNP {
+	fill: 					#00ffff!important;
+	background: 			#00ffff!important;	
+}
+*/
+
+
+a.ui.label[data-value='ProteinMutation'],
+.ProteinMutation {
+	fill: 					#ffa500!important;
+	background: 			#ffa500!important;	
+}
+
+a.ui.label[data-value='SNP'],
+.SNP {
+	fill: 					#ffa500!important;
+	background: 			#ffa500!important;	
+}
+
+
+a.ui.label[data-value='Gene'],
+.Gene {
+	color:					white!important;
+	fill: 					#7fa2ff!important;
+	background: 			#7fa2ff!important;	
+}
+
+a.ui.label[data-value='Hallmark'],
+.Hallmark {
+	color:					white!important;
+	fill: 					#9b7aff!important;
+	background: 			#9b7aff!important;	
+}
+
+a.ui.label[data-value='Species'],
+.Species {
+	fill: 					#f5f5dc!important;
+	background: 			#f5f5dc!important;
+}
+

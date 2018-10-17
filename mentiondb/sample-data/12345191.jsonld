@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:C536298",
+      "type": "Disease"
+    },
+    "id": "PMID:12345191/ann/0",
+    "target": "PMID:12345191/text#char=489,503",
+    "text": "incompleteness",
+    "type": "Span"
+  }
+]

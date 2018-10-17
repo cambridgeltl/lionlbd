@@ -1,0 +1,162 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345094/ann/0",
+    "target": "PMID:12345094/text#char=1214,1218",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D065309",
+      "type": "Disease"
+    },
+    "id": "PMID:12345094/ann/1",
+    "target": "PMID:12345094/text#char=1466,1468",
+    "text": "US",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345094/ann/2",
+    "target": "PMID:12345094/text#char=143,177",
+    "text": "Acquired Immunodeficiency Syndrome",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345094/ann/3",
+    "target": "PMID:12345094/text#char=946,950",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345094/ann/4",
+    "target": "PMID:12345094/text#char=179,183",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345094/ann/5",
+    "target": "PMID:12345094/text#char=958,962",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345094/ann/6",
+    "target": "PMID:12345094/text#char=763,767",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345094/ann/7",
+    "target": "PMID:12345094/text#char=376,381",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:11709",
+      "type": "Species"
+    },
+    "id": "PMID:12345094/ann/8",
+    "target": "PMID:12345094/text#char=946,956",
+    "text": "AIDS virus",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345094/ann/9",
+    "target": "PMID:12345094/text#char=1629,1632",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345094/ann/10",
+    "target": "PMID:12345094/text#char=1637,1642",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345094/ann/2",
+      "to": "PMID:12345094/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345094/ann/11",
+    "target": "PMID:12345094/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345094/ann/3",
+      "to": "PMID:12345094/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345094/ann/12",
+    "target": "PMID:12345094/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345094/ann/3",
+      "to": "PMID:12345094/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345094/ann/13",
+    "target": "PMID:12345094/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345094/ann/5",
+      "to": "PMID:12345094/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345094/ann/14",
+    "target": "PMID:12345094/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345094/ann/9",
+      "to": "PMID:12345094/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345094/ann/15",
+    "target": "PMID:12345094/text",
+    "type": "Relation"
+  }
+]

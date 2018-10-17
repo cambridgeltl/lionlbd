@@ -1,0 +1,32 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345056/ann/0",
+    "target": "PMID:12345056/text#char=40,46",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345056/ann/1",
+    "target": "PMID:12345056/text#char=195,201",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345056/ann/2",
+    "target": "PMID:12345056/text#char=480,483",
+    "text": "men",
+    "type": "Span"
+  }
+]

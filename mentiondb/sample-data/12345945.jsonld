@@ -1,0 +1,22 @@
+[
+  {
+    "body": {
+      "id": "MESH:D013036",
+      "type": "Disease"
+    },
+    "id": "PMID:12345945/ann/0",
+    "target": "PMID:12345945/text#char=292,305",
+    "text": "West Virginia",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345945/ann/1",
+    "target": "PMID:12345945/text#char=40,48",
+    "text": "children",
+    "type": "Span"
+  }
+]

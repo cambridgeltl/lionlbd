@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000544",
+      "type": "Disease"
+    },
+    "id": "PMID:12345591/ann/0",
+    "target": "PMID:12345591/text#char=47,67",
+    "text": "China's urbanization",
+    "type": "Span"
+  }
+]

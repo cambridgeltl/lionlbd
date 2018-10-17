@@ -1,0 +1,42 @@
+[
+  {
+    "body": {
+      "id": "MESH:D012640",
+      "type": "Disease"
+    },
+    "id": "PMID:12345038/ann/0",
+    "target": "PMID:12345038/text#char=287,305",
+    "text": "fitness hypothesis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345038/ann/1",
+    "target": "PMID:12345038/text#char=121,126",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345038/ann/2",
+    "target": "PMID:12345038/text#char=319,324",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345038/ann/0",
+      "to": "PMID:12345038/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345038/ann/3",
+    "target": "PMID:12345038/text",
+    "type": "Relation"
+  }
+]

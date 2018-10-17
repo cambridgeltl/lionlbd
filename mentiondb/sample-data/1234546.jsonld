@@ -1,0 +1,32 @@
+[
+  {
+    "body": {
+      "id": "MESH:D012774",
+      "type": "Disease"
+    },
+    "id": "PMID:1234546/ann/0",
+    "target": "PMID:1234546/text#char=23,38",
+    "text": "traumatic shock",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D006473",
+      "type": "Disease"
+    },
+    "id": "PMID:1234546/ann/1",
+    "target": "PMID:1234546/text#char=50,60",
+    "text": "blood loss",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234546/ann/0",
+      "to": "PMID:1234546/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234546/ann/2",
+    "target": "PMID:1234546/text",
+    "type": "Relation"
+  }
+]

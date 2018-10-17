@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:D004443",
+      "type": "Disease"
+    },
+    "id": "PMID:123453/ann/0",
+    "target": "PMID:123453/text#char=14,25",
+    "text": "hydatidosis",
+    "type": "Span"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345077/ann/0",
+    "target": "PMID:12345077/text#char=39,41",
+    "text": "Al",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345077/ann/1",
+    "target": "PMID:12345077/text#char=164,174",
+    "text": "Al-Jazirah",
+    "type": "Span"
+  }
+]

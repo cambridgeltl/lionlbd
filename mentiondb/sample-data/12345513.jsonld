@@ -1,0 +1,91 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345513/ann/0",
+    "target": "PMID:12345513/text#char=529,538",
+    "text": "telephone",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345513/ann/1",
+    "target": "PMID:12345513/text#char=216,221",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345513/ann/2",
+    "target": "PMID:12345513/text#char=275,280",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345513/ann/3",
+    "target": "PMID:12345513/text#char=477,482",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345513/ann/4",
+    "target": "PMID:12345513/text#char=638,643",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345513/ann/5",
+    "target": "PMID:12345513/text#char=1063,1068",
+    "text": "Women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345513/ann/0",
+      "to": "PMID:12345513/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345513/ann/6",
+    "target": "PMID:12345513/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345513/ann/0",
+      "to": "PMID:12345513/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345513/ann/7",
+    "target": "PMID:12345513/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345513/ann/1",
+      "to": "PMID:12345513/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345513/ann/8",
+    "target": "PMID:12345513/text",
+    "type": "Relation"
+  }
+]

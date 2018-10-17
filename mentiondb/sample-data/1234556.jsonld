@@ -1,0 +1,192 @@
+[
+  {
+    "body": {
+      "id": "CHEBI:29108",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234556/ann/0",
+    "target": "PMID:1234556/text#char=280,284",
+    "text": "Ca2+",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014700",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234556/ann/1",
+    "target": "PMID:1234556/text#char=321,330",
+    "text": "verapamil",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "CHEBI:29108",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234556/ann/2",
+    "target": "PMID:1234556/text#char=385,389",
+    "text": "Ca2+",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014700",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234556/ann/3",
+    "target": "PMID:1234556/text#char=493,502",
+    "text": "verapamil",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014700",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234556/ann/4",
+    "target": "PMID:1234556/text#char=14,23",
+    "text": "verapamil",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011188",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234556/ann/5",
+    "target": "PMID:1234556/text#char=27,36",
+    "text": "potassium",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014700",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234556/ann/6",
+    "target": "PMID:1234556/text#char=111,120",
+    "text": "verapamil",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9615",
+      "type": "Species"
+    },
+    "id": "PMID:1234556/ann/7",
+    "target": "PMID:1234556/text#char=47,53",
+    "text": "canine",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9615",
+      "type": "Species"
+    },
+    "id": "PMID:1234556/ann/8",
+    "target": "PMID:1234556/text#char=431,437",
+    "text": "canine",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234556/ann/0",
+      "to": "PMID:1234556/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234556/ann/9",
+    "target": "PMID:1234556/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234556/ann/1",
+      "to": "PMID:1234556/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234556/ann/10",
+    "target": "PMID:1234556/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234556/ann/2",
+      "to": "PMID:1234556/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234556/ann/11",
+    "target": "PMID:1234556/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234556/ann/3",
+      "to": "PMID:1234556/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234556/ann/12",
+    "target": "PMID:1234556/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234556/ann/4",
+      "to": "PMID:1234556/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234556/ann/13",
+    "target": "PMID:1234556/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234556/ann/4",
+      "to": "PMID:1234556/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234556/ann/14",
+    "target": "PMID:1234556/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234556/ann/4",
+      "to": "PMID:1234556/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234556/ann/15",
+    "target": "PMID:1234556/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234556/ann/5",
+      "to": "PMID:1234556/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234556/ann/16",
+    "target": "PMID:1234556/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234556/ann/5",
+      "to": "PMID:1234556/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234556/ann/17",
+    "target": "PMID:1234556/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234556/ann/6",
+      "to": "PMID:1234556/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234556/ann/18",
+    "target": "PMID:1234556/text",
+    "type": "Relation"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "body": {
+      "id": "MESH:D004967",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234563/ann/0",
+    "target": "PMID:1234563/text#char=0,9",
+    "text": "Estrogens",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D025101",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234563/ann/1",
+    "target": "PMID:1234563/text#char=14,24",
+    "text": "vitamin B6",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234563/ann/0",
+      "to": "PMID:1234563/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234563/ann/2",
+    "target": "PMID:1234563/text",
+    "type": "Relation"
+  }
+]

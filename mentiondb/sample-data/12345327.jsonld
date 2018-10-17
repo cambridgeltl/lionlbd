@@ -1,0 +1,109 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345327/ann/0",
+    "target": "PMID:12345327/text#char=486,490",
+    "text": "PPFN",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345327/ann/1",
+    "target": "PMID:12345327/text#char=775,779",
+    "text": "PPFN",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345327/ann/2",
+    "target": "PMID:12345327/text#char=1073,1077",
+    "text": "PPFN",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345327/ann/3",
+    "target": "PMID:12345327/text#char=77,82",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345327/ann/4",
+    "target": "PMID:12345327/text#char=140,148",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345327/ann/5",
+    "target": "PMID:12345327/text#char=703,709",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345327/ann/6",
+    "target": "PMID:12345327/text#char=767,773",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345327/ann/1",
+      "to": "PMID:12345327/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345327/ann/7",
+    "target": "PMID:12345327/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345327/ann/1",
+      "to": "PMID:12345327/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345327/ann/8",
+    "target": "PMID:12345327/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345327/ann/3",
+      "to": "PMID:12345327/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345327/ann/9",
+    "target": "PMID:12345327/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345327/ann/5",
+      "to": "PMID:12345327/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345327/ann/10",
+    "target": "PMID:12345327/text",
+    "type": "Relation"
+  }
+]

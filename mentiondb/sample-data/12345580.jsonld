@@ -1,0 +1,170 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345580/ann/0",
+    "target": "PMID:12345580/text#char=104,114",
+    "text": "Cuddington",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D006153",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345580/ann/1",
+    "target": "PMID:12345580/text#char=1143,1146",
+    "text": "GDP",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345580/ann/2",
+    "target": "PMID:12345580/text#char=1220,1230",
+    "text": "capita GDP",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345580/ann/3",
+    "target": "PMID:12345580/text#char=1206,1210",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345580/ann/4",
+    "target": "PMID:12345580/text#char=48,52",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345580/ann/5",
+    "target": "PMID:12345580/text#char=721,725",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345580/ann/6",
+    "target": "PMID:12345580/text#char=211,215",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345580/ann/7",
+    "target": "PMID:12345580/text#char=1493,1497",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345580/ann/8",
+    "target": "PMID:12345580/text#char=1266,1270",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345580/ann/9",
+    "target": "PMID:12345580/text#char=934,938",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345580/ann/0",
+      "to": "PMID:12345580/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345580/ann/10",
+    "target": "PMID:12345580/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345580/ann/0",
+      "to": "PMID:12345580/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345580/ann/11",
+    "target": "PMID:12345580/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345580/ann/1",
+      "to": "PMID:12345580/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345580/ann/12",
+    "target": "PMID:12345580/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345580/ann/1",
+      "to": "PMID:12345580/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345580/ann/13",
+    "target": "PMID:12345580/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345580/ann/2",
+      "to": "PMID:12345580/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345580/ann/14",
+    "target": "PMID:12345580/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345580/ann/2",
+      "to": "PMID:12345580/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345580/ann/15",
+    "target": "PMID:12345580/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345580/ann/3",
+      "to": "PMID:12345580/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345580/ann/16",
+    "target": "PMID:12345580/text",
+    "type": "Relation"
+  }
+]

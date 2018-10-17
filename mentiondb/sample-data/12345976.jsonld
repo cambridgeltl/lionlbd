@@ -1,0 +1,202 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9103",
+      "type": "Species"
+    },
+    "id": "PMID:12345976/ann/0",
+    "target": "PMID:12345976/text#char=30,36",
+    "text": "Turkey",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9103",
+      "type": "Species"
+    },
+    "id": "PMID:12345976/ann/1",
+    "target": "PMID:12345976/text#char=51,57",
+    "text": "Turkey",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9103",
+      "type": "Species"
+    },
+    "id": "PMID:12345976/ann/2",
+    "target": "PMID:12345976/text#char=296,302",
+    "text": "Turkey",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345976/ann/3",
+    "target": "PMID:12345976/text#char=566,569",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345976/ann/4",
+    "target": "PMID:12345976/text#char=583,588",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345976/ann/5",
+    "target": "PMID:12345976/text#char=754,757",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345976/ann/6",
+    "target": "PMID:12345976/text#char=769,774",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345976/ann/7",
+    "target": "PMID:12345976/text#char=780,786",
+    "text": "infant",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345976/ann/8",
+    "target": "PMID:12345976/text#char=944,950",
+    "text": "infant",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9103",
+      "type": "Species"
+    },
+    "id": "PMID:12345976/ann/9",
+    "target": "PMID:12345976/text#char=976,982",
+    "text": "Turkey",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9103",
+      "type": "Species"
+    },
+    "id": "PMID:12345976/ann/10",
+    "target": "PMID:12345976/text#char=1362,1368",
+    "text": "Turkey",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345976/ann/11",
+    "target": "PMID:12345976/text#char=1780,1785",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9103",
+      "type": "Species"
+    },
+    "id": "PMID:12345976/ann/12",
+    "target": "PMID:12345976/text#char=1927,1933",
+    "text": "Turkey",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9103",
+      "type": "Species"
+    },
+    "id": "PMID:12345976/ann/13",
+    "target": "PMID:12345976/text#char=2081,2087",
+    "text": "Turkey",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345976/ann/0",
+      "to": "PMID:12345976/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345976/ann/14",
+    "target": "PMID:12345976/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345976/ann/3",
+      "to": "PMID:12345976/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345976/ann/15",
+    "target": "PMID:12345976/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345976/ann/5",
+      "to": "PMID:12345976/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345976/ann/16",
+    "target": "PMID:12345976/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345976/ann/5",
+      "to": "PMID:12345976/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345976/ann/17",
+    "target": "PMID:12345976/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345976/ann/6",
+      "to": "PMID:12345976/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345976/ann/18",
+    "target": "PMID:12345976/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345976/ann/8",
+      "to": "PMID:12345976/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345976/ann/19",
+    "target": "PMID:12345976/text",
+    "type": "Relation"
+  }
+]

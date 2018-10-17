@@ -1,0 +1,21 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345505/ann/0",
+    "target": "PMID:12345505/text#char=297,300",
+    "text": "TDT",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345505/ann/1",
+    "target": "PMID:12345505/text#char=936,941",
+    "text": "human",
+    "type": "Span"
+  }
+]

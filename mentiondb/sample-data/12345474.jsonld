@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:D004194",
+      "type": "Disease"
+    },
+    "id": "PMID:12345474/ann/0",
+    "target": "PMID:12345474/text#char=261,279",
+    "text": "Diarrhoeal Disease",
+    "type": "Span"
+  }
+]

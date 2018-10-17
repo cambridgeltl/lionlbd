@@ -1,0 +1,41 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345659/ann/0",
+    "target": "PMID:12345659/text#char=723,734",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345659/ann/1",
+    "target": "PMID:12345659/text#char=143,150",
+    "text": "peoples",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345659/ann/2",
+    "target": "PMID:12345659/text#char=317,322",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345659/ann/3",
+    "target": "PMID:12345659/text#char=1502,1507",
+    "text": "women",
+    "type": "Span"
+  }
+]

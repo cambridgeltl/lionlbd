@@ -1,0 +1,172 @@
+[
+  {
+    "body": {
+      "id": "MESH:D014832",
+      "type": "Disease"
+    },
+    "id": "PMID:12345646/ann/0",
+    "target": "PMID:12345646/text#char=748,754",
+    "text": "voices",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345646/ann/1",
+    "target": "PMID:12345646/text#char=13,18",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345646/ann/2",
+    "target": "PMID:12345646/text#char=108,113",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345646/ann/3",
+    "target": "PMID:12345646/text#char=173,178",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345646/ann/4",
+    "target": "PMID:12345646/text#char=325,330",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345646/ann/5",
+    "target": "PMID:12345646/text#char=349,354",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345646/ann/6",
+    "target": "PMID:12345646/text#char=627,634",
+    "text": "persons",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345646/ann/7",
+    "target": "PMID:12345646/text#char=910,915",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345646/ann/8",
+    "target": "PMID:12345646/text#char=949,954",
+    "text": "Women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345646/ann/9",
+    "target": "PMID:12345646/text#char=1098,1103",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345646/ann/10",
+    "target": "PMID:12345646/text#char=1233,1238",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345646/ann/11",
+    "target": "PMID:12345646/text#char=1576,1581",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345646/ann/12",
+    "target": "PMID:12345646/text#char=1694,1699",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345646/ann/1",
+      "to": "PMID:12345646/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345646/ann/13",
+    "target": "PMID:12345646/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345646/ann/2",
+      "to": "PMID:12345646/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345646/ann/14",
+    "target": "PMID:12345646/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345646/ann/4",
+      "to": "PMID:12345646/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345646/ann/15",
+    "target": "PMID:12345646/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345646/ann/7",
+      "to": "PMID:12345646/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345646/ann/16",
+    "target": "PMID:12345646/text",
+    "type": "Relation"
+  }
+]

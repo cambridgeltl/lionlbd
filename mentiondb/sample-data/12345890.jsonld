@@ -1,0 +1,132 @@
+[
+  {
+    "body": {
+      "id": "MESH:D017258",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345890/ann/0",
+    "target": "PMID:12345890/text#char=704,731",
+    "text": "medroxyprogesterone acetate",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C050795",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345890/ann/1",
+    "target": "PMID:12345890/text#char=733,737",
+    "text": "DMPA",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C024319",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345890/ann/2",
+    "target": "PMID:12345890/text#char=743,767",
+    "text": "norethisterone enanthate",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004194",
+      "type": "Disease"
+    },
+    "id": "PMID:12345890/ann/3",
+    "target": "PMID:12345890/text#char=408,426",
+    "text": "Diarrhoeal Disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345890/ann/4",
+    "target": "PMID:12345890/text#char=320,325",
+    "text": "Child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345890/ann/5",
+    "target": "PMID:12345890/text#char=656,668",
+    "text": "participants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345890/ann/0",
+      "to": "PMID:12345890/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345890/ann/6",
+    "target": "PMID:12345890/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345890/ann/0",
+      "to": "PMID:12345890/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345890/ann/7",
+    "target": "PMID:12345890/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345890/ann/0",
+      "to": "PMID:12345890/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345890/ann/8",
+    "target": "PMID:12345890/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345890/ann/1",
+      "to": "PMID:12345890/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345890/ann/9",
+    "target": "PMID:12345890/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345890/ann/1",
+      "to": "PMID:12345890/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345890/ann/10",
+    "target": "PMID:12345890/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345890/ann/2",
+      "to": "PMID:12345890/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345890/ann/11",
+    "target": "PMID:12345890/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345890/ann/3",
+      "to": "PMID:12345890/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345890/ann/12",
+    "target": "PMID:12345890/text",
+    "type": "Relation"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:D002318",
+      "type": "Disease"
+    },
+    "id": "PMID:12345262/ann/0",
+    "target": "PMID:12345262/text#char=462,484",
+    "text": "cardiovascular disease",
+    "type": "Span"
+  }
+]

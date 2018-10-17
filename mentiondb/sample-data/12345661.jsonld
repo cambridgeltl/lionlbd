@@ -1,0 +1,21 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345661/ann/0",
+    "target": "PMID:12345661/text#char=2313,2319",
+    "text": "famine",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:5729",
+      "type": "Gene"
+    },
+    "id": "PMID:12345661/ann/1",
+    "target": "PMID:12345661/text#char=309,316",
+    "text": "as 1/50",
+    "type": "Span"
+  }
+]

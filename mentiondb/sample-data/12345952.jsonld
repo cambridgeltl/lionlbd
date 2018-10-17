@@ -1,0 +1,42 @@
+[
+  {
+    "body": {
+      "id": "EGID:5367",
+      "type": "Gene"
+    },
+    "id": "PMID:12345952/ann/0",
+    "target": "PMID:12345952/text#char=1168,1171",
+    "text": "MCH",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345952/ann/1",
+    "target": "PMID:12345952/text#char=209,216",
+    "text": "persons",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345952/ann/2",
+    "target": "PMID:12345952/text#char=951,957",
+    "text": "infant",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345952/ann/3",
+    "target": "PMID:12345952/text#char=1763,1769",
+    "text": "people",
+    "type": "Span"
+  }
+]

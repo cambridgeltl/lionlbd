@@ -1,0 +1,132 @@
+[
+  {
+    "body": {
+      "id": "MESH:D007732",
+      "type": "Disease"
+    },
+    "id": "PMID:12345440/ann/0",
+    "target": "PMID:12345440/text#char=1630,1641",
+    "text": "kwashiorkor",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001022",
+      "type": "Disease"
+    },
+    "id": "PMID:12345440/ann/1",
+    "target": "PMID:12345440/text#char=490,502",
+    "text": "incompetence",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007732",
+      "type": "Disease"
+    },
+    "id": "PMID:12345440/ann/2",
+    "target": "PMID:12345440/text#char=221,232",
+    "text": "kwashiorkor",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014077",
+      "type": "Disease"
+    },
+    "id": "PMID:12345440/ann/3",
+    "target": "PMID:12345440/text#char=353,380",
+    "text": "deforestation, land erosion",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007732",
+      "type": "Disease"
+    },
+    "id": "PMID:12345440/ann/4",
+    "target": "PMID:12345440/text#char=1173,1184",
+    "text": "kwashiorkor",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345440/ann/5",
+    "target": "PMID:12345440/text#char=251,259",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345440/ann/6",
+    "target": "PMID:12345440/text#char=1005,1010",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345440/ann/7",
+    "target": "PMID:12345440/text#char=1313,1321",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345440/ann/8",
+    "target": "PMID:12345440/text#char=1492,1500",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345440/ann/9",
+    "target": "PMID:12345440/text#char=1976,1982",
+    "text": "People",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345440/ann/10",
+    "target": "PMID:12345440/text#char=2632,2638",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345440/ann/2",
+      "to": "PMID:12345440/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345440/ann/11",
+    "target": "PMID:12345440/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345440/ann/3",
+      "to": "PMID:12345440/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345440/ann/12",
+    "target": "PMID:12345440/text",
+    "type": "Relation"
+  }
+]

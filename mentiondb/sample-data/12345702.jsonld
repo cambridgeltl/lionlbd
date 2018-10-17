@@ -1,0 +1,302 @@
+[
+  {
+    "body": {
+      "id": "MESH:D007501",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345702/ann/0",
+    "target": "PMID:12345702/text#char=1193,1197",
+    "text": "iron",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D005492",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345702/ann/1",
+    "target": "PMID:12345702/text#char=1202,1212",
+    "text": "folic acid",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014549",
+      "type": "Disease"
+    },
+    "id": "PMID:12345702/ann/2",
+    "target": "PMID:12345702/text#char=678,690",
+    "text": "incontinence",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D005402",
+      "type": "Disease"
+    },
+    "id": "PMID:12345702/ann/3",
+    "target": "PMID:12345702/text#char=395,402",
+    "text": "fistula",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D005402",
+      "type": "Disease"
+    },
+    "id": "PMID:12345702/ann/4",
+    "target": "PMID:12345702/text#char=601,608",
+    "text": "fistula",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D005402",
+      "type": "Disease"
+    },
+    "id": "PMID:12345702/ann/5",
+    "target": "PMID:12345702/text#char=1493,1500",
+    "text": "fistula",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D005402",
+      "type": "Disease"
+    },
+    "id": "PMID:12345702/ann/6",
+    "target": "PMID:12345702/text#char=31,38",
+    "text": "fistula",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014719",
+      "type": "Disease"
+    },
+    "id": "PMID:12345702/ann/7",
+    "target": "PMID:12345702/text#char=134,156",
+    "text": "vesico-vaginal fistula",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D005402",
+      "type": "Disease"
+    },
+    "id": "PMID:12345702/ann/8",
+    "target": "PMID:12345702/text#char=214,221",
+    "text": "fistula",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D005402",
+      "type": "Disease"
+    },
+    "id": "PMID:12345702/ann/9",
+    "target": "PMID:12345702/text#char=1581,1588",
+    "text": "fistula",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345702/ann/10",
+    "target": "PMID:12345702/text#char=417,425",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345702/ann/11",
+    "target": "PMID:12345702/text#char=492,500",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345702/ann/12",
+    "target": "PMID:12345702/text#char=588,596",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345702/ann/13",
+    "target": "PMID:12345702/text#char=793,801",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345702/ann/14",
+    "target": "PMID:12345702/text#char=971,979",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345702/ann/15",
+    "target": "PMID:12345702/text#char=1081,1089",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345702/ann/16",
+    "target": "PMID:12345702/text#char=1670,1675",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345702/ann/17",
+    "target": "PMID:12345702/text#char=1897,1902",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345702/ann/0",
+      "to": "PMID:12345702/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345702/ann/18",
+    "target": "PMID:12345702/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345702/ann/2",
+      "to": "PMID:12345702/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345702/ann/19",
+    "target": "PMID:12345702/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345702/ann/2",
+      "to": "PMID:12345702/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345702/ann/20",
+    "target": "PMID:12345702/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345702/ann/3",
+      "to": "PMID:12345702/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345702/ann/21",
+    "target": "PMID:12345702/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345702/ann/3",
+      "to": "PMID:12345702/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345702/ann/22",
+    "target": "PMID:12345702/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345702/ann/4",
+      "to": "PMID:12345702/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345702/ann/23",
+    "target": "PMID:12345702/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345702/ann/5",
+      "to": "PMID:12345702/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345702/ann/24",
+    "target": "PMID:12345702/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345702/ann/6",
+      "to": "PMID:12345702/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345702/ann/25",
+    "target": "PMID:12345702/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345702/ann/7",
+      "to": "PMID:12345702/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345702/ann/26",
+    "target": "PMID:12345702/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345702/ann/9",
+      "to": "PMID:12345702/ann/16",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345702/ann/27",
+    "target": "PMID:12345702/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345702/ann/10",
+      "to": "PMID:12345702/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345702/ann/28",
+    "target": "PMID:12345702/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345702/ann/11",
+      "to": "PMID:12345702/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345702/ann/29",
+    "target": "PMID:12345702/text",
+    "type": "Relation"
+  }
+]

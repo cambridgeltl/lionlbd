@@ -1,0 +1,82 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000031",
+      "type": "Disease"
+    },
+    "id": "PMID:12345315/ann/0",
+    "target": "PMID:12345315/text#char=1236,1244",
+    "text": "abortion",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000031",
+      "type": "Disease"
+    },
+    "id": "PMID:12345315/ann/1",
+    "target": "PMID:12345315/text#char=84,92",
+    "text": "abortion",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000031",
+      "type": "Disease"
+    },
+    "id": "PMID:12345315/ann/2",
+    "target": "PMID:12345315/text#char=152,160",
+    "text": "abortion",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000031",
+      "type": "Disease"
+    },
+    "id": "PMID:12345315/ann/3",
+    "target": "PMID:12345315/text#char=397,405",
+    "text": "abortion",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000031",
+      "type": "Disease"
+    },
+    "id": "PMID:12345315/ann/4",
+    "target": "PMID:12345315/text#char=1105,1113",
+    "text": "abortion",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345315/ann/5",
+    "target": "PMID:12345315/text#char=342,347",
+    "text": "Human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345315/ann/1",
+      "to": "PMID:12345315/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345315/ann/6",
+    "target": "PMID:12345315/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345315/ann/3",
+      "to": "PMID:12345315/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345315/ann/7",
+    "target": "PMID:12345315/text",
+    "type": "Relation"
+  }
+]

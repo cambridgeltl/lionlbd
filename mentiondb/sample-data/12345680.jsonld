@@ -1,0 +1,112 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345680/ann/0",
+    "target": "PMID:12345680/text#char=249,254",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345680/ann/1",
+    "target": "PMID:12345680/text#char=527,532",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345680/ann/2",
+    "target": "PMID:12345680/text#char=602,608",
+    "text": "infant",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345680/ann/3",
+    "target": "PMID:12345680/text#char=610,615",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345680/ann/4",
+    "target": "PMID:12345680/text#char=975,987",
+    "text": "Participants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345680/ann/5",
+    "target": "PMID:12345680/text#char=1014,1021",
+    "text": "Persons",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345680/ann/6",
+    "target": "PMID:12345680/text#char=1327,1332",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345680/ann/1",
+      "to": "PMID:12345680/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345680/ann/7",
+    "target": "PMID:12345680/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345680/ann/1",
+      "to": "PMID:12345680/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345680/ann/8",
+    "target": "PMID:12345680/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345680/ann/2",
+      "to": "PMID:12345680/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345680/ann/9",
+    "target": "PMID:12345680/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345680/ann/4",
+      "to": "PMID:12345680/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345680/ann/10",
+    "target": "PMID:12345680/text",
+    "type": "Relation"
+  }
+]

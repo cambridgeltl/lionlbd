@@ -1,0 +1,192 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345668/ann/0",
+    "target": "PMID:12345668/text#char=46,50",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345668/ann/1",
+    "target": "PMID:12345668/text#char=285,289",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345668/ann/2",
+    "target": "PMID:12345668/text#char=1581,1586",
+    "text": "death",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345668/ann/3",
+    "target": "PMID:12345668/text#char=129,133",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001008",
+      "type": "Disease"
+    },
+    "id": "PMID:12345668/ann/4",
+    "target": "PMID:12345668/text#char=1021,1028",
+    "text": "anxiety",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345668/ann/5",
+    "target": "PMID:12345668/text#char=6,12",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345668/ann/6",
+    "target": "PMID:12345668/text#char=774,780",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345668/ann/7",
+    "target": "PMID:12345668/text#char=984,990",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345668/ann/8",
+    "target": "PMID:12345668/text#char=1109,1117",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345668/ann/9",
+    "target": "PMID:12345668/text#char=1194,1200",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345668/ann/10",
+    "target": "PMID:12345668/text#char=1263,1271",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345668/ann/11",
+    "target": "PMID:12345668/text#char=1572,1578",
+    "text": "person",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345668/ann/0",
+      "to": "PMID:12345668/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345668/ann/12",
+    "target": "PMID:12345668/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345668/ann/0",
+      "to": "PMID:12345668/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345668/ann/13",
+    "target": "PMID:12345668/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345668/ann/2",
+      "to": "PMID:12345668/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345668/ann/14",
+    "target": "PMID:12345668/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345668/ann/4",
+      "to": "PMID:12345668/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345668/ann/15",
+    "target": "PMID:12345668/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345668/ann/4",
+      "to": "PMID:12345668/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345668/ann/16",
+    "target": "PMID:12345668/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345668/ann/8",
+      "to": "PMID:12345668/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345668/ann/17",
+    "target": "PMID:12345668/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345668/ann/9",
+      "to": "PMID:12345668/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345668/ann/18",
+    "target": "PMID:12345668/text",
+    "type": "Relation"
+  }
+]

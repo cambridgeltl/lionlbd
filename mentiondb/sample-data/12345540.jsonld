@@ -1,0 +1,102 @@
+[
+  {
+    "body": {
+      "id": "MESH:D013746",
+      "type": "Disease"
+    },
+    "id": "PMID:12345540/ann/0",
+    "target": "PMID:12345540/text#char=1135,1142",
+    "text": "tetanus",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D013746",
+      "type": "Disease"
+    },
+    "id": "PMID:12345540/ann/1",
+    "target": "PMID:12345540/text#char=93,100",
+    "text": "tetanus",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011051",
+      "type": "Disease"
+    },
+    "id": "PMID:12345540/ann/2",
+    "target": "PMID:12345540/text#char=78,91",
+    "text": "poliomyelitis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004165",
+      "type": "Disease"
+    },
+    "id": "PMID:12345540/ann/3",
+    "target": "PMID:12345540/text#char=102,112",
+    "text": "diphtheria",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004165",
+      "type": "Disease"
+    },
+    "id": "PMID:12345540/ann/4",
+    "target": "PMID:12345540/text#char=1450,1460",
+    "text": "diphtheria",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011051",
+      "type": "Disease"
+    },
+    "id": "PMID:12345540/ann/5",
+    "target": "PMID:12345540/text#char=1073,1086",
+    "text": "poliomyelitis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345540/ann/0",
+      "to": "PMID:12345540/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345540/ann/6",
+    "target": "PMID:12345540/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345540/ann/1",
+      "to": "PMID:12345540/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345540/ann/7",
+    "target": "PMID:12345540/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345540/ann/1",
+      "to": "PMID:12345540/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345540/ann/8",
+    "target": "PMID:12345540/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345540/ann/2",
+      "to": "PMID:12345540/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345540/ann/9",
+    "target": "PMID:12345540/text",
+    "type": "Relation"
+  }
+]

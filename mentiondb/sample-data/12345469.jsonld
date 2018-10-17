@@ -1,0 +1,192 @@
+[
+  {
+    "body": {
+      "id": "MESH:D002658",
+      "type": "Disease"
+    },
+    "id": "PMID:12345469/ann/0",
+    "target": "PMID:12345469/text#char=290,294",
+    "text": "UNDP",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003967",
+      "type": "Disease"
+    },
+    "id": "PMID:12345469/ann/1",
+    "target": "PMID:12345469/text#char=1086,1094",
+    "text": "diarrhea",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002658",
+      "type": "Disease"
+    },
+    "id": "PMID:12345469/ann/2",
+    "target": "PMID:12345469/text#char=50,74",
+    "text": "UN Development Programme",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003967",
+      "type": "Disease"
+    },
+    "id": "PMID:12345469/ann/3",
+    "target": "PMID:12345469/text#char=1439,1447",
+    "text": "diarrhea",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002658",
+      "type": "Disease"
+    },
+    "id": "PMID:12345469/ann/4",
+    "target": "PMID:12345469/text#char=76,80",
+    "text": "UNDP",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003967",
+      "type": "Disease"
+    },
+    "id": "PMID:12345469/ann/5",
+    "target": "PMID:12345469/text#char=1110,1118",
+    "text": "diarrhea",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002658",
+      "type": "Disease"
+    },
+    "id": "PMID:12345469/ann/6",
+    "target": "PMID:12345469/text#char=343,347",
+    "text": "UNDP",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D044342",
+      "type": "Disease"
+    },
+    "id": "PMID:12345469/ann/7",
+    "target": "PMID:12345469/text#char=1391,1403",
+    "text": "malnutrition",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004194",
+      "type": "Disease"
+    },
+    "id": "PMID:12345469/ann/8",
+    "target": "PMID:12345469/text#char=187,205",
+    "text": "Diarrhoeal Disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345469/ann/9",
+    "target": "PMID:12345469/text#char=439,445",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345469/ann/10",
+    "target": "PMID:12345469/text#char=960,965",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345469/ann/11",
+    "target": "PMID:12345469/text#char=1206,1211",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345469/ann/0",
+      "to": "PMID:12345469/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345469/ann/12",
+    "target": "PMID:12345469/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345469/ann/0",
+      "to": "PMID:12345469/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345469/ann/13",
+    "target": "PMID:12345469/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345469/ann/1",
+      "to": "PMID:12345469/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345469/ann/14",
+    "target": "PMID:12345469/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345469/ann/2",
+      "to": "PMID:12345469/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345469/ann/15",
+    "target": "PMID:12345469/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345469/ann/3",
+      "to": "PMID:12345469/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345469/ann/16",
+    "target": "PMID:12345469/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345469/ann/5",
+      "to": "PMID:12345469/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345469/ann/17",
+    "target": "PMID:12345469/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345469/ann/6",
+      "to": "PMID:12345469/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345469/ann/18",
+    "target": "PMID:12345469/text",
+    "type": "Relation"
+  }
+]

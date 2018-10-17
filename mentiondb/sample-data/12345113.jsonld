@@ -1,0 +1,31 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345113/ann/0",
+    "target": "PMID:12345113/text#char=51,57",
+    "text": "Lester",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345113/ann/1",
+    "target": "PMID:12345113/text#char=2079,2084",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345113/ann/2",
+    "target": "PMID:12345113/text#char=2285,2290",
+    "text": "women",
+    "type": "Span"
+  }
+]

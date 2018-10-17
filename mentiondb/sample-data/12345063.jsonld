@@ -1,0 +1,72 @@
+[
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:12345063/ann/0",
+    "target": "PMID:12345063/text#char=0,6",
+    "text": "Cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:12345063/ann/1",
+    "target": "PMID:12345063/text#char=126,132",
+    "text": "cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345063/ann/2",
+    "target": "PMID:12345063/text#char=179,184",
+    "text": "death",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:12345063/ann/3",
+    "target": "PMID:12345063/text#char=62,68",
+    "text": "cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345063/ann/0",
+      "to": "PMID:12345063/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345063/ann/4",
+    "target": "PMID:12345063/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345063/ann/1",
+      "to": "PMID:12345063/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345063/ann/5",
+    "target": "PMID:12345063/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345063/ann/1",
+      "to": "PMID:12345063/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345063/ann/6",
+    "target": "PMID:12345063/text",
+    "type": "Relation"
+  }
+]

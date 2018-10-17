@@ -1,0 +1,182 @@
+[
+  {
+    "body": {
+      "id": "MESH:D002118",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234548/ann/0",
+    "target": "PMID:1234548/text#char=58,65",
+    "text": "calcium",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011410",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234548/ann/1",
+    "target": "PMID:1234548/text#char=106,113",
+    "text": "Epontol",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002118",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234548/ann/2",
+    "target": "PMID:1234548/text#char=826,833",
+    "text": "calcium",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002118",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234548/ann/3",
+    "target": "PMID:1234548/text#char=919,926",
+    "text": "calcium",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002118",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234548/ann/4",
+    "target": "PMID:1234548/text#char=948,955",
+    "text": "calcium",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011410",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234548/ann/5",
+    "target": "PMID:1234548/text#char=1007,1017",
+    "text": "Propanidid",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002118",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234548/ann/6",
+    "target": "PMID:1234548/text#char=1174,1181",
+    "text": "calcium",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002118",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234548/ann/7",
+    "target": "PMID:1234548/text#char=1288,1295",
+    "text": "calcium",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002118",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234548/ann/8",
+    "target": "PMID:1234548/text#char=1530,1537",
+    "text": "calcium",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:10141",
+      "type": "Species"
+    },
+    "id": "PMID:1234548/ann/9",
+    "target": "PMID:1234548/text#char=238,248",
+    "text": "guinea pig",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:10141",
+      "type": "Species"
+    },
+    "id": "PMID:1234548/ann/10",
+    "target": "PMID:1234548/text#char=1108,1118",
+    "text": "guinea pig",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234548/ann/0",
+      "to": "PMID:1234548/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234548/ann/11",
+    "target": "PMID:1234548/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234548/ann/2",
+      "to": "PMID:1234548/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234548/ann/12",
+    "target": "PMID:1234548/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234548/ann/3",
+      "to": "PMID:1234548/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234548/ann/13",
+    "target": "PMID:1234548/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234548/ann/3",
+      "to": "PMID:1234548/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234548/ann/14",
+    "target": "PMID:1234548/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234548/ann/4",
+      "to": "PMID:1234548/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234548/ann/15",
+    "target": "PMID:1234548/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234548/ann/5",
+      "to": "PMID:1234548/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234548/ann/16",
+    "target": "PMID:1234548/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234548/ann/6",
+      "to": "PMID:1234548/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234548/ann/17",
+    "target": "PMID:1234548/text",
+    "type": "Relation"
+  }
+]

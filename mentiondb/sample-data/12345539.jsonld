@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:D013746",
+      "type": "Disease"
+    },
+    "id": "PMID:12345539/ann/0",
+    "target": "PMID:12345539/text#char=366,373",
+    "text": "tetanus",
+    "type": "Span"
+  }
+]

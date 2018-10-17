@@ -1,0 +1,11 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345753/ann/0",
+    "target": "PMID:12345753/text#char=949,957",
+    "text": "doctrine",
+    "type": "Span"
+  }
+]

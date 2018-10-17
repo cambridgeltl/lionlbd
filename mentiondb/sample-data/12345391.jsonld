@@ -1,0 +1,102 @@
+[
+  {
+    "body": {
+      "id": "MESH:D004403",
+      "type": "Disease"
+    },
+    "id": "PMID:12345391/ann/0",
+    "target": "PMID:12345391/text#char=55,72",
+    "text": "diarrheal disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345391/ann/1",
+    "target": "PMID:12345391/text#char=187,193",
+    "text": "deaths",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003967",
+      "type": "Disease"
+    },
+    "id": "PMID:12345391/ann/2",
+    "target": "PMID:12345391/text#char=459,467",
+    "text": "diarrhea",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004403",
+      "type": "Disease"
+    },
+    "id": "PMID:12345391/ann/3",
+    "target": "PMID:12345391/text#char=115,132",
+    "text": "diarrheal illness",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003967",
+      "type": "Disease"
+    },
+    "id": "PMID:12345391/ann/4",
+    "target": "PMID:12345391/text#char=151,159",
+    "text": "diarrhea",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345391/ann/0",
+      "to": "PMID:12345391/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345391/ann/5",
+    "target": "PMID:12345391/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345391/ann/0",
+      "to": "PMID:12345391/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345391/ann/6",
+    "target": "PMID:12345391/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345391/ann/1",
+      "to": "PMID:12345391/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345391/ann/7",
+    "target": "PMID:12345391/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345391/ann/1",
+      "to": "PMID:12345391/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345391/ann/8",
+    "target": "PMID:12345391/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345391/ann/3",
+      "to": "PMID:12345391/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345391/ann/9",
+    "target": "PMID:12345391/text",
+    "type": "Relation"
+  }
+]

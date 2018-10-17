@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "EGID:6606",
+      "type": "Gene"
+    },
+    "id": "PMID:12345856/ann/0",
+    "target": "PMID:12345856/text#char=603,606",
+    "text": "SMA",
+    "type": "Span"
+  }
+]

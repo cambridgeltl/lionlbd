@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:D004967",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234567/ann/0",
+    "target": "PMID:1234567/text#char=37,45",
+    "text": "estrogen",
+    "type": "Span"
+  }
+]

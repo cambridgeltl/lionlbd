@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:D050497",
+      "type": "Disease"
+    },
+    "id": "PMID:12345342/ann/0",
+    "target": "PMID:12345342/text#char=93,104",
+    "text": "stillbirths",
+    "type": "Span"
+  }
+]

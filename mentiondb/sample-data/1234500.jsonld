@@ -1,0 +1,32 @@
+[
+  {
+    "body": {
+      "id": "MESH:D010672",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234500/ann/0",
+    "target": "PMID:1234500/text#char=15,24",
+    "text": "phenytoin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002744",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234500/ann/1",
+    "target": "PMID:1234500/text#char=30,46",
+    "text": "chlorpheniramine",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234500/ann/0",
+      "to": "PMID:1234500/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234500/ann/2",
+    "target": "PMID:1234500/text",
+    "type": "Relation"
+  }
+]

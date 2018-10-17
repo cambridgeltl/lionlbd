@@ -1,0 +1,292 @@
+[
+  {
+    "body": {
+      "id": "CHEBI:61432",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345026/ann/0",
+    "target": "PMID:12345026/text#char=306,309",
+    "text": "tPA",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004997",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345026/ann/1",
+    "target": "PMID:12345026/text#char=488,505",
+    "text": "ethinyl estradiol",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "CHEBI:61432",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345026/ann/2",
+    "target": "PMID:12345026/text#char=691,694",
+    "text": "tPA",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "CHEBI:61432",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345026/ann/3",
+    "target": "PMID:12345026/text#char=998,1001",
+    "text": "tPA",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004967",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345026/ann/4",
+    "target": "PMID:12345026/text#char=1175,1183",
+    "text": "estrogen",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D013923",
+      "type": "Disease"
+    },
+    "id": "PMID:12345026/ann/5",
+    "target": "PMID:12345026/text#char=230,245",
+    "text": "thromboembolism",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:100128998",
+      "type": "Gene"
+    },
+    "id": "PMID:12345026/ann/6",
+    "target": "PMID:12345026/text#char=276,304",
+    "text": "tissue plasminogen activator",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:5054",
+      "type": "Gene"
+    },
+    "id": "PMID:12345026/ann/7",
+    "target": "PMID:12345026/text#char=770,773",
+    "text": "PAI",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:5054",
+      "type": "Gene"
+    },
+    "id": "PMID:12345026/ann/8",
+    "target": "PMID:12345026/text#char=1006,1009",
+    "text": "PAI",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:5054",
+      "type": "Gene"
+    },
+    "id": "PMID:12345026/ann/9",
+    "target": "PMID:12345026/text#char=316,347",
+    "text": "plasminogen activator inhibitor",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:5054",
+      "type": "Gene"
+    },
+    "id": "PMID:12345026/ann/10",
+    "target": "PMID:12345026/text#char=349,352",
+    "text": "PAI",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345026/ann/11",
+    "target": "PMID:12345026/text#char=25,30",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345026/ann/12",
+    "target": "PMID:12345026/text#char=440,445",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345026/ann/13",
+    "target": "PMID:12345026/text#char=632,637",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345026/ann/0",
+      "to": "PMID:12345026/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345026/ann/14",
+    "target": "PMID:12345026/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345026/ann/0",
+      "to": "PMID:12345026/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345026/ann/15",
+    "target": "PMID:12345026/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345026/ann/0",
+      "to": "PMID:12345026/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345026/ann/16",
+    "target": "PMID:12345026/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345026/ann/0",
+      "to": "PMID:12345026/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345026/ann/17",
+    "target": "PMID:12345026/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345026/ann/1",
+      "to": "PMID:12345026/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345026/ann/18",
+    "target": "PMID:12345026/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345026/ann/2",
+      "to": "PMID:12345026/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345026/ann/19",
+    "target": "PMID:12345026/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345026/ann/2",
+      "to": "PMID:12345026/ann/13",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345026/ann/20",
+    "target": "PMID:12345026/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345026/ann/3",
+      "to": "PMID:12345026/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345026/ann/21",
+    "target": "PMID:12345026/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345026/ann/5",
+      "to": "PMID:12345026/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345026/ann/22",
+    "target": "PMID:12345026/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345026/ann/5",
+      "to": "PMID:12345026/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345026/ann/23",
+    "target": "PMID:12345026/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345026/ann/6",
+      "to": "PMID:12345026/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345026/ann/24",
+    "target": "PMID:12345026/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345026/ann/6",
+      "to": "PMID:12345026/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345026/ann/25",
+    "target": "PMID:12345026/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345026/ann/9",
+      "to": "PMID:12345026/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345026/ann/26",
+    "target": "PMID:12345026/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345026/ann/9",
+      "to": "PMID:12345026/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345026/ann/27",
+    "target": "PMID:12345026/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345026/ann/10",
+      "to": "PMID:12345026/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345026/ann/28",
+    "target": "PMID:12345026/text",
+    "type": "Relation"
+  }
+]

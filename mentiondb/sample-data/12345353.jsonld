@@ -1,0 +1,11 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345353/ann/0",
+    "target": "PMID:12345353/text#char=348,358",
+    "text": "Hypotheses",
+    "type": "Span"
+  }
+]

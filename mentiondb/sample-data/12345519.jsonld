@@ -1,0 +1,92 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345519/ann/0",
+    "target": "PMID:12345519/text#char=471,476",
+    "text": "girls",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345519/ann/1",
+    "target": "PMID:12345519/text#char=1381,1386",
+    "text": "girls",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345519/ann/2",
+    "target": "PMID:12345519/text#char=1527,1532",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345519/ann/3",
+    "target": "PMID:12345519/text#char=1723,1728",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345519/ann/4",
+    "target": "PMID:12345519/text#char=1775,1780",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345519/ann/5",
+    "target": "PMID:12345519/text#char=1982,1987",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345519/ann/6",
+    "target": "PMID:12345519/text#char=2064,2069",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345519/ann/3",
+      "to": "PMID:12345519/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345519/ann/7",
+    "target": "PMID:12345519/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345519/ann/5",
+      "to": "PMID:12345519/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345519/ann/8",
+    "target": "PMID:12345519/text",
+    "type": "Relation"
+  }
+]

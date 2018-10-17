@@ -1,0 +1,112 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000420",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234507/ann/0",
+    "target": "PMID:1234507/text#char=28,38",
+    "text": "salbutamol",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000420",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234507/ann/1",
+    "target": "PMID:1234507/text#char=199,209",
+    "text": "salbutamol",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000420",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234507/ann/2",
+    "target": "PMID:1234507/text#char=314,324",
+    "text": "Salbutamol",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000420",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234507/ann/3",
+    "target": "PMID:1234507/text#char=460,470",
+    "text": "salbutamol",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D013224",
+      "type": "Disease"
+    },
+    "id": "PMID:1234507/ann/4",
+    "target": "PMID:1234507/text#char=125,134",
+    "text": "asthmatic",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234507/ann/5",
+    "target": "PMID:1234507/text#char=135,143",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234507/ann/0",
+      "to": "PMID:1234507/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234507/ann/6",
+    "target": "PMID:1234507/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234507/ann/0",
+      "to": "PMID:1234507/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234507/ann/7",
+    "target": "PMID:1234507/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234507/ann/1",
+      "to": "PMID:1234507/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234507/ann/8",
+    "target": "PMID:1234507/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234507/ann/1",
+      "to": "PMID:1234507/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234507/ann/9",
+    "target": "PMID:1234507/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234507/ann/4",
+      "to": "PMID:1234507/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234507/ann/10",
+    "target": "PMID:1234507/text",
+    "type": "Relation"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345366/ann/0",
+    "target": "PMID:12345366/text#char=713,717",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345366/ann/1",
+    "target": "PMID:12345366/text#char=677,711",
+    "text": "acquired immunodeficiency syndrome",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345366/ann/0",
+      "to": "PMID:12345366/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345366/ann/2",
+    "target": "PMID:12345366/text",
+    "type": "Relation"
+  }
+]

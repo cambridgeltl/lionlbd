@@ -1,0 +1,182 @@
+[
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:12345948/ann/0",
+    "target": "PMID:12345948/text#char=1662,1667",
+    "text": "tumor",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011471",
+      "type": "Disease"
+    },
+    "id": "PMID:12345948/ann/1",
+    "target": "PMID:12345948/text#char=1036,1051",
+    "text": "prostate cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:12345948/ann/2",
+    "target": "PMID:12345948/text#char=929,935",
+    "text": "cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011471",
+      "type": "Disease"
+    },
+    "id": "PMID:12345948/ann/3",
+    "target": "PMID:12345948/text#char=457,472",
+    "text": "prostate cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011471",
+      "type": "Disease"
+    },
+    "id": "PMID:12345948/ann/4",
+    "target": "PMID:12345948/text#char=636,651",
+    "text": "prostate cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011471",
+      "type": "Disease"
+    },
+    "id": "PMID:12345948/ann/5",
+    "target": "PMID:12345948/text#char=1747,1762",
+    "text": "prostate cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011471",
+      "type": "Disease"
+    },
+    "id": "PMID:12345948/ann/6",
+    "target": "PMID:12345948/text#char=163,178",
+    "text": "prostate cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345948/ann/7",
+    "target": "PMID:12345948/text#char=520,523",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345948/ann/8",
+    "target": "PMID:12345948/text#char=627,630",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345948/ann/9",
+    "target": "PMID:12345948/text#char=954,957",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345948/ann/10",
+    "target": "PMID:12345948/text#char=1068,1071",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345948/ann/11",
+    "target": "PMID:12345948/text#char=1235,1238",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345948/ann/0",
+      "to": "PMID:12345948/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345948/ann/12",
+    "target": "PMID:12345948/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345948/ann/1",
+      "to": "PMID:12345948/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345948/ann/13",
+    "target": "PMID:12345948/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345948/ann/1",
+      "to": "PMID:12345948/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345948/ann/14",
+    "target": "PMID:12345948/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345948/ann/2",
+      "to": "PMID:12345948/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345948/ann/15",
+    "target": "PMID:12345948/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345948/ann/3",
+      "to": "PMID:12345948/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345948/ann/16",
+    "target": "PMID:12345948/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345948/ann/4",
+      "to": "PMID:12345948/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345948/ann/17",
+    "target": "PMID:12345948/text",
+    "type": "Relation"
+  }
+]

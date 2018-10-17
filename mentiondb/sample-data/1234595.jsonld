@@ -1,0 +1,211 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000658",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234595/ann/0",
+    "target": "PMID:1234595/text#char=33,44",
+    "text": "amoxicillin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D005436",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234595/ann/1",
+    "target": "PMID:1234595/text#char=45,59",
+    "text": "flucloxacillin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000658",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234595/ann/2",
+    "target": "PMID:1234595/text#char=87,98",
+    "text": "amoxycillin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D010406",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234595/ann/3",
+    "target": "PMID:1234595/text#char=114,124",
+    "text": "penicillin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D005436",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234595/ann/4",
+    "target": "PMID:1234595/text#char=157,171",
+    "text": "flucloxacillin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:1234595/ann/5",
+    "target": "PMID:1234595/text#char=176,196",
+    "text": "isoxazolylpenicillin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D005436",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234595/ann/6",
+    "target": "PMID:1234595/text#char=468,482",
+    "text": "flucloxacillin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000658",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234595/ann/7",
+    "target": "PMID:1234595/text#char=511,522",
+    "text": "amoxycillin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234595/ann/0",
+      "to": "PMID:1234595/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234595/ann/8",
+    "target": "PMID:1234595/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234595/ann/0",
+      "to": "PMID:1234595/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234595/ann/9",
+    "target": "PMID:1234595/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234595/ann/0",
+      "to": "PMID:1234595/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234595/ann/10",
+    "target": "PMID:1234595/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234595/ann/1",
+      "to": "PMID:1234595/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234595/ann/11",
+    "target": "PMID:1234595/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234595/ann/1",
+      "to": "PMID:1234595/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234595/ann/12",
+    "target": "PMID:1234595/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234595/ann/1",
+      "to": "PMID:1234595/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234595/ann/13",
+    "target": "PMID:1234595/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234595/ann/2",
+      "to": "PMID:1234595/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234595/ann/14",
+    "target": "PMID:1234595/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234595/ann/2",
+      "to": "PMID:1234595/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234595/ann/15",
+    "target": "PMID:1234595/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234595/ann/2",
+      "to": "PMID:1234595/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234595/ann/16",
+    "target": "PMID:1234595/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234595/ann/3",
+      "to": "PMID:1234595/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234595/ann/17",
+    "target": "PMID:1234595/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234595/ann/3",
+      "to": "PMID:1234595/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234595/ann/18",
+    "target": "PMID:1234595/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234595/ann/4",
+      "to": "PMID:1234595/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234595/ann/19",
+    "target": "PMID:1234595/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234595/ann/6",
+      "to": "PMID:1234595/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234595/ann/20",
+    "target": "PMID:1234595/text",
+    "type": "Relation"
+  }
+]

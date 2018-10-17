@@ -1,0 +1,162 @@
+[
+  {
+    "body": {
+      "id": "MESH:D011471",
+      "type": "Disease"
+    },
+    "id": "PMID:12345150/ann/0",
+    "target": "PMID:12345150/text#char=1649,1664",
+    "text": "prostate cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011471",
+      "type": "Disease"
+    },
+    "id": "PMID:12345150/ann/1",
+    "target": "PMID:12345150/text#char=1284,1299",
+    "text": "prostate cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011471",
+      "type": "Disease"
+    },
+    "id": "PMID:12345150/ann/2",
+    "target": "PMID:12345150/text#char=801,816",
+    "text": "prostate cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011471",
+      "type": "Disease"
+    },
+    "id": "PMID:12345150/ann/3",
+    "target": "PMID:12345150/text#char=253,268",
+    "text": "prostate cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011471",
+      "type": "Disease"
+    },
+    "id": "PMID:12345150/ann/4",
+    "target": "PMID:12345150/text#char=554,579",
+    "text": "papers on prostate cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011471",
+      "type": "Disease"
+    },
+    "id": "PMID:12345150/ann/5",
+    "target": "PMID:12345150/text#char=14,29",
+    "text": "prostate cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011471",
+      "type": "Disease"
+    },
+    "id": "PMID:12345150/ann/6",
+    "target": "PMID:12345150/text#char=170,185",
+    "text": "prostate cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345150/ann/7",
+    "target": "PMID:12345150/text#char=272,275",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345150/ann/8",
+    "target": "PMID:12345150/text#char=1240,1243",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345150/ann/9",
+    "target": "PMID:12345150/text#char=1306,1311",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345150/ann/1",
+      "to": "PMID:12345150/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345150/ann/10",
+    "target": "PMID:12345150/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345150/ann/1",
+      "to": "PMID:12345150/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345150/ann/11",
+    "target": "PMID:12345150/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345150/ann/3",
+      "to": "PMID:12345150/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345150/ann/12",
+    "target": "PMID:12345150/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345150/ann/3",
+      "to": "PMID:12345150/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345150/ann/13",
+    "target": "PMID:12345150/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345150/ann/6",
+      "to": "PMID:12345150/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345150/ann/14",
+    "target": "PMID:12345150/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345150/ann/8",
+      "to": "PMID:12345150/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345150/ann/15",
+    "target": "PMID:12345150/text",
+    "type": "Relation"
+  }
+]

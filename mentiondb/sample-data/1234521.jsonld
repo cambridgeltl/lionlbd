@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:D012559",
+      "type": "Disease"
+    },
+    "id": "PMID:1234521/ann/0",
+    "target": "PMID:1234521/text#char=784,797",
+    "text": "schizophrenic",
+    "type": "Span"
+  }
+]

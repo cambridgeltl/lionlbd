@@ -1,0 +1,32 @@
+[
+  {
+    "body": {
+      "id": "MESH:C010604",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234540/ann/0",
+    "target": "PMID:1234540/text#char=51,62",
+    "text": "mercurascan",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009203",
+      "type": "Disease"
+    },
+    "id": "PMID:1234540/ann/1",
+    "target": "PMID:1234540/text#char=80,98",
+    "text": "myocardial infarct",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234540/ann/0",
+      "to": "PMID:1234540/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234540/ann/2",
+    "target": "PMID:1234540/text",
+    "type": "Relation"
+  }
+]

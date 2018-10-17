@@ -1,0 +1,30 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345959/ann/0",
+    "target": "PMID:12345959/text#char=127,136",
+    "text": "Brookline",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345959/ann/1",
+    "target": "PMID:12345959/text#char=1529,1535",
+    "text": "Senate",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D054221",
+      "type": "Disease"
+    },
+    "id": "PMID:12345959/ann/2",
+    "target": "PMID:12345959/text#char=1086,1119",
+    "text": "Washington, DC, 45,000 protesters",
+    "type": "Span"
+  }
+]

@@ -1,0 +1,311 @@
+[
+  {
+    "body": {
+      "id": "MESH:D010629",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234583/ann/0",
+    "target": "PMID:1234583/text#char=20,30",
+    "text": "phenformin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001645",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234583/ann/1",
+    "target": "PMID:1234583/text#char=82,92",
+    "text": "biguanides",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D019791",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234583/ann/2",
+    "target": "PMID:1234583/text#char=207,216",
+    "text": "guanidine",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:1234583/ann/3",
+    "target": "PMID:1234583/text#char=229,251",
+    "text": "alpha-naphtol-diacetyl",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D019791",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234583/ann/4",
+    "target": "PMID:1234583/text#char=280,289",
+    "text": "guanidine",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D010629",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234583/ann/5",
+    "target": "PMID:1234583/text#char=342,352",
+    "text": "phenformin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "CHEBI:36927",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234583/ann/6",
+    "target": "PMID:1234583/text#char=432,435",
+    "text": "14C",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D010629",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234583/ann/7",
+    "target": "PMID:1234583/text#char=436,446",
+    "text": "phenformin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D010629",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234583/ann/8",
+    "target": "PMID:1234583/text#char=696,706",
+    "text": "phenformin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "CHEBI:3095",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234583/ann/9",
+    "target": "PMID:1234583/text#char=745,754",
+    "text": "biguanide",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "CHEBI:3095",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234583/ann/10",
+    "target": "PMID:1234583/text#char=921,930",
+    "text": "biguanide",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:10116",
+      "type": "Species"
+    },
+    "id": "PMID:1234583/ann/11",
+    "target": "PMID:1234583/text#char=456,460",
+    "text": "rats",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234583/ann/12",
+    "target": "PMID:1234583/text#char=779,787",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:10116",
+      "type": "Species"
+    },
+    "id": "PMID:1234583/ann/13",
+    "target": "PMID:1234583/text#char=792,796",
+    "text": "rats",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/0",
+      "to": "PMID:1234583/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/14",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/2",
+      "to": "PMID:1234583/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/15",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/2",
+      "to": "PMID:1234583/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/16",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/3",
+      "to": "PMID:1234583/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/17",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/3",
+      "to": "PMID:1234583/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/18",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/4",
+      "to": "PMID:1234583/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/19",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/5",
+      "to": "PMID:1234583/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/20",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/5",
+      "to": "PMID:1234583/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/21",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/6",
+      "to": "PMID:1234583/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/22",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/6",
+      "to": "PMID:1234583/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/23",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/7",
+      "to": "PMID:1234583/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/24",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/8",
+      "to": "PMID:1234583/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/25",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/8",
+      "to": "PMID:1234583/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/26",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/8",
+      "to": "PMID:1234583/ann/13",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/27",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/9",
+      "to": "PMID:1234583/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/28",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/9",
+      "to": "PMID:1234583/ann/13",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/29",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234583/ann/12",
+      "to": "PMID:1234583/ann/13",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234583/ann/30",
+    "target": "PMID:1234583/text",
+    "type": "Relation"
+  }
+]

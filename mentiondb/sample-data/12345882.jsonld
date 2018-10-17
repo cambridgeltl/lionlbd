@@ -1,0 +1,62 @@
+[
+  {
+    "body": {
+      "id": "MESH:D004630",
+      "type": "Disease"
+    },
+    "id": "PMID:12345882/ann/0",
+    "target": "PMID:12345882/text#char=287,308",
+    "text": "obstetric emergencies",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345882/ann/1",
+    "target": "PMID:12345882/text#char=397,402",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345882/ann/2",
+    "target": "PMID:12345882/text#char=845,850",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345882/ann/3",
+    "target": "PMID:12345882/text#char=1007,1012",
+    "text": "woman",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345882/ann/4",
+    "target": "PMID:12345882/text#char=1135,1140",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345882/ann/0",
+      "to": "PMID:12345882/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345882/ann/5",
+    "target": "PMID:12345882/text",
+    "type": "Relation"
+  }
+]

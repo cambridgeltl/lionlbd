@@ -1,0 +1,32 @@
+[
+  {
+    "body": {
+      "id": "CHEBI:16236",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234584/ann/0",
+    "target": "PMID:1234584/text#char=8,15",
+    "text": "alcohol",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007239",
+      "type": "Disease"
+    },
+    "id": "PMID:1234584/ann/1",
+    "target": "PMID:1234584/text#char=42,73",
+    "text": "infections and toxic infections",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234584/ann/0",
+      "to": "PMID:1234584/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234584/ann/2",
+    "target": "PMID:1234584/text",
+    "type": "Relation"
+  }
+]

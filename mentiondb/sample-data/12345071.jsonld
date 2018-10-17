@@ -1,0 +1,11 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345071/ann/0",
+    "target": "PMID:12345071/text#char=771,778",
+    "text": "Capital",
+    "type": "Span"
+  }
+]

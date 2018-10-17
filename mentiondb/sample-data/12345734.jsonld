@@ -1,0 +1,52 @@
+[
+  {
+    "body": {
+      "id": "MESH:D044342",
+      "type": "Disease"
+    },
+    "id": "PMID:12345734/ann/0",
+    "target": "PMID:12345734/text#char=136,148",
+    "text": "malnutrition",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345734/ann/1",
+    "target": "PMID:12345734/text#char=89,95",
+    "text": "humans",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345734/ann/2",
+    "target": "PMID:12345734/text#char=1293,1299",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345734/ann/3",
+    "target": "PMID:12345734/text#char=1739,1744",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345734/ann/0",
+      "to": "PMID:12345734/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345734/ann/4",
+    "target": "PMID:12345734/text",
+    "type": "Relation"
+  }
+]

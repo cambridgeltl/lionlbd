@@ -1,0 +1,62 @@
+[
+  {
+    "body": {
+      "id": "CHEBI:50114",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234566/ann/0",
+    "target": "PMID:1234566/text#char=59,68",
+    "text": "oestrogen",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "CHEBI:50114",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234566/ann/1",
+    "target": "PMID:1234566/text#char=341,351",
+    "text": "oestrogens",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "CHEBI:50114",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234566/ann/2",
+    "target": "PMID:1234566/text#char=368,377",
+    "text": "Oestrogen",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234566/ann/3",
+    "target": "PMID:1234566/text#char=222,227",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234566/ann/4",
+    "target": "PMID:1234566/text#char=532,537",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234566/ann/1",
+      "to": "PMID:1234566/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234566/ann/5",
+    "target": "PMID:1234566/text",
+    "type": "Relation"
+  }
+]

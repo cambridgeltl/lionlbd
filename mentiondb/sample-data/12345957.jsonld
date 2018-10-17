@@ -1,0 +1,92 @@
+[
+  {
+    "body": {
+      "id": "MESH:D002245",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345957/ann/0",
+    "target": "PMID:12345957/text#char=1094,1108",
+    "text": "carbon dioxide",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D015735",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345957/ann/1",
+    "target": "PMID:12345957/text#char=1890,1896",
+    "text": "RU-486",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345957/ann/2",
+    "target": "PMID:12345957/text#char=289,295",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345957/ann/3",
+    "target": "PMID:12345957/text#char=331,343",
+    "text": "Participants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345957/ann/4",
+    "target": "PMID:12345957/text#char=425,430",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345957/ann/5",
+    "target": "PMID:12345957/text#char=646,651",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345957/ann/6",
+    "target": "PMID:12345957/text#char=893,898",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345957/ann/2",
+      "to": "PMID:12345957/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345957/ann/7",
+    "target": "PMID:12345957/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345957/ann/3",
+      "to": "PMID:12345957/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345957/ann/8",
+    "target": "PMID:12345957/text",
+    "type": "Relation"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345099/ann/0",
+    "target": "PMID:12345099/text#char=45,51",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345099/ann/1",
+    "target": "PMID:12345099/text#char=469,475",
+    "text": "People",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345099/ann/2",
+    "target": "PMID:12345099/text#char=638,644",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345099/ann/3",
+    "target": "PMID:12345099/text#char=992,998",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345099/ann/4",
+    "target": "PMID:12345099/text#char=1308,1316",
+    "text": "Children",
+    "type": "Span"
+  }
+]

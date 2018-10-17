@@ -1,0 +1,2 @@
+A gray system decision model of the multiple factors for the educational levels among regional population.
+"Using 1% statistics and 10% sample aggregate data of the fourth census, the authors analyze various comprehensive indexes reflecting the educational levels among the Chinese population, on the basis of which a multi-regional gray system decision model is established. The authors also conduct a preliminary analysis of the results of the calculation." Grayness is defined here as "incompleteness and uncertainty of information."

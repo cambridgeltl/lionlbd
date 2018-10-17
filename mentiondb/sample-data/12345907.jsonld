@@ -1,0 +1,82 @@
+[
+  {
+    "body": {
+      "id": "MESH:D001241",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345907/ann/0",
+    "target": "PMID:12345907/text#char=945,952",
+    "text": "aspirin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345907/ann/1",
+    "target": "PMID:12345907/text#char=233,237",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345907/ann/2",
+    "target": "PMID:12345907/text#char=1805,1809",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345907/ann/3",
+    "target": "PMID:12345907/text#char=417,423",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345907/ann/4",
+    "target": "PMID:12345907/text#char=866,872",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345907/ann/5",
+    "target": "PMID:12345907/text#char=1792,1798",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345907/ann/0",
+      "to": "PMID:12345907/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345907/ann/6",
+    "target": "PMID:12345907/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345907/ann/2",
+      "to": "PMID:12345907/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345907/ann/7",
+    "target": "PMID:12345907/text",
+    "type": "Relation"
+  }
+]

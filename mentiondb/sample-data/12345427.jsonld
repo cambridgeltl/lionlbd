@@ -1,0 +1,11 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345427/ann/0",
+    "target": "PMID:12345427/text#char=334,343",
+    "text": "Zacatecas",
+    "type": "Span"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345387/ann/0",
+    "target": "PMID:12345387/text#char=1523,1526",
+    "text": "NGO",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345387/ann/1",
+    "target": "PMID:12345387/text#char=103,108",
+    "text": "woman",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345387/ann/2",
+    "target": "PMID:12345387/text#char=289,297",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345387/ann/3",
+    "target": "PMID:12345387/text#char=740,745",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345387/ann/4",
+    "target": "PMID:12345387/text#char=1216,1224",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345387/ann/5",
+    "target": "PMID:12345387/text#char=1642,1647",
+    "text": "child",
+    "type": "Span"
+  }
+]

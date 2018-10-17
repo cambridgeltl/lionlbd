@@ -1,0 +1,22 @@
+[
+  {
+    "body": {
+      "id": "MESH:D001523",
+      "type": "Disease"
+    },
+    "id": "PMID:12345206/ann/0",
+    "target": "PMID:12345206/text#char=2182,2193",
+    "text": "psychiatric",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345206/ann/1",
+    "target": "PMID:12345206/text#char=1486,1491",
+    "text": "women",
+    "type": "Span"
+  }
+]

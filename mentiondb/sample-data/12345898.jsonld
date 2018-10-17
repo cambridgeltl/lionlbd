@@ -1,0 +1,52 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345898/ann/0",
+    "target": "PMID:12345898/text#char=65,70",
+    "text": "girls",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345898/ann/1",
+    "target": "PMID:12345898/text#char=637,643",
+    "text": "infant",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345898/ann/2",
+    "target": "PMID:12345898/text#char=851,857",
+    "text": "infant",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345898/ann/3",
+    "target": "PMID:12345898/text#char=1017,1023",
+    "text": "infant",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345898/ann/4",
+    "target": "PMID:12345898/text#char=1209,1215",
+    "text": "infant",
+    "type": "Span"
+  }
+]

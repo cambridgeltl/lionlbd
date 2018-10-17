@@ -1,0 +1,82 @@
+[
+  {
+    "body": {
+      "id": "MESH:D001523",
+      "type": "Disease"
+    },
+    "id": "PMID:12345832/ann/0",
+    "target": "PMID:12345832/text#char=1622,1632",
+    "text": "aggressive",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345832/ann/1",
+    "target": "PMID:12345832/text#char=353,361",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345832/ann/2",
+    "target": "PMID:12345832/text#char=609,614",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345832/ann/3",
+    "target": "PMID:12345832/text#char=656,661",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345832/ann/4",
+    "target": "PMID:12345832/text#char=887,892",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345832/ann/5",
+    "target": "PMID:12345832/text#char=1271,1276",
+    "text": "woman",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345832/ann/6",
+    "target": "PMID:12345832/text#char=1486,1493",
+    "text": "patient",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345832/ann/2",
+      "to": "PMID:12345832/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345832/ann/7",
+    "target": "PMID:12345832/text",
+    "type": "Relation"
+  }
+]

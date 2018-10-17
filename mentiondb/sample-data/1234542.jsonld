@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:D014394",
+      "type": "Disease"
+    },
+    "id": "PMID:1234542/ann/0",
+    "target": "PMID:1234542/text#char=40,67",
+    "text": "osteoarticular tuberculosis",
+    "type": "Span"
+  }
+]

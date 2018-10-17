@@ -1,0 +1,102 @@
+[
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345798/ann/0",
+    "target": "PMID:12345798/text#char=55,64",
+    "text": "migration",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345798/ann/1",
+    "target": "PMID:12345798/text#char=311,320",
+    "text": "migration",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345798/ann/2",
+    "target": "PMID:12345798/text#char=218,227",
+    "text": "migration",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345798/ann/3",
+    "target": "PMID:12345798/text#char=500,509",
+    "text": "migration",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345798/ann/4",
+    "target": "PMID:12345798/text#char=155,164",
+    "text": "migration",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345798/ann/5",
+    "target": "PMID:12345798/text#char=27,36",
+    "text": "migration",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345798/ann/0",
+      "to": "PMID:12345798/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345798/ann/6",
+    "target": "PMID:12345798/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345798/ann/0",
+      "to": "PMID:12345798/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345798/ann/7",
+    "target": "PMID:12345798/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345798/ann/1",
+      "to": "PMID:12345798/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345798/ann/8",
+    "target": "PMID:12345798/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345798/ann/2",
+      "to": "PMID:12345798/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345798/ann/9",
+    "target": "PMID:12345798/text",
+    "type": "Relation"
+  }
+]

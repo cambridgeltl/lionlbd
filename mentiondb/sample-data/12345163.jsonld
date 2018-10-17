@@ -1,0 +1,22 @@
+[
+  {
+    "body": {
+      "id": "MESH:D003699",
+      "type": "Disease"
+    },
+    "id": "PMID:12345163/ann/0",
+    "target": "PMID:12345163/text#char=244,256",
+    "text": "Washington D",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345163/ann/1",
+    "target": "PMID:12345163/text#char=442,447",
+    "text": "women",
+    "type": "Span"
+  }
+]

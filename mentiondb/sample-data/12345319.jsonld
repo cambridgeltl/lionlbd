@@ -1,0 +1,112 @@
+[
+  {
+    "body": {
+      "id": "MESH:D034161",
+      "type": "Disease"
+    },
+    "id": "PMID:12345319/ann/0",
+    "target": "PMID:12345319/text#char=1075,1092",
+    "text": "pelvic infections",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D006470",
+      "type": "Disease"
+    },
+    "id": "PMID:12345319/ann/1",
+    "target": "PMID:12345319/text#char=1009,1017",
+    "text": "bleeding",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D013276",
+      "type": "Disease"
+    },
+    "id": "PMID:12345319/ann/2",
+    "target": "PMID:12345319/text#char=120,134",
+    "text": "gastric ulcers",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345319/ann/3",
+    "target": "PMID:12345319/text#char=32,37",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345319/ann/4",
+    "target": "PMID:12345319/text#char=217,222",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345319/ann/5",
+    "target": "PMID:12345319/text#char=871,876",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345319/ann/6",
+    "target": "PMID:12345319/text#char=878,883",
+    "text": "Women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345319/ann/0",
+      "to": "PMID:12345319/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345319/ann/7",
+    "target": "PMID:12345319/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345319/ann/2",
+      "to": "PMID:12345319/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345319/ann/8",
+    "target": "PMID:12345319/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345319/ann/2",
+      "to": "PMID:12345319/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345319/ann/9",
+    "target": "PMID:12345319/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345319/ann/5",
+      "to": "PMID:12345319/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345319/ann/10",
+    "target": "PMID:12345319/text",
+    "type": "Relation"
+  }
+]

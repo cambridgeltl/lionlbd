@@ -1,0 +1,162 @@
+[
+  {
+    "body": {
+      "id": "MESH:D007239",
+      "type": "Disease"
+    },
+    "id": "PMID:12345384/ann/0",
+    "target": "PMID:12345384/text#char=103,123",
+    "text": "Parasitic infections",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014376",
+      "type": "Disease"
+    },
+    "id": "PMID:12345384/ann/1",
+    "target": "PMID:12345384/text#char=2165,2177",
+    "text": "tuberculosis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:12345384/ann/2",
+    "target": "PMID:12345384/text#char=2143,2149",
+    "text": "cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007239",
+      "type": "Disease"
+    },
+    "id": "PMID:12345384/ann/3",
+    "target": "PMID:12345384/text#char=1535,1555",
+    "text": "parasitic infections",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345384/ann/4",
+    "target": "PMID:12345384/text#char=27,32",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345384/ann/5",
+    "target": "PMID:12345384/text#char=142,147",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345384/ann/6",
+    "target": "PMID:12345384/text#char=415,420",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345384/ann/7",
+    "target": "PMID:12345384/text#char=904,912",
+    "text": "Children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345384/ann/8",
+    "target": "PMID:12345384/text#char=978,986",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345384/ann/9",
+    "target": "PMID:12345384/text#char=1154,1159",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345384/ann/10",
+    "target": "PMID:12345384/text#char=1834,1840",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345384/ann/11",
+    "target": "PMID:12345384/text#char=1944,1949",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345384/ann/0",
+      "to": "PMID:12345384/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345384/ann/12",
+    "target": "PMID:12345384/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345384/ann/0",
+      "to": "PMID:12345384/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345384/ann/13",
+    "target": "PMID:12345384/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345384/ann/1",
+      "to": "PMID:12345384/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345384/ann/14",
+    "target": "PMID:12345384/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345384/ann/7",
+      "to": "PMID:12345384/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345384/ann/15",
+    "target": "PMID:12345384/text",
+    "type": "Relation"
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345641/ann/0",
+    "target": "PMID:12345641/text#char=140,151",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345641/ann/1",
+    "target": "PMID:12345641/text#char=47,51",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012749",
+      "type": "Disease"
+    },
+    "id": "PMID:12345641/ann/2",
+    "target": "PMID:12345641/text#char=513,516",
+    "text": "STD",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012749",
+      "type": "Disease"
+    },
+    "id": "PMID:12345641/ann/3",
+    "target": "PMID:12345641/text#char=390,393",
+    "text": "STD",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345641/ann/4",
+    "target": "PMID:12345641/text#char=1056,1060",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012749",
+      "type": "Disease"
+    },
+    "id": "PMID:12345641/ann/5",
+    "target": "PMID:12345641/text#char=359,388",
+    "text": "sexually transmitted diseases",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:57667",
+      "type": "Species"
+    },
+    "id": "PMID:12345641/ann/6",
+    "target": "PMID:12345641/text#char=193,196",
+    "text": "HIV",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:57667",
+      "type": "Species"
+    },
+    "id": "PMID:12345641/ann/7",
+    "target": "PMID:12345641/text#char=870,873",
+    "text": "HIV",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:57667",
+      "type": "Species"
+    },
+    "id": "PMID:12345641/ann/8",
+    "target": "PMID:12345641/text#char=1052,1055",
+    "text": "HIV",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345641/ann/0",
+      "to": "PMID:12345641/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345641/ann/9",
+    "target": "PMID:12345641/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345641/ann/0",
+      "to": "PMID:12345641/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345641/ann/10",
+    "target": "PMID:12345641/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345641/ann/3",
+      "to": "PMID:12345641/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345641/ann/11",
+    "target": "PMID:12345641/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345641/ann/4",
+      "to": "PMID:12345641/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345641/ann/12",
+    "target": "PMID:12345641/text",
+    "type": "Relation"
+  }
+]

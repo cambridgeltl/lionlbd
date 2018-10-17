@@ -1,0 +1,42 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345368/ann/0",
+    "target": "PMID:12345368/text#char=722,728",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345368/ann/1",
+    "target": "PMID:12345368/text#char=1106,1111",
+    "text": "girls",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345368/ann/2",
+    "target": "PMID:12345368/text#char=1186,1190",
+    "text": "boys",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345368/ann/1",
+      "to": "PMID:12345368/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345368/ann/3",
+    "target": "PMID:12345368/text",
+    "type": "Relation"
+  }
+]

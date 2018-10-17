@@ -1,0 +1,132 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000658",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234585/ann/0",
+    "target": "PMID:1234585/text#char=23,34",
+    "text": "amoxycillin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000658",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234585/ann/1",
+    "target": "PMID:1234585/text#char=141,152",
+    "text": "Amoxycillin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D018286",
+      "type": "Disease"
+    },
+    "id": "PMID:1234585/ann/2",
+    "target": "PMID:1234585/text#char=178,189",
+    "text": "giant cells",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:1280",
+      "type": "Species"
+    },
+    "id": "PMID:1234585/ann/3",
+    "target": "PMID:1234585/text#char=62,83",
+    "text": "Staphylococcus aureus",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:1280",
+      "type": "Species"
+    },
+    "id": "PMID:1234585/ann/4",
+    "target": "PMID:1234585/text#char=108,117",
+    "text": "S. aureus",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234585/ann/0",
+      "to": "PMID:1234585/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234585/ann/5",
+    "target": "PMID:1234585/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234585/ann/0",
+      "to": "PMID:1234585/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234585/ann/6",
+    "target": "PMID:1234585/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234585/ann/1",
+      "to": "PMID:1234585/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234585/ann/7",
+    "target": "PMID:1234585/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234585/ann/1",
+      "to": "PMID:1234585/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234585/ann/8",
+    "target": "PMID:1234585/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234585/ann/1",
+      "to": "PMID:1234585/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234585/ann/9",
+    "target": "PMID:1234585/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234585/ann/2",
+      "to": "PMID:1234585/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234585/ann/10",
+    "target": "PMID:1234585/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234585/ann/2",
+      "to": "PMID:1234585/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234585/ann/11",
+    "target": "PMID:1234585/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234585/ann/3",
+      "to": "PMID:1234585/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234585/ann/12",
+    "target": "PMID:1234585/text",
+    "type": "Relation"
+  }
+]

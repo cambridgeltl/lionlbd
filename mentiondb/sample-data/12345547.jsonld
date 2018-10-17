@@ -1,0 +1,112 @@
+[
+  {
+    "body": {
+      "id": "MESH:D020018",
+      "type": "Disease"
+    },
+    "id": "PMID:12345547/ann/0",
+    "target": "PMID:12345547/text#char=1444,1467",
+    "text": "sexual involvement does",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345547/ann/1",
+    "target": "PMID:12345547/text#char=1074,1079",
+    "text": "Human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345547/ann/2",
+    "target": "PMID:12345547/text#char=2440,2445",
+    "text": "girls",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345547/ann/3",
+    "target": "PMID:12345547/text#char=2451,2455",
+    "text": "boys",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345547/ann/4",
+    "target": "PMID:12345547/text#char=2474,2478",
+    "text": "boys",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345547/ann/5",
+    "target": "PMID:12345547/text#char=2551,2555",
+    "text": "boys",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345547/ann/2",
+      "to": "PMID:12345547/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345547/ann/6",
+    "target": "PMID:12345547/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345547/ann/2",
+      "to": "PMID:12345547/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345547/ann/7",
+    "target": "PMID:12345547/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345547/ann/3",
+      "to": "PMID:12345547/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345547/ann/8",
+    "target": "PMID:12345547/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345547/ann/3",
+      "to": "PMID:12345547/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345547/ann/9",
+    "target": "PMID:12345547/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345547/ann/4",
+      "to": "PMID:12345547/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345547/ann/10",
+    "target": "PMID:12345547/text",
+    "type": "Relation"
+  }
+]

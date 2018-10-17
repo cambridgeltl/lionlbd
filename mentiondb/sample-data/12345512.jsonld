@@ -1,0 +1,41 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345512/ann/0",
+    "target": "PMID:12345512/text#char=1363,1369",
+    "text": "Senate",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:8767",
+      "type": "Gene"
+    },
+    "id": "PMID:12345512/ann/1",
+    "target": "PMID:12345512/text#char=542,546",
+    "text": "Rick",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345512/ann/2",
+    "target": "PMID:12345512/text#char=1380,1385",
+    "text": "Human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345512/ann/0",
+      "to": "PMID:12345512/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345512/ann/3",
+    "target": "PMID:12345512/text",
+    "type": "Relation"
+  }
+]

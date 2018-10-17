@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:D020018",
+      "type": "Disease"
+    },
+    "id": "PMID:12345462/ann/0",
+    "target": "PMID:12345462/text#char=583,619",
+    "text": "sexual health,\" \"reproductive rights",
+    "type": "Span"
+  }
+]

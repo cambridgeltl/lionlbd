@@ -1,0 +1,112 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345255/ann/0",
+    "target": "PMID:12345255/text#char=27,30",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345255/ann/1",
+    "target": "PMID:12345255/text#char=222,225",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345255/ann/2",
+    "target": "PMID:12345255/text#char=594,597",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345255/ann/3",
+    "target": "PMID:12345255/text#char=976,979",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345255/ann/4",
+    "target": "PMID:12345255/text#char=1209,1212",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345255/ann/5",
+    "target": "PMID:12345255/text#char=1306,1309",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345255/ann/6",
+    "target": "PMID:12345255/text#char=1501,1504",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345255/ann/7",
+    "target": "PMID:12345255/text#char=1703,1711",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345255/ann/8",
+    "target": "PMID:12345255/text#char=1902,1905",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345255/ann/9",
+    "target": "PMID:12345255/text#char=2007,2010",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345255/ann/4",
+      "to": "PMID:12345255/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345255/ann/10",
+    "target": "PMID:12345255/text",
+    "type": "Relation"
+  }
+]

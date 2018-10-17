@@ -1,0 +1,112 @@
+[
+  {
+    "body": {
+      "id": "MESH:D004403",
+      "type": "Disease"
+    },
+    "id": "PMID:12345470/ann/0",
+    "target": "PMID:12345470/text#char=674,691",
+    "text": "diarrheal disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003967",
+      "type": "Disease"
+    },
+    "id": "PMID:12345470/ann/1",
+    "target": "PMID:12345470/text#char=1827,1835",
+    "text": "diarrhea",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012131",
+      "type": "Disease"
+    },
+    "id": "PMID:12345470/ann/2",
+    "target": "PMID:12345470/text#char=1441,1461",
+    "text": "respiratory diseases",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004403",
+      "type": "Disease"
+    },
+    "id": "PMID:12345470/ann/3",
+    "target": "PMID:12345470/text#char=1014,1031",
+    "text": "diarrheal disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345470/ann/4",
+    "target": "PMID:12345470/text#char=465,471",
+    "text": "deaths",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004194",
+      "type": "Disease"
+    },
+    "id": "PMID:12345470/ann/5",
+    "target": "PMID:12345470/text#char=264,282",
+    "text": "Diarrhoeal Disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345470/ann/6",
+    "target": "PMID:12345470/text#char=1844,1850",
+    "text": "deaths",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345470/ann/7",
+    "target": "PMID:12345470/text#char=771,776",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345470/ann/8",
+    "target": "PMID:12345470/text#char=1620,1626",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345470/ann/0",
+      "to": "PMID:12345470/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345470/ann/9",
+    "target": "PMID:12345470/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345470/ann/1",
+      "to": "PMID:12345470/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345470/ann/10",
+    "target": "PMID:12345470/text",
+    "type": "Relation"
+  }
+]

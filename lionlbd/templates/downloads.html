@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>LION - downloads</title>
+		<link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.png') }}?v=3">	    
+		<link rel="stylesheet" href="/static/css/semantic.min.css">	
+                <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">	
+                <link rel="stylesheet" href="/static/css/cam-dtal-lion.css">
+		<script src="static/js/jquery.min.js"></script>
+		<script src="static/js/semantic.min.js"></script>
+
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112981582-1"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'UA-112981582-1');
+                </script>
+
+
+	</head>
+	<body>
+
+            <div class="pusher">			
+
+
+            <!-- Top Menu -->
+            <div id="cam-dtal-lion-global-menu" style="padding: 6px; margin: 0; display: flex; flex-direction: row; justify-content: space-between; background-color: white; align-items: center;">
+                <div class="item" style="display: flex; flex-direction: row; align-items:center;">
+                    <div class="cam-dtal-lion-topbar-element cam-dtal-lion-topbar-element-title">
+                        <!--<a style="color: black;" href="/">
+                            <i class="ui student icon"></i>LION
+                        </a>  -->
+                        <a href="/">
+                        <img alt="Lion logo" 
+                        style="height: 33px; width: auto; margin: 0; padding: 0;" 
+                             src="/static/images/lionface.png" />
+                        </a>
+                    </div>
+		    <a class="cam-dtal-lion-menu-item" href="/">home</a>
+                <a class="cam-dtal-lion-menu-item" href="/help">help</a>
+				<a class="cam-dtal-lion-menu-item" href="/downloads">downloads</a>
+				<a class="cam-dtal-lion-menu-item" href="/about">about</a>
+                </div>
+            </div>
+
+            </div>
+
+	    <div class="ui container">
+		<div class="ui grid" >
+		    <div class="row">
+			<div class="column"><h1>Downloads</h1></div>
+		    </div>
+
+		    <div class="row">
+			<div class="sixteen wide column">
+			    <h2>Evaluation data</h2>
+
+				<p>The following datasets were used to evaluate the LION LBD system as detailed in our <a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty845/5124276">published work</a>. We provide these datasets for the replicability of our results.</p>
+
+				<p>LBD systems are typically evaluated by predicting an A-B-C chain (using either open or closed discovery modes) that describes an established discovery. This is done by only using published literature prior to the publication of the discovery (i.e. before a cut off year). This is usually referred to as <q>time travel</q> evaluation. We have prepared below the data neccessary to conduct time travel evaluation for ten discoveries.</p>
+
+				<p>We evaluate the LION LBD system on two types of discoveries. The first is a set of five landmark cancer discoveries that were chosen by a team of cancer researchers (see our published work for details). The second set are other medical discoveries that were used by Don R. Swanson to evaluate the earliest literature-based discovery methods.</p>
+
+				<p>Each dataset consists of three CSV files (about 9.6 GB compressed, 22 GB uncompressed):</p>
+					 <ul>
+						<li><strong>
+								nodes.csv
+							</strong> -
+							contains all of the nodes (concepts) in the graph. Every node has a unique ID (under the OID column).
+						</li>
+						<li><strong>
+								edges.csv
+							</strong> -
+							contains all edges in the graph where each edge represents a co-occurrence of the two connecting concepts. Each row contains the OID of the two connecting nodes, the earliest year for the co-occurrence of the two concepts, and the value array for each metric in LION.
+							Each array represents all the metric values from the earliest year that the co-occurrence is recorded till the time of our experiments (2017). Therefore if an edge appears first in the year 2000, then its metrics arrays will each contain 17 elements.
+
+						</li>
+						<li><strong>
+								meta.csv
+							</strong> -
+							this file contains meta information about the graph and its aggregation (not necessary for any evaluation).
+						</li>
+					 </ul>
+
+
+
+				<h3>The cancer landmark discovery set</h3>
+
+
+				<p>
+					The following datasets can be used to conduct both open and closed discovery evaluations for the five cancer landmark discovery cases:
+				</p>
+				<ul>
+				<li><strong>NF-&kappa;B</strong> (PR:000001754) , <strong>Bcl-2</strong> (PR:000002307) , <strong>Adenoma</strong> (MESH:D000236) <a href="/static/data/complete_PR000001754_MESHD000236.tar.gz">(dataset)</a></li>
+				<li><strong>NOTCH1</strong> (PR:000011331) , <strong>Senescence</strong> (HOC:42) , <strong>C/EBP&Beta;</strong> (PR:000005308) <a href="/static/data/complete_PR000011331_PR000005308.tar.gz">(dataset)</a></li>
+				<li><strong>IL-17</strong> (PR:000001138) , <strong>p38&alpha;</strong> (PR:000003107) , <strong>MKP-1</strong> (PR:000006736) <a href="/static/data/complete_PR000001138_PR000006736.tar.gz">(dataset)</a></li>
+				<li><strong>Nrf2</strong> (PR:000011170) , <strong>ROS</strong> (CHEBI:26523) , <strong>Pancreatic cancer</strong> (MESH:D010190) <a href="/static/data/complete_PR000011170_MESHD010190.tar.gz">(dataset)</a></li>
+				<li><strong>CXCL12</strong> (PR:000006066) , <strong>Senescence</strong> (HOC:42) , <strong>Thyroid cancer</strong> (MESH:D013964) <a href="/static/data/complete_PR000006066_MESHD013964.tar.gz">(dataset)</a></li>
+				</ul>
+
+				<h3>The Swanson set</h3>
+				<p>
+					The following datasets can be used to conduct open discovery evaluations (only) for the five Swanson cases:
+				</p>
+				<ul>
+				<li><strong>Migraine</strong> (MESH:D008881), <strong>Magnesium</strong> (MESH:D008274) <a href="/static/data/complete_MESHD008881_MESHD008274.tar.gz">(dataset)</a></li>
+				<li><strong>Somatomedin C</strong> (PR:000009182), <strong>Arginine</strong> (CHEBI:29016) <a href="/static/data/complete_PR000009182_CHEBI29016.tar.gz">(dataset)</a></li>
+				<li><strong>Alzheimer's disease</strong> (MESH:D000544), <strong>Estrogen</strong> (MESH:D004967) <a href="/static/data/complete_MESHD000544_MESHD004967.tar.gz">(dataset)</a></li>
+				<li><strong>Alzheimer's disease</strong> (MESH:D000544), <strong>Indomethacin</strong> (MESH:D007213) <a href="/static/data/complete_MESHD000544_MESHD007213.tar.gz">(dataset)</a></li>
+				<li><strong>Schizophrenia</strong> (MESH:D012559), <strong>Calcium Independent Phospholipase A2</strong> (PR:000012942) <a href="/static/data/complete_MESHD012559_PR000012942.tar.gz">(dataset)</a></li>
+				</ul>
+
+			</div>
+		    </div>
+		    
+		</div>
+	    </div>
+  
+        </body>
+</html>

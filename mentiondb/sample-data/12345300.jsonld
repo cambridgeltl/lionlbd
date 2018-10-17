@@ -1,0 +1,22 @@
+[
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345300/ann/0",
+    "target": "PMID:12345300/text#char=45,50",
+    "text": "death",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345300/ann/1",
+    "target": "PMID:12345300/text#char=214,219",
+    "text": "death",
+    "type": "Span"
+  }
+]

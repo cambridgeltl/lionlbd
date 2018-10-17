@@ -1,0 +1,161 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345828/ann/0",
+    "target": "PMID:12345828/text#char=677,687",
+    "text": "alcoholics",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000437",
+      "type": "Disease"
+    },
+    "id": "PMID:12345828/ann/1",
+    "target": "PMID:12345828/text#char=1608,1618",
+    "text": "alcoholism",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D008607",
+      "type": "Disease"
+    },
+    "id": "PMID:12345828/ann/2",
+    "target": "PMID:12345828/text#char=1444,1462",
+    "text": "mental retardation",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003110",
+      "type": "Disease"
+    },
+    "id": "PMID:12345828/ann/3",
+    "target": "PMID:12345828/text#char=1506,1518",
+    "text": "colon cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D008607",
+      "type": "Disease"
+    },
+    "id": "PMID:12345828/ann/4",
+    "target": "PMID:12345828/text#char=453,470",
+    "text": "mentally retarded",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345828/ann/5",
+    "target": "PMID:12345828/text#char=352,359",
+    "text": "infants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345828/ann/6",
+    "target": "PMID:12345828/text#char=661,667",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345828/ann/7",
+    "target": "PMID:12345828/text#char=802,807",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345828/ann/8",
+    "target": "PMID:12345828/text#char=839,844",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345828/ann/9",
+    "target": "PMID:12345828/text#char=1811,1817",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345828/ann/10",
+    "target": "PMID:12345828/text#char=1944,1952",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345828/ann/0",
+      "to": "PMID:12345828/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345828/ann/11",
+    "target": "PMID:12345828/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345828/ann/1",
+      "to": "PMID:12345828/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345828/ann/12",
+    "target": "PMID:12345828/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345828/ann/2",
+      "to": "PMID:12345828/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345828/ann/13",
+    "target": "PMID:12345828/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345828/ann/4",
+      "to": "PMID:12345828/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345828/ann/14",
+    "target": "PMID:12345828/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345828/ann/7",
+      "to": "PMID:12345828/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345828/ann/15",
+    "target": "PMID:12345828/text",
+    "type": "Relation"
+  }
+]

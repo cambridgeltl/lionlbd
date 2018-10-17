@@ -1,0 +1,41 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345321/ann/0",
+    "target": "PMID:12345321/text#char=572,583",
+    "text": "clandestine",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000309",
+      "type": "Disease"
+    },
+    "id": "PMID:12345321/ann/1",
+    "target": "PMID:12345321/text#char=76,114",
+    "text": "insufficiency of abortion legalization",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345321/ann/2",
+    "target": "PMID:12345321/text#char=530,535",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345321/ann/0",
+      "to": "PMID:12345321/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345321/ann/3",
+    "target": "PMID:12345321/text",
+    "type": "Relation"
+  }
+]

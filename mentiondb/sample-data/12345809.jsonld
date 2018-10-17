@@ -1,0 +1,302 @@
+[
+  {
+    "body": {
+      "id": "MESH:D004967",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345809/ann/0",
+    "target": "PMID:12345809/text#char=460,468",
+    "text": "estrogen",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011374",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345809/ann/1",
+    "target": "PMID:12345809/text#char=473,485",
+    "text": "progesterone",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C535764",
+      "type": "Disease"
+    },
+    "id": "PMID:12345809/ann/2",
+    "target": "PMID:12345809/text#char=212,240",
+    "text": "human chorionic gonadotropin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C535764",
+      "type": "Disease"
+    },
+    "id": "PMID:12345809/ann/3",
+    "target": "PMID:12345809/text#char=1042,1045",
+    "text": "HCG",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D064420",
+      "type": "Disease"
+    },
+    "id": "PMID:12345809/ann/4",
+    "target": "PMID:12345809/text#char=551,559",
+    "text": "toxicity",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C535764",
+      "type": "Disease"
+    },
+    "id": "PMID:12345809/ann/5",
+    "target": "PMID:12345809/text#char=719,722",
+    "text": "HCG",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C535764",
+      "type": "Disease"
+    },
+    "id": "PMID:12345809/ann/6",
+    "target": "PMID:12345809/text#char=910,913",
+    "text": "HCG",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C535764",
+      "type": "Disease"
+    },
+    "id": "PMID:12345809/ann/7",
+    "target": "PMID:12345809/text#char=264,267",
+    "text": "HCG",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C535764",
+      "type": "Disease"
+    },
+    "id": "PMID:12345809/ann/8",
+    "target": "PMID:12345809/text#char=603,606",
+    "text": "HCG",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C535764",
+      "type": "Disease"
+    },
+    "id": "PMID:12345809/ann/9",
+    "target": "PMID:12345809/text#char=242,245",
+    "text": "HCG",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345809/ann/10",
+    "target": "PMID:12345809/text#char=212,217",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345809/ann/11",
+    "target": "PMID:12345809/text#char=359,364",
+    "text": "woman",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345809/ann/12",
+    "target": "PMID:12345809/text#char=949,954",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345809/ann/13",
+    "target": "PMID:12345809/text#char=1026,1031",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345809/ann/0",
+      "to": "PMID:12345809/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345809/ann/14",
+    "target": "PMID:12345809/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345809/ann/0",
+      "to": "PMID:12345809/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345809/ann/15",
+    "target": "PMID:12345809/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345809/ann/0",
+      "to": "PMID:12345809/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345809/ann/16",
+    "target": "PMID:12345809/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345809/ann/1",
+      "to": "PMID:12345809/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345809/ann/17",
+    "target": "PMID:12345809/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345809/ann/2",
+      "to": "PMID:12345809/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345809/ann/18",
+    "target": "PMID:12345809/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345809/ann/2",
+      "to": "PMID:12345809/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345809/ann/19",
+    "target": "PMID:12345809/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345809/ann/2",
+      "to": "PMID:12345809/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345809/ann/20",
+    "target": "PMID:12345809/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345809/ann/3",
+      "to": "PMID:12345809/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345809/ann/21",
+    "target": "PMID:12345809/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345809/ann/3",
+      "to": "PMID:12345809/ann/13",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345809/ann/22",
+    "target": "PMID:12345809/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345809/ann/4",
+      "to": "PMID:12345809/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345809/ann/23",
+    "target": "PMID:12345809/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345809/ann/6",
+      "to": "PMID:12345809/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345809/ann/24",
+    "target": "PMID:12345809/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345809/ann/7",
+      "to": "PMID:12345809/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345809/ann/25",
+    "target": "PMID:12345809/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345809/ann/7",
+      "to": "PMID:12345809/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345809/ann/26",
+    "target": "PMID:12345809/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345809/ann/7",
+      "to": "PMID:12345809/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345809/ann/27",
+    "target": "PMID:12345809/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345809/ann/9",
+      "to": "PMID:12345809/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345809/ann/28",
+    "target": "PMID:12345809/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345809/ann/12",
+      "to": "PMID:12345809/ann/13",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345809/ann/29",
+    "target": "PMID:12345809/text",
+    "type": "Relation"
+  }
+]

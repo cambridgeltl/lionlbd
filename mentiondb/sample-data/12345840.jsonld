@@ -1,0 +1,22 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345840/ann/0",
+    "target": "PMID:12345840/text#char=121,127",
+    "text": "humans",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345840/ann/1",
+    "target": "PMID:12345840/text#char=632,638",
+    "text": "people",
+    "type": "Span"
+  }
+]

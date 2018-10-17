@@ -1,0 +1,22 @@
+[
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345244/ann/0",
+    "target": "PMID:12345244/text#char=549,570",
+    "text": "rural-urban migration",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345244/ann/1",
+    "target": "PMID:12345244/text#char=57,78",
+    "text": "rural-urban migration",
+    "type": "Span"
+  }
+]

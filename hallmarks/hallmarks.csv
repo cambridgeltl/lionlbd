@@ -1,0 +1,75 @@
+oid,text,type,count,canonical
+hoc:1,activating invasion and metastasis,Hallmark,0,0
+hoc:11,activating invasion and metastasis - invasion,Hallmark,0,0
+hoc:12,activating invasion and metastasis - metastasis,Hallmark,0,0
+hoc:2,avoiding immune destruction,Hallmark,0,0
+hoc:21,avoiding immune destruction - immune response,Hallmark,0,0
+hoc:22,avoiding immune destruction - immunosuppression,Hallmark,0,0
+hoc:3,cellular energetics,Hallmark,0,0
+hoc:31,cellular energetics - glycolysis/warburg effect,Hallmark,0,0
+hoc:4,enabling replicative immortality,Hallmark,0,0
+hoc:41,enabling replicative immortality - immortalization,Hallmark,0,0
+hoc:42,enabling replicative immortality - senescence,Hallmark,0,0
+hoc:5,evading growth suppressors,Hallmark,0,0
+hoc:51,evading growth suppressors - by deregulating cell cycle checkpoints,Hallmark,0,0
+hoc:511,evading growth suppressors - by deregulating cell cycle checkpoints - cell cycle,Hallmark,0,0
+hoc:52,evading growth suppressors - by evading contact inhibition,Hallmark,0,0
+hoc:6,genomic instability and mutation,Hallmark,0,0
+hoc:61,genomic instability and mutation - dna damage,Hallmark,0,0
+hoc:611,genomic instability and mutation - dna damage - adducts,Hallmark,0,0
+hoc:612,genomic instability and mutation - dna damage - strand breaks,Hallmark,0,0
+hoc:62,genomic instability and mutation - dna repair mechanisms,Hallmark,0,0
+hoc:63,genomic instability and mutation - mutation,Hallmark,0,0
+hoc:7,inducing angiogenesis,Hallmark,0,0
+hoc:71,inducing angiogenesis - by deregulating angiogenesis,Hallmark,0,0
+hoc:711,inducing angiogenesis - by deregulating angiogenesis - angiogenic factors,Hallmark,0,0
+hoc:8,resisting cell death,Hallmark,0,0
+hoc:81,resisting cell death - apoptosis,Hallmark,0,0
+hoc:82,resisting cell death - autophagy,Hallmark,0,0
+hoc:83,resisting cell death - necrosis,Hallmark,0,0
+hoc:9,sustaining proliferative signaling,Hallmark,0,0
+hoc:91,sustaining proliferative signaling - cell cycle,Hallmark,0,0
+hoc:92,sustaining proliferative signaling - growth factors growth promoting signals,Hallmark,0,0
+hoc:921,sustaining proliferative signaling - growth factors growth promoting signals - downstream signaling,Hallmark,0,0
+hoc:93,sustaining proliferative signaling - receptors,Hallmark,0,0
+hoc:a,tumor promoting inflammation,Hallmark,0,0
+hoc:a1,tumor promoting inflammation - immune response,Hallmark,0,0
+hoc:a2,tumor promoting inflammation - inflammation,Hallmark,0,0
+hoc:a21,tumor promoting inflammation - inflammation - oxidative stress,Hallmark,0,0
+hoc:1,invasion and metastasis,Hallmark,0,1
+hoc:11,invasion,Hallmark,0,1
+hoc:12,metastasis,Hallmark,0,1
+hoc:2,immune destruction,Hallmark,0,1
+hoc:21,immune response,Hallmark,0,1
+hoc:22,immunosuppression,Hallmark,0,1
+hoc:3,cellular energetics,Hallmark,0,1
+hoc:31,glycolysis/warburg effect,Hallmark,0,1
+hoc:4,enabling replicative immortality,Hallmark,0,1
+hoc:41,immortalization,Hallmark,0,1
+hoc:42,senescence,Hallmark,0,1
+hoc:5,growth suppressors,Hallmark,0,1
+hoc:51,deregulating cell cycle,Hallmark,0,1
+hoc:511,cell cycle,Hallmark,0,1
+hoc:52,contact inhibition,Hallmark,0,1
+hoc:6,genomic instability,Hallmark,0,1
+hoc:61,dna damage,Hallmark,0,1
+hoc:611,adducts damage,Hallmark,0,1
+hoc:612,strand breaks,Hallmark,0,1
+hoc:62,dna repair,Hallmark,0,1
+hoc:63,mutation,Hallmark,0,1
+hoc:7,angiogenesis,Hallmark,0,1
+hoc:71,deregulating angiogenesis,Hallmark,0,1
+hoc:711,angiogenic factors,Hallmark,0,1
+hoc:8,resisting cell death,Hallmark,0,1
+hoc:81,apoptosis,Hallmark,0,1
+hoc:82,autophagy,Hallmark,0,1
+hoc:83,necrosis,Hallmark,0,1
+hoc:9,proliferative signaling,Hallmark,0,1
+hoc:91,cell cycle signaling,Hallmark,0,1
+hoc:92,growth promoting signals,Hallmark,0,1
+hoc:921,downstream signaling,Hallmark,0,1
+hoc:93,receptors (signaling),Hallmark,0,1
+hoc:a,tumor promoting inflammation,Hallmark,0,1
+hoc:a1,immune response (inflammation),Hallmark,0,1
+hoc:a2,inflammation,Hallmark,0,1
+hoc:a21,oxidative stress,Hallmark,0,1

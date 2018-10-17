@@ -1,0 +1,272 @@
+[
+  {
+    "body": {
+      "id": "MESH:D003866",
+      "type": "Disease"
+    },
+    "id": "PMID:12345145/ann/0",
+    "target": "PMID:12345145/text#char=746,760",
+    "text": "depressed scar",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C535387",
+      "type": "Disease"
+    },
+    "id": "PMID:12345145/ann/1",
+    "target": "PMID:12345145/text#char=272,275",
+    "text": "PPD",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D005402",
+      "type": "Disease"
+    },
+    "id": "PMID:12345145/ann/2",
+    "target": "PMID:12345145/text#char=847,854",
+    "text": "fistula",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D008199",
+      "type": "Disease"
+    },
+    "id": "PMID:12345145/ann/3",
+    "target": "PMID:12345145/text#char=804,817",
+    "text": "lymphadenitis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C535387",
+      "type": "Disease"
+    },
+    "id": "PMID:12345145/ann/4",
+    "target": "PMID:12345145/text#char=1269,1272",
+    "text": "PPD",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007153",
+      "type": "Disease"
+    },
+    "id": "PMID:12345145/ann/5",
+    "target": "PMID:12345145/text#char=990,1006",
+    "text": "immunodeficiency",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345145/ann/6",
+    "target": "PMID:12345145/text#char=214,222",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345145/ann/7",
+    "target": "PMID:12345145/text#char=644,652",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345145/ann/8",
+    "target": "PMID:12345145/text#char=900,907",
+    "text": "infants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345145/ann/9",
+    "target": "PMID:12345145/text#char=1061,1068",
+    "text": "infants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:57667",
+      "type": "Species"
+    },
+    "id": "PMID:12345145/ann/10",
+    "target": "PMID:12345145/text#char=1077,1080",
+    "text": "HIV",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345145/ann/11",
+    "target": "PMID:12345145/text#char=1298,1306",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345145/ann/12",
+    "target": "PMID:12345145/text#char=1352,1360",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345145/ann/0",
+      "to": "PMID:12345145/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345145/ann/13",
+    "target": "PMID:12345145/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345145/ann/0",
+      "to": "PMID:12345145/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345145/ann/14",
+    "target": "PMID:12345145/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345145/ann/0",
+      "to": "PMID:12345145/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345145/ann/15",
+    "target": "PMID:12345145/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345145/ann/1",
+      "to": "PMID:12345145/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345145/ann/16",
+    "target": "PMID:12345145/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345145/ann/2",
+      "to": "PMID:12345145/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345145/ann/17",
+    "target": "PMID:12345145/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345145/ann/2",
+      "to": "PMID:12345145/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345145/ann/18",
+    "target": "PMID:12345145/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345145/ann/3",
+      "to": "PMID:12345145/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345145/ann/19",
+    "target": "PMID:12345145/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345145/ann/4",
+      "to": "PMID:12345145/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345145/ann/20",
+    "target": "PMID:12345145/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345145/ann/4",
+      "to": "PMID:12345145/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345145/ann/21",
+    "target": "PMID:12345145/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345145/ann/5",
+      "to": "PMID:12345145/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345145/ann/22",
+    "target": "PMID:12345145/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345145/ann/5",
+      "to": "PMID:12345145/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345145/ann/23",
+    "target": "PMID:12345145/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345145/ann/5",
+      "to": "PMID:12345145/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345145/ann/24",
+    "target": "PMID:12345145/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345145/ann/9",
+      "to": "PMID:12345145/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345145/ann/25",
+    "target": "PMID:12345145/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345145/ann/11",
+      "to": "PMID:12345145/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345145/ann/26",
+    "target": "PMID:12345145/text",
+    "type": "Relation"
+  }
+]

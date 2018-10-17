@@ -1,0 +1,72 @@
+[
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345713/ann/0",
+    "target": "PMID:12345713/text#char=10,19",
+    "text": "migration",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345713/ann/1",
+    "target": "PMID:12345713/text#char=336,345",
+    "text": "migration",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345713/ann/2",
+    "target": "PMID:12345713/text#char=86,89",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345713/ann/3",
+    "target": "PMID:12345713/text#char=99,104",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345713/ann/0",
+      "to": "PMID:12345713/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345713/ann/4",
+    "target": "PMID:12345713/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345713/ann/0",
+      "to": "PMID:12345713/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345713/ann/5",
+    "target": "PMID:12345713/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345713/ann/2",
+      "to": "PMID:12345713/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345713/ann/6",
+    "target": "PMID:12345713/text",
+    "type": "Relation"
+  }
+]

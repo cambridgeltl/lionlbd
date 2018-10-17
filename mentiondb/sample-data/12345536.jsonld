@@ -1,0 +1,262 @@
+[
+  {
+    "body": {
+      "id": "MESH:D015658",
+      "type": "Disease"
+    },
+    "id": "PMID:12345536/ann/0",
+    "target": "PMID:12345536/text#char=1286,1291",
+    "text": "virus",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D010243",
+      "type": "Disease"
+    },
+    "id": "PMID:12345536/ann/1",
+    "target": "PMID:12345536/text#char=2149,2158",
+    "text": "paralysis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011051",
+      "type": "Disease"
+    },
+    "id": "PMID:12345536/ann/2",
+    "target": "PMID:12345536/text#char=956,969",
+    "text": "poliomyelitis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009187",
+      "type": "Disease"
+    },
+    "id": "PMID:12345536/ann/3",
+    "target": "PMID:12345536/text#char=1622,1630",
+    "text": "myelitis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D010243",
+      "type": "Disease"
+    },
+    "id": "PMID:12345536/ann/4",
+    "target": "PMID:12345536/text#char=2084,2093",
+    "text": "paralysis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D010243",
+      "type": "Disease"
+    },
+    "id": "PMID:12345536/ann/5",
+    "target": "PMID:12345536/text#char=1751,1760",
+    "text": "paralysis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D010243",
+      "type": "Disease"
+    },
+    "id": "PMID:12345536/ann/6",
+    "target": "PMID:12345536/text#char=1164,1173",
+    "text": "paralysis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D020275",
+      "type": "Disease"
+    },
+    "id": "PMID:12345536/ann/7",
+    "target": "PMID:12345536/text#char=1555,1580",
+    "text": "Guillain Barre's syndrome",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D010243",
+      "type": "Disease"
+    },
+    "id": "PMID:12345536/ann/8",
+    "target": "PMID:12345536/text#char=2103,2112",
+    "text": "paralysis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D010243",
+      "type": "Disease"
+    },
+    "id": "PMID:12345536/ann/9",
+    "target": "PMID:12345536/text#char=2168,2177",
+    "text": "paralysis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:12345536/ann/10",
+    "target": "PMID:12345536/text#char=1600,1606",
+    "text": "tumors",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001284",
+      "type": "Disease"
+    },
+    "id": "PMID:12345536/ann/11",
+    "target": "PMID:12345536/text#char=2192,2199",
+    "text": "atrophy",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:138950",
+      "type": "Species"
+    },
+    "id": "PMID:12345536/ann/12",
+    "target": "PMID:12345536/text#char=425,435",
+    "text": "poliovirus",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345536/ann/1",
+      "to": "PMID:12345536/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345536/ann/13",
+    "target": "PMID:12345536/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345536/ann/1",
+      "to": "PMID:12345536/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345536/ann/14",
+    "target": "PMID:12345536/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345536/ann/1",
+      "to": "PMID:12345536/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345536/ann/15",
+    "target": "PMID:12345536/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345536/ann/1",
+      "to": "PMID:12345536/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345536/ann/16",
+    "target": "PMID:12345536/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345536/ann/3",
+      "to": "PMID:12345536/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345536/ann/17",
+    "target": "PMID:12345536/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345536/ann/3",
+      "to": "PMID:12345536/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345536/ann/18",
+    "target": "PMID:12345536/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345536/ann/4",
+      "to": "PMID:12345536/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345536/ann/19",
+    "target": "PMID:12345536/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345536/ann/4",
+      "to": "PMID:12345536/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345536/ann/20",
+    "target": "PMID:12345536/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345536/ann/4",
+      "to": "PMID:12345536/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345536/ann/21",
+    "target": "PMID:12345536/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345536/ann/7",
+      "to": "PMID:12345536/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345536/ann/22",
+    "target": "PMID:12345536/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345536/ann/8",
+      "to": "PMID:12345536/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345536/ann/23",
+    "target": "PMID:12345536/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345536/ann/8",
+      "to": "PMID:12345536/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345536/ann/24",
+    "target": "PMID:12345536/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345536/ann/9",
+      "to": "PMID:12345536/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345536/ann/25",
+    "target": "PMID:12345536/text",
+    "type": "Relation"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345858/ann/0",
+    "target": "PMID:12345858/text#char=741,744",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345858/ann/1",
+    "target": "PMID:12345858/text#char=787,792",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345858/ann/0",
+      "to": "PMID:12345858/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345858/ann/2",
+    "target": "PMID:12345858/text",
+    "type": "Relation"
+  }
+]

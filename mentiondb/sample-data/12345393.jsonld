@@ -1,0 +1,189 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345393/ann/0",
+    "target": "PMID:12345393/text#char=11,17",
+    "text": "Senate",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345393/ann/1",
+    "target": "PMID:12345393/text#char=261,267",
+    "text": "Senate",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003276",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345393/ann/2",
+    "target": "PMID:12345393/text#char=391,410",
+    "text": "oral contraceptives",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "CHEBI:26333",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345393/ann/3",
+    "target": "PMID:12345393/text#char=415,428",
+    "text": "prostaglandin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345393/ann/4",
+    "target": "PMID:12345393/text#char=1370,1378",
+    "text": "doctrine",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:4843",
+      "type": "Gene"
+    },
+    "id": "PMID:12345393/ann/5",
+    "target": "PMID:12345393/text#char=23,26",
+    "text": "Nos",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345393/ann/6",
+    "target": "PMID:12345393/text#char=204,209",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345393/ann/7",
+    "target": "PMID:12345393/text#char=214,222",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345393/ann/8",
+    "target": "PMID:12345393/text#char=887,892",
+    "text": "woman",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345393/ann/9",
+    "target": "PMID:12345393/text#char=976,981",
+    "text": "Human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345393/ann/10",
+    "target": "PMID:12345393/text#char=1062,1067",
+    "text": "Women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345393/ann/11",
+    "target": "PMID:12345393/text#char=1174,1179",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345393/ann/0",
+      "to": "PMID:12345393/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345393/ann/12",
+    "target": "PMID:12345393/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345393/ann/1",
+      "to": "PMID:12345393/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345393/ann/13",
+    "target": "PMID:12345393/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345393/ann/1",
+      "to": "PMID:12345393/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345393/ann/14",
+    "target": "PMID:12345393/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345393/ann/2",
+      "to": "PMID:12345393/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345393/ann/15",
+    "target": "PMID:12345393/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345393/ann/6",
+      "to": "PMID:12345393/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345393/ann/16",
+    "target": "PMID:12345393/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345393/ann/8",
+      "to": "PMID:12345393/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345393/ann/17",
+    "target": "PMID:12345393/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345393/ann/9",
+      "to": "PMID:12345393/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345393/ann/18",
+    "target": "PMID:12345393/text",
+    "type": "Relation"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345762/ann/0",
+    "target": "PMID:12345762/text#char=394,405",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:51673",
+      "type": "Gene"
+    },
+    "id": "PMID:12345762/ann/1",
+    "target": "PMID:12345762/text#char=174,177",
+    "text": "P20",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345762/ann/2",
+    "target": "PMID:12345762/text#char=1404,1416",
+    "text": "Participants",
+    "type": "Span"
+  }
+]

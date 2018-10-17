@@ -1,0 +1,82 @@
+[
+  {
+    "body": {
+      "id": "MESH:D006828",
+      "type": "Disease"
+    },
+    "id": "PMID:12345025/ann/0",
+    "target": "PMID:12345025/text#char=1323,1338",
+    "text": "molar pregnancy",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000022",
+      "type": "Disease"
+    },
+    "id": "PMID:12345025/ann/1",
+    "target": "PMID:12345025/text#char=797,817",
+    "text": "spontaneous abortion",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000031",
+      "type": "Disease"
+    },
+    "id": "PMID:12345025/ann/2",
+    "target": "PMID:12345025/text#char=429,437",
+    "text": "abortion",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000031",
+      "type": "Disease"
+    },
+    "id": "PMID:12345025/ann/3",
+    "target": "PMID:12345025/text#char=50,58",
+    "text": "abortion",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000022",
+      "type": "Disease"
+    },
+    "id": "PMID:12345025/ann/4",
+    "target": "PMID:12345025/text#char=719,739",
+    "text": "spontaneous abortion",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345025/ann/5",
+    "target": "PMID:12345025/text#char=233,238",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345025/ann/6",
+    "target": "PMID:12345025/text#char=1196,1204",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345025/ann/1",
+      "to": "PMID:12345025/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345025/ann/7",
+    "target": "PMID:12345025/text",
+    "type": "Relation"
+  }
+]

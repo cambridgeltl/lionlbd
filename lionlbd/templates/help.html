@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>LION - help</title>
+		<link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.png') }}?v=3">	    
+		<link rel="stylesheet" href="/static/css/semantic.min.css">	
+                <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">	
+                <link rel="stylesheet" href="/static/css/cam-dtal-lion.css">
+		<script src="static/js/jquery.min.js"></script>
+		<script src="static/js/semantic.min.js"></script>
+
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112981582-1"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'UA-112981582-1');
+                </script>
+                <script>
+                    //code when user clicks the menu item
+                    //code on load triggers click of relevant menu item
+                    $( document ).ready(function() {
+                       
+                        
+
+
+
+
+                        $( document.body ).on( "click", ".docs-menu-item",
+                            function() {
+                                $(".tab-panel").hide();
+                                $(".docs-menu-item").removeClass('active');
+                                console.log( $(this).attr('data-tab') );
+                                $(this).addClass('active');
+                                $('#panel-'+$(this).attr('data-tab')).show();
+                                window.location.hash = $(this).attr('data-tab');
+                            }
+                        );
+
+                        console.log(window.location.hash)
+
+                        if(window.location.hash == "#API") {
+                           console.log('triggering click')
+                           $('#docs-menu-item-API').trigger('click'); 
+                        }
+
+                    });
+                </script>
+
+
+	</head>
+	<body>
+
+            <div class="pusher">			
+
+
+            <!-- Top Menu -->
+            <div id="cam-dtal-lion-global-menu" style="padding: 6px; margin: 0; display: flex; flex-direction: row; justify-content: space-between; background-color: white; align-items: center;">
+                <div class="item" style="display: flex; flex-direction: row; align-items:center;">
+                    <div class="cam-dtal-lion-topbar-element cam-dtal-lion-topbar-element-title">
+                        <!--<a style="color: black;" href="/">
+                            <i class="ui student icon"></i>LION
+                        </a>  -->
+                        <a href="/">
+                        <img alt="Lion logo" 
+                        style="height: 33px; width: auto; margin: 0; padding: 0;" 
+                             src="/static/images/lionface.png" />
+                        </a>
+                    </div>
+		    <a class="cam-dtal-lion-menu-item" href="/">home</a>
+                <a class="cam-dtal-lion-menu-item" href="/help">help</a>
+				<a class="cam-dtal-lion-menu-item" href="/downloads">downloads</a>
+				<a class="cam-dtal-lion-menu-item" href="/about">about</a>
+                </div>
+            </div>
+
+            </div>
+
+	    <div class="ui container">
+
+            <div class="ui grid" >
+                <div class="row">
+                    <div class="column"><h1>Documentation</h1></div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="sixteen wide column">
+                        <div class="ui two item stackable tabs menu">
+                            <a id="docs-menu-item-help" class="docs-menu-item item active"
+                               data-tab="help">Help</a>
+                            <a id="docs-menu-item-API" class="docs-menu-item item"
+                               data-tab="API">API</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="panel-help" class="row tab-panel">
+                    <div class="sixteen wide column">
+
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h2>What does LION do?</h2>
+                            <p>
+                              LION helps Cancer researchers form hypotheses by giving them a graph based view of the research literature.
+                            </p>
+                            <br /><br />
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h2>How is LION's graph made?</h2>
+                            <p>
+                               We mine Cancer abstracts from Pubmed, extract relevant biological entities from each one. Each biological entity is a node in our graph and edges between entities represent (roughly) how many abstracts the two entities appear together in. 
+                            </p>
+                            <br /><br />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h2>Getting started</h2>
+                            <p>
+                              To start with you enter a search query. Depending on the query type, you get one of three results
+                              <ul>
+                                <li><strong style="text-decoration:none; border-bottom: 3px solid #ffaaaa5c;">
+                                        Neighbours search
+                                    </strong> - 
+                                    finds other biological terms directly connected to the search term.
+                                </li>
+                                <li><strong style="text-decoration:none; border-bottom: 3px solid #ffd42a5c;">
+                                        Open search
+                                    </strong> - 
+                                    finds biological terms that share neighbours with the search term 
+                                    (i.e. two steps away from the search term).
+                                </li>
+                                <li><strong style="text-decoration:none; border-bottom: 3px solid #ccff005c;">
+                                        Closed search
+                                    </strong> - 
+                                    for this you enter a destination term, and the search returns terms that connect the query term to the destination term.
+                                </li>
+                              </ul>
+                              These are shown next to the query box, from left to right.
+                            </p>
+                            <div style="text-align: center;">
+                                <img src="/static/images/lionhelpsearch.png" width="589"  />
+                            </div>
+                            <br /><br />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h2>Working with the graph</h2>
+
+
+                            <div class="row">
+                                <div class="twelve wide column">
+                                    <h4>Viewing</h4>
+                                    <p>
+                                      <ul>
+                                        <li><strong style="text-decoration:none; border-bottom: 3px solid #ffaaaa5c;">Node info</strong> - Rolling over a graph node will bring up information about the node. Along with the node's canonical identifier (on the top right), the dialog shows the number of mentions of the node, and in how many abstract the node was mentioned, and how many edges connect to the node.</li>
+                                        <li><strong style="text-decoration:none; border-bottom: 3px solid #ffd42a5c;">Edge info</strong> - Clicking on a graph edge, brings up data about the number of times the connected nodes co-occur, and in how many documents, when the nodes were first co-mentioned and the value of the connectedness metric. The abstracts in which the connected nodes co-occur are also listed.</li>
+                                        <li><strong style="text-decoration:none; border-bottom: 3px solid #ccff005c;">Text mode</strong> - This is an alternative to the graph view, in which the query node is shown at the top, and all connected nodes are listed underneath. You can access text mode from the graph by clicking the newspaper icon on the left hand menu.</li>
+                                        <li><strong style="text-decoration:none; border-bottom: 3px solid #6f917c5c;">Alternative graph layouts</strong> - The menu at the bottom of the graph allows you to change the graph type to get a more parsimonious layout for your query. For example, the concentric circles layout might help you when performing an open discovery query.</li>
+                                        <li><strong style="text-decoration:none; border-bottom: 3px solid #ff2a7f5c;">Saving as an image</strong> - To do this click the spanner icon at the bottom of the graph and select either PNG or JPG. It's that easy!</li>
+                                      </ul> 
+                                    </p>
+
+                                </div>
+                                <div class="four wide column">
+                                    <img src="/static/images/lionhelpviewing.png" style="width: 100%;" />
+                                </div>
+                            </div>
+
+                            <br /><br />
+
+                            <div class="row">
+                                <div class="twelve wide column">
+                                    <h4>Navigating</h4>
+                                    <p>
+                                      Once you've entered a query and LION returns a graph, you can start exploring it, with the following operations to help you:
+                                      <ul>
+                                        <li><strong style="text-decoration:none; border-bottom: 3px solid #ffd42a5c;">Expand/Collapse node</strong> - clicking on a node, brings up the node info, from which you can expand (outward arrows icon) or collapse it (inwards arrows icon). Expanding a node fetches that node's direct neighbours and adds them to the graph. Collapsing a node undoes the expansion.</li>
+                                        <li><strong style="text-decoration:none; border-bottom: 3px solid #6f917c5c;">Add/delete node</strong> - if you're interested in how a biological entity that's not on the graph is related, you can add it as a node via the 'Search or add node' bar at the top left of the graph.</li>
+                                        <li><strong style="text-decoration:none; border-bottom: 3px solid #ccff005c;">Add intermediates</strong> - for open discovery or closed discovery search modes, you can fetch more intermediate nodes (B nodes, in A-B-C, where A is the search term) by clicking '+ Intermediates' at the top-middle of the graph.</li>
+                                      </ul> 
+                                    </p>
+                                </div>
+                                <div class="four wide column">
+                                    <img src="/static/images/lionhelpnavigating.png" style="width: 100%;" />
+                                </div>
+                            </div>
+
+                            <br /><br />
+                            
+                            <div class="row">
+                                <div class="twelve wide column">
+                                    <h4>Filtering</h4>
+                                    <p>
+                                      <ul>
+                                        <li><strong style="text-decoration:none; border-bottom: 3px solid #ffaaaa5c;">Filter abstracts by year</strong> - toggle the filter at the bottom left of the graph. To filter on the server side, set the year on the top right of the page.</li>
+                                        <li><strong style="text-decoration:none; border-bottom: 3px solid #ccff005c;">Filter edges by weight</strong> - toggle the filter at the bottom right of the graph. To filter what the LION server returns, you can set the edge weight filters with the settings on the top right of the page.</li>
+                                        <li><strong style="text-decoration:none; border-bottom: 3px solid #6f917c5c;">Filter nodes by biological entity type</strong> - toggle the entity types on the right of the graph. Or to choose the entities the server returns set the at the top of the page.</li>
+                                      </ul>
+                                    </p>
+                                </div>
+                                <div class="four wide column">
+                                    <img src="/static/images/lionhelpfiltering.png" style="width: 100%;" />
+                                </div>
+                            </div>
+
+                            <br /><br />
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h2>Contact us</h2>
+                            <p>
+                            If you require further help, contact us on <strong>ltllionproject@gmail.com</strong>
+                            </p>
+                            <br /><br />
+                        </div>
+                    </div>
+
+                <!-- end help -->
+                    </div>
+                </div>
+
+
+                <div id="panel-API"  class="tab-panel row" style="display:none;">
+                    <div class="sixteen wide column">
+                        
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h2>API Reference</h2>
+                            <br /><br />
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h3>Summary</h3>
+                            <p>
+                            The LION API uses a http interface, with users
+                            making GET requests (with all parameters in the URL), 
+                            and LION returning a JSON
+                            object.
+                            </p>
+                            
+			    <p>
+			    In the LION API, node and edge objects are the elements of the LION graph.
+			    The LION graph is made from pubmed documents, from which entities are extracted.
+			    Entities identified in documents correspond to the nodes of the graph, while graph
+			    edges are identified when entities co-occur in at least one document.
+			    </p>
+
+			    <p>
+			    The Graph API can be used to access LIONs graph (nodes and edges), 
+			    while the Document API allows the user to access documents and entities.  
+			    </p>
+
+                            <br /><br />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h3>Example</h3>
+                            <p>Fetch the neighbours of p53</p>
+                            <pre><code class="code javascript">
+$.ajax({
+    url: "/neighbours/PR:000003035",
+    dataType: "json",
+    type : "GET",
+    success : function(r) {
+        console.log(r);
+    }
+});
+                            </code></pre>
+                            <br /><br />
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h3>Common output formats</h3>
+                            
+                            <h5>Node JSON format</h5>
+                            <pre><code class="code javascript">
+{
+    id: "node_id",
+    type: "node_type",
+    name: "node_name",
+    fullname: "node_fullname",
+    count: node_count,
+    doc_count: #documents_containing_edge,
+    edgecount: #edges_from_node,
+    equivalents: ["equivalent_names"]
+}
+                            </code></pre>
+                            
+                            <h5>Edge JSON format</h5>
+                            <pre><code class="code javascript">
+{
+    source: source_node_id
+    target: target_node_id
+    count: count
+    doc_count: #documents_containing_edge
+}
+                            </code></pre>
+                            
+                            <h5>Document JSON format</h5>
+                            <pre><code class="code javascript">
+{
+    id: "pubmedid", 
+    text:"text" 
+}
+                            </code></pre>
+                            <br /><br />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h3>Graph API functions</h3>
+                            <br /><br />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h4>Neighbours of a node</h4>
+                            <p>fetches the nodes that are direct neighbours of the given node, and the edges connecting them</p>
+                            
+                            <h5>URL</h5>
+                            <p><a target="_blank"  href="http://lbd.lionproject.net/neighbours/PR:000003035">/neighbours/:nodeid</a></p>
+
+                            <h5>URL params</h5>
+			    <div class="ui bulleted list">
+				<div class="item">type (Chemical|Disease|Mutation|Gene|Hallmark|Species) - filter types of nodes to fetch</div>
+				<div class="item">edge_metric ({jaccard}|chi2|count|doc_count|llr|npmi|scp|studentt) - edge metric to use</div>
+				<div class="item">year_end (int:{current_year}) - fetch neighbours from edges before given year</div>
+				<div class="item">year_end (int:{current_year}) - fetch neighbours from edges before given year</div>
+				<div class="item">weight_start (float:{min_possible_weight}) - neighbours whose edges have at least a certain weight</div>
+				<div class="item">weight_end (float:{max_possible_weight}) - neighbours whose edges have less than a certain weight</div>
+				<div class="item">history (1) - fetch historical edge weights by year</div>
+			    </div>
+
+                            <h5>Success response</h5>
+                            <pre><code class="code javascript">
+{
+    nodes:[array_of_node_JSON_objects],
+    edges: [array_of_edge_JSON_objects]
+}
+                            </code></pre>
+
+                            <br /><br />
+                            <br /><br />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h4>Open discovery</h4>
+                            <p>fetches the nodes for which there's a path of less than 2 edges from the given node, along with the edges that connect them.</p>
+                            
+                            <h5>URL</h5>
+                            <p><a target="_blank"  href="http://lbd.lionproject.net/open_discovery/PR:000003035">/open_discovery/:nodeid</a></p>
+
+                            <h5>URL params</h5>
+			    <div class="ui bulleted list">
+				<div class="item">type (Chemical|Disease|Mutation|Gene|Hallmark|Species) - filter types of nodes to fetch</div>
+				<div class="item">edge_metric ({jaccard}|chi2|count|doc_count|llr|npmi|scp|studentt) - edge metric to use</div>
+				<div class="item">year_end (int:{current_year}) - fetch neighbours from edges before given year</div>
+				<div class="item">year_end (int:{current_year}) - fetch neighbours from edges before given year</div>
+				<div class="item">weight_start (float:{min_possible_weight}) - neighbours whose edges have at least a certain weight</div>
+				<div class="item">weight_end (float:{max_possible_weight}) - neighbours whose edges have less than a certain weight</div>
+				<div class="item">history (1) - fetch historical edge weights by year</div>
+				<div class="item">aggregation_func ({min}|max|avg) - the aggregation function to use across multiple edges when ranking edges.</div>
+				<div class="item">page (int:{1}) - the page of results to fetch</div>
+			    </div>
+
+                            <h5>Success response</h5>
+                            <pre><code class="code javascript">
+{
+    nodes:[array_of_node_JSON_objects],
+    edges: [array_of_edge_JSON_objects]
+}
+                            </code></pre>
+
+                            <br /><br />
+                            <br /><br />
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h4>Closed discovery</h4>
+                            <p>Fetches the nodes that connect the a_nodeid to the c_nodeid, along with the connecting edges.</p>
+                            
+                            <h5>URL</h5>
+                            <p><a target="_blank"  href="http://lbd.lionproject.net/closed_discovery/PR:000003035/PR:000005274">/closed_discovery/:a_nodeid/:c_nodeid</a></p>
+
+                            <h5>URL params</h5>
+			    <div class="ui bulleted list">
+				<div class="item">type (Chemical|Disease|Mutation|Gene|Hallmark|Species) - filter types of nodes to fetch</div>
+				<div class="item">edge_metric ({jaccard}|chi2|count|doc_count|llr|npmi|scp|studentt) - edge metric to use</div>
+				<div class="item">year_end (int:{current_year}) - fetch neighbours from edges before given year</div>
+				<div class="item">year_end (int:{current_year}) - fetch neighbours from edges before given year</div>
+				<div class="item">weight_start (float:{min_possible_weight}) - neighbours whose edges have at least a certain weight</div>
+				<div class="item">weight_end (float:{max_possible_weight}) - neighbours whose edges have less than a certain weight</div>
+				<div class="item">history (1) - fetch historical edge weights by year</div>
+				<div class="item">aggregation_func ({min}|max|avg) - the aggregation function to use across multiple edges when ranking edges.</div>
+			    </div>
+
+                            <h5>Success response</h5>
+                            <pre><code class="code javascript">
+{
+    nodes:[array_of_node_JSON_objects],
+    edges: [array_of_edge_JSON_objects]
+}
+                            </code></pre>
+
+                            <br /><br />
+                            <br /><br />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h3>Document API functions</h3>
+                            <br /><br />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h4>Fetch documents</h4>
+                            <p>Fetches the Pubmed documents that LION uses to build its graph.</p>
+                            
+                            <h5>URL</h5>
+                            <p><a target="_blank"  href="http://lbd.lionproject.net/documents/">/documents/</a></p>
+
+                            <h5>URL params</h5>
+			    <div class="ui bulleted list">
+				<div class="item">page (int:{1}) - the page to fetch. 100 results per page</div>
+			    </div>
+
+                            <h5>Success response</h5>
+                            <pre><code class="code javascript">
+[array_of_document_JSON_objects]
+                            </code></pre>
+
+                            <br /><br />
+                            <br /><br />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h4>Fetch single document</h4>
+                            <p>Fetches a single document by :pubmedid</p>
+                            
+                            <h5>URL</h5>
+                            <p><a target="_blank"  href="http://lbd.lionproject.net/documents/PMID:495703">/documents/:pubmedid</a></p>
+
+                            <h5>Success response</h5>
+                            <pre><code class="code javascript">
+document_JSON_object
+                            </code></pre>
+
+                            <br /><br />
+                            <br /><br />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h4>Fetch single document text</h4>
+                            <p>Fetches a single document's abstract by :pubmedid</p>
+                            
+                            <h5>URL</h5>
+                            <p><a target="_blank" href="http://lbd.lionproject.net/documents/PMID:495703/text">/documents/:pubmedid/text</a></p>
+
+
+                            <h5>Success response</h5>
+			    <p>This function returns the document text in <em>plaintext</em> format</p>
+
+                            <br /><br />
+                            <br /><br />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h4>Fetch single document annotations</h4>
+                            <p>Fetches LION's annotations of a document specified by :pubmedid</p>
+                            
+                            <h5>URL</h5>
+                            <p><a target="_blank" href="http://lbd.lionproject.net/documents/PMID:495703/annotations">/documents/:pubmedid/annotations</a></p>
+
+                            <h5>Success response</h5>
+                            <pre><code class="code javascript">
+[
+  {
+    "body": {
+      "id": "pubmedid", 
+      "type": "entitytype", 
+      "year": 1979
+    }, 
+    "id": "annotationid", 
+    "target": "annotationtarget", 
+    "text": "annotationtext", 
+    "type": "annotationtype"
+  }, 
+  ...
+]
+                            </code></pre>
+
+                            <br /><br />
+                            <br /><br />
+                        </div>
+                    </div>
+
+
+<!--
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h4>Fetch entity details</h4>
+                            <p></p>
+                            
+                            <h5>URL</h5>
+                            <p><a target="_blank" href="http://lbd.lionproject.net/entities/PR:000003035">/entities/:entityid</a></p>
+
+                            <h5>Success response</h5>
+                            <pre><code class="code javascript">
+[
+  {
+    "body": {
+      "id": "pubmedid", 
+      "type": "entitytype", 
+      "year": 1979
+    }, 
+    "id": "annotationid", 
+    "target": "annotationtarget", 
+    "text": "annotationtext", 
+    "type": "annotationtype"
+  }, 
+  ...
+]
+                            </code></pre>
+
+                            <br /><br />
+                            <br /><br />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h4>Fetch entity mentions</h4>
+                            <p></p>
+                            
+                            <h5>URL</h5>
+                            <p><a target="_blank" href="http://lbd.lionproject.net/entities/PR:000003035/mentions">/entities/:entityid/mentions</a></p>
+
+                            <h5>URL params</h5>
+			    <div class="ui bulleted list">
+				<div class="item">page (int:{1}) - the page to fetch. 100 results per page</div>
+			    </div>
+
+                            <h5>Success response</h5>
+                            <pre><code class="code javascript">
+[
+  {
+    "body": {
+      "id": "pubmedid", 
+      "type": "entitytype", 
+      "year": 1979
+    }, 
+    "id": "annotationid", 
+    "target": "annotationtarget", 
+    "text": "annotationtext", 
+    "type": "annotationtype"
+  }, 
+  ...
+]
+                            </code></pre>
+
+                            <br /><br />
+                            <br /><br />
+                        </div>
+                    </div>
+-->
+
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <h4>Fetch relations between two entities</h4>
+                            <p></p>
+                            
+                            <h5>URL</h5>
+                            <p><a target="_blank" href="http://lbd.lionproject.net/relations/PR:000003035/to/PR:000005274">/relations/:entityid1/to/:entityid2/</a></p>
+
+                            <h5>URL params</h5>
+			    <div class="ui bulleted list">
+				<div class="item">page (int:{1}) - the page to fetch. 100 results per page</div>
+				<div class="item">expand (1) - whether to expand the results</div>
+			    </div>
+
+                            <h5>Success response</h5>
+                            <pre><code class="code javascript">
+[
+  {
+    "body": {
+      "from": "document_annotation", 
+      "to": "document_annotation", 
+      "type": "relationtype_eg_Cooccurrence", 
+      "year": "year"
+    }, 
+    "id": "document_annotation_for_relation", 
+    "target": "target", 
+    "type": "Relation"
+  }, 
+  ...
+]
+                            </code></pre>
+
+                            <br /><br />
+                            <br /><br />
+                        </div>
+                    </div>
+
+                <!-- end API -->
+                    </div>
+                </div>
+
+            </div>
+	    </div>
+  
+        </body>
+</html>

@@ -1,0 +1,152 @@
+[
+  {
+    "body": {
+      "id": "CHEBI:29016",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234577/ann/0",
+    "target": "PMID:1234577/text#char=733,741",
+    "text": "arginine",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003920",
+      "type": "Disease"
+    },
+    "id": "PMID:1234577/ann/1",
+    "target": "PMID:1234577/text#char=608,616",
+    "text": "diabetic",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003920",
+      "type": "Disease"
+    },
+    "id": "PMID:1234577/ann/2",
+    "target": "PMID:1234577/text#char=573,581",
+    "text": "diabetic",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234577/ann/3",
+    "target": "PMID:1234577/text#char=78,83",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9986",
+      "type": "Species"
+    },
+    "id": "PMID:1234577/ann/4",
+    "target": "PMID:1234577/text#char=104,111",
+    "text": "Rabbits",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234577/ann/5",
+    "target": "PMID:1234577/text#char=429,437",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234577/ann/6",
+    "target": "PMID:1234577/text#char=582,590",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234577/ann/7",
+    "target": "PMID:1234577/text#char=594,602",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234577/ann/1",
+      "to": "PMID:1234577/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234577/ann/8",
+    "target": "PMID:1234577/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234577/ann/1",
+      "to": "PMID:1234577/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234577/ann/9",
+    "target": "PMID:1234577/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234577/ann/1",
+      "to": "PMID:1234577/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234577/ann/10",
+    "target": "PMID:1234577/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234577/ann/2",
+      "to": "PMID:1234577/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234577/ann/11",
+    "target": "PMID:1234577/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234577/ann/2",
+      "to": "PMID:1234577/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234577/ann/12",
+    "target": "PMID:1234577/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234577/ann/3",
+      "to": "PMID:1234577/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234577/ann/13",
+    "target": "PMID:1234577/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234577/ann/6",
+      "to": "PMID:1234577/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234577/ann/14",
+    "target": "PMID:1234577/text",
+    "type": "Relation"
+  }
+]

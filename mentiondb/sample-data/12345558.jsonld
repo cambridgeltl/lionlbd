@@ -1,0 +1,62 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345558/ann/0",
+    "target": "PMID:12345558/text#char=6,10",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345558/ann/1",
+    "target": "PMID:12345558/text#char=565,569",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345558/ann/2",
+    "target": "PMID:12345558/text#char=300,304",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345558/ann/3",
+    "target": "PMID:12345558/text#char=21,25",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345558/ann/4",
+    "target": "PMID:12345558/text#char=156,160",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345558/ann/0",
+      "to": "PMID:12345558/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345558/ann/5",
+    "target": "PMID:12345558/text",
+    "type": "Relation"
+  }
+]

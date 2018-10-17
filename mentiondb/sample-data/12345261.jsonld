@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:D009386",
+      "type": "Disease"
+    },
+    "id": "PMID:12345261/ann/0",
+    "target": "PMID:12345261/text#char=128,147",
+    "text": "Family Expenditures",
+    "type": "Span"
+  }
+]

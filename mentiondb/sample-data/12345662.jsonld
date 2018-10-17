@@ -1,0 +1,111 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345662/ann/0",
+    "target": "PMID:12345662/text#char=1881,1889",
+    "text": "doctrine",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000031",
+      "type": "Disease"
+    },
+    "id": "PMID:12345662/ann/1",
+    "target": "PMID:12345662/text#char=1383,1406",
+    "text": "abortion never promoted",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D020018",
+      "type": "Disease"
+    },
+    "id": "PMID:12345662/ann/2",
+    "target": "PMID:12345662/text#char=1482,1505",
+    "text": "sexual health education",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345662/ann/3",
+    "target": "PMID:12345662/text#char=896,903",
+    "text": "peoples",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345662/ann/4",
+    "target": "PMID:12345662/text#char=1317,1322",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345662/ann/5",
+    "target": "PMID:12345662/text#char=1599,1604",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345662/ann/6",
+    "target": "PMID:12345662/text#char=1677,1689",
+    "text": "Participants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345662/ann/1",
+      "to": "PMID:12345662/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345662/ann/7",
+    "target": "PMID:12345662/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345662/ann/1",
+      "to": "PMID:12345662/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345662/ann/8",
+    "target": "PMID:12345662/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345662/ann/2",
+      "to": "PMID:12345662/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345662/ann/9",
+    "target": "PMID:12345662/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345662/ann/5",
+      "to": "PMID:12345662/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345662/ann/10",
+    "target": "PMID:12345662/text",
+    "type": "Relation"
+  }
+]

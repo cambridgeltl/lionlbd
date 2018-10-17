@@ -1,0 +1,192 @@
+[
+  {
+    "body": {
+      "id": "MESH:D005947",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345476/ann/0",
+    "target": "PMID:12345476/text#char=430,437",
+    "text": "glucose",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D005947",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345476/ann/1",
+    "target": "PMID:12345476/text#char=789,796",
+    "text": "glucose",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C034130",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345476/ann/2",
+    "target": "PMID:12345476/text#char=1251,1254",
+    "text": "ORS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004194",
+      "type": "Disease"
+    },
+    "id": "PMID:12345476/ann/3",
+    "target": "PMID:12345476/text#char=150,168",
+    "text": "Diarrhoeal Disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002771",
+      "type": "Disease"
+    },
+    "id": "PMID:12345476/ann/4",
+    "target": "PMID:12345476/text#char=1322,1329",
+    "text": "cholera",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004403",
+      "type": "Disease"
+    },
+    "id": "PMID:12345476/ann/5",
+    "target": "PMID:12345476/text#char=387,404",
+    "text": "diarrheal disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003967",
+      "type": "Disease"
+    },
+    "id": "PMID:12345476/ann/6",
+    "target": "PMID:12345476/text#char=1485,1493",
+    "text": "diarrhea",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002771",
+      "type": "Disease"
+    },
+    "id": "PMID:12345476/ann/7",
+    "target": "PMID:12345476/text#char=1125,1132",
+    "text": "cholera",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003967",
+      "type": "Disease"
+    },
+    "id": "PMID:12345476/ann/8",
+    "target": "PMID:12345476/text#char=660,668",
+    "text": "diarrhea",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003967",
+      "type": "Disease"
+    },
+    "id": "PMID:12345476/ann/9",
+    "target": "PMID:12345476/text#char=946,954",
+    "text": "diarrhea",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002771",
+      "type": "Disease"
+    },
+    "id": "PMID:12345476/ann/10",
+    "target": "PMID:12345476/text#char=1604,1611",
+    "text": "cholera",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:4530",
+      "type": "Species"
+    },
+    "id": "PMID:12345476/ann/11",
+    "target": "PMID:12345476/text#char=620,624",
+    "text": "rice",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345476/ann/12",
+    "target": "PMID:12345476/text#char=1133,1141",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345476/ann/13",
+    "target": "PMID:12345476/text#char=1455,1461",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345476/ann/0",
+      "to": "PMID:12345476/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345476/ann/14",
+    "target": "PMID:12345476/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345476/ann/2",
+      "to": "PMID:12345476/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345476/ann/15",
+    "target": "PMID:12345476/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345476/ann/6",
+      "to": "PMID:12345476/ann/13",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345476/ann/16",
+    "target": "PMID:12345476/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345476/ann/7",
+      "to": "PMID:12345476/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345476/ann/17",
+    "target": "PMID:12345476/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345476/ann/8",
+      "to": "PMID:12345476/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345476/ann/18",
+    "target": "PMID:12345476/text",
+    "type": "Relation"
+  }
+]

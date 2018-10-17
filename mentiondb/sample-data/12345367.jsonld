@@ -1,0 +1,292 @@
+[
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345367/ann/0",
+    "target": "PMID:12345367/text#char=586,591",
+    "text": "death",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012749",
+      "type": "Disease"
+    },
+    "id": "PMID:12345367/ann/1",
+    "target": "PMID:12345367/text#char=923,952",
+    "text": "sexually transmitted diseases",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D020018",
+      "type": "Disease"
+    },
+    "id": "PMID:12345367/ann/2",
+    "target": "PMID:12345367/text#char=1274,1294",
+    "text": "psychological health",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011248",
+      "type": "Disease"
+    },
+    "id": "PMID:12345367/ann/3",
+    "target": "PMID:12345367/text#char=529,560",
+    "text": "pregnancy-related complications",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D015658",
+      "type": "Disease"
+    },
+    "id": "PMID:12345367/ann/4",
+    "target": "PMID:12345367/text#char=1045,1083",
+    "text": "human immunodeficiency virus infection",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000292",
+      "type": "Disease"
+    },
+    "id": "PMID:12345367/ann/5",
+    "target": "PMID:12345367/text#char=973,1000",
+    "text": "pelvic inflammatory disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007246",
+      "type": "Disease"
+    },
+    "id": "PMID:12345367/ann/6",
+    "target": "PMID:12345367/text#char=1002,1013",
+    "text": "infertility",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345367/ann/7",
+    "target": "PMID:12345367/text#char=393,398",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345367/ann/8",
+    "target": "PMID:12345367/text#char=440,445",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345367/ann/9",
+    "target": "PMID:12345367/text#char=906,911",
+    "text": "girls",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345367/ann/10",
+    "target": "PMID:12345367/text#char=1045,1050",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345367/ann/11",
+    "target": "PMID:12345367/text#char=1253,1258",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/0",
+      "to": "PMID:12345367/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/12",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/1",
+      "to": "PMID:12345367/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/13",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/1",
+      "to": "PMID:12345367/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/14",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/1",
+      "to": "PMID:12345367/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/15",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/1",
+      "to": "PMID:12345367/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/16",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/1",
+      "to": "PMID:12345367/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/17",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/2",
+      "to": "PMID:12345367/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/18",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/3",
+      "to": "PMID:12345367/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/19",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/4",
+      "to": "PMID:12345367/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/20",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/4",
+      "to": "PMID:12345367/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/21",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/4",
+      "to": "PMID:12345367/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/22",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/5",
+      "to": "PMID:12345367/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/23",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/5",
+      "to": "PMID:12345367/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/24",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/5",
+      "to": "PMID:12345367/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/25",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/6",
+      "to": "PMID:12345367/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/26",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/6",
+      "to": "PMID:12345367/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/27",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345367/ann/7",
+      "to": "PMID:12345367/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345367/ann/28",
+    "target": "PMID:12345367/text",
+    "type": "Relation"
+  }
+]

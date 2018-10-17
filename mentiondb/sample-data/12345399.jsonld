@@ -1,0 +1,151 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345399/ann/0",
+    "target": "PMID:12345399/text#char=597,607",
+    "text": "illiterate",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D019966",
+      "type": "Disease"
+    },
+    "id": "PMID:12345399/ann/1",
+    "target": "PMID:12345399/text#char=669,684",
+    "text": "substance abuse",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D015658",
+      "type": "Disease"
+    },
+    "id": "PMID:12345399/ann/2",
+    "target": "PMID:12345399/text#char=235,280",
+    "text": "human immunodeficiency virus (HIV) infections",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012749",
+      "type": "Disease"
+    },
+    "id": "PMID:12345399/ann/3",
+    "target": "PMID:12345399/text#char=291,319",
+    "text": "sexually transmitted disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D019966",
+      "type": "Disease"
+    },
+    "id": "PMID:12345399/ann/4",
+    "target": "PMID:12345399/text#char=713,723",
+    "text": "dependence",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012749",
+      "type": "Disease"
+    },
+    "id": "PMID:12345399/ann/5",
+    "target": "PMID:12345399/text#char=321,324",
+    "text": "STD",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345399/ann/6",
+    "target": "PMID:12345399/text#char=235,240",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345399/ann/0",
+      "to": "PMID:12345399/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345399/ann/7",
+    "target": "PMID:12345399/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345399/ann/1",
+      "to": "PMID:12345399/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345399/ann/8",
+    "target": "PMID:12345399/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345399/ann/2",
+      "to": "PMID:12345399/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345399/ann/9",
+    "target": "PMID:12345399/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345399/ann/2",
+      "to": "PMID:12345399/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345399/ann/10",
+    "target": "PMID:12345399/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345399/ann/2",
+      "to": "PMID:12345399/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345399/ann/11",
+    "target": "PMID:12345399/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345399/ann/3",
+      "to": "PMID:12345399/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345399/ann/12",
+    "target": "PMID:12345399/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345399/ann/3",
+      "to": "PMID:12345399/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345399/ann/13",
+    "target": "PMID:12345399/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345399/ann/5",
+      "to": "PMID:12345399/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345399/ann/14",
+    "target": "PMID:12345399/text",
+    "type": "Relation"
+  }
+]

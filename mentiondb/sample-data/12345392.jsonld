@@ -1,0 +1,32 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345392/ann/0",
+    "target": "PMID:12345392/text#char=246,251",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345392/ann/1",
+    "target": "PMID:12345392/text#char=650,655",
+    "text": "child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345392/ann/2",
+    "target": "PMID:12345392/text#char=858,866",
+    "text": "patients",
+    "type": "Span"
+  }
+]

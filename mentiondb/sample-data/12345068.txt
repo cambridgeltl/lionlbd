@@ -1,0 +1,2 @@
+A cross-national analysis on determinants of life-expectancy in Africa.
+The authors estimate and compare life expectancy for 28 African countries in 1984 and 1987, and relate the length of life to selected socioeconomic variables. "The objective of the study is...to identify some determinants of life expectancy and achieve some understanding of their underlying structures so as to make it possible to know those that can be manipulated by policy in order to increase the life expectancy in Africa." Data are from published UN sources.

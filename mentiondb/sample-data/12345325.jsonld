@@ -1,0 +1,72 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000027",
+      "type": "Disease"
+    },
+    "id": "PMID:12345325/ann/0",
+    "target": "PMID:12345325/text#char=933,953",
+    "text": "incomplete abortions",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000027",
+      "type": "Disease"
+    },
+    "id": "PMID:12345325/ann/1",
+    "target": "PMID:12345325/text#char=312,331",
+    "text": "incomplete abortion",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345325/ann/2",
+    "target": "PMID:12345325/text#char=353,358",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345325/ann/3",
+    "target": "PMID:12345325/text#char=829,836",
+    "text": "patient",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345325/ann/4",
+    "target": "PMID:12345325/text#char=1345,1352",
+    "text": "Patient",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345325/ann/0",
+      "to": "PMID:12345325/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345325/ann/5",
+    "target": "PMID:12345325/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345325/ann/1",
+      "to": "PMID:12345325/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345325/ann/6",
+    "target": "PMID:12345325/text",
+    "type": "Relation"
+  }
+]

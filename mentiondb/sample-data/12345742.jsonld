@@ -1,0 +1,82 @@
+[
+  {
+    "body": {
+      "id": "OMIM:603663",
+      "type": "Disease"
+    },
+    "id": "PMID:12345742/ann/0",
+    "target": "PMID:12345742/text#char=1203,1219",
+    "text": "volunteer health",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007411",
+      "type": "Disease"
+    },
+    "id": "PMID:12345742/ann/1",
+    "target": "PMID:12345742/text#char=1346,1366",
+    "text": "intestinal parasites",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345742/ann/2",
+    "target": "PMID:12345742/text#char=594,600",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345742/ann/3",
+    "target": "PMID:12345742/text#char=899,905",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345742/ann/4",
+    "target": "PMID:12345742/text#char=1063,1069",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345742/ann/5",
+    "target": "PMID:12345742/text#char=1500,1506",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345742/ann/6",
+    "target": "PMID:12345742/text#char=1990,1995",
+    "text": "Women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345742/ann/7",
+    "target": "PMID:12345742/text#char=2353,2358",
+    "text": "child",
+    "type": "Span"
+  }
+]

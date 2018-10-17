@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:D005996",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345972/ann/0",
+    "target": "PMID:12345972/text#char=50,58",
+    "text": "dynamite",
+    "type": "Span"
+  }
+]

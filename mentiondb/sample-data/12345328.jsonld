@@ -1,0 +1,232 @@
+[
+  {
+    "body": {
+      "id": "MESH:D015735",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345328/ann/0",
+    "target": "PMID:12345328/text#char=0,6",
+    "text": "RU 486",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D015735",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345328/ann/1",
+    "target": "PMID:12345328/text#char=492,498",
+    "text": "RU-486",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D015735",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345328/ann/2",
+    "target": "PMID:12345328/text#char=709,715",
+    "text": "RU-486",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011453",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345328/ann/3",
+    "target": "PMID:12345328/text#char=721,735",
+    "text": "prostaglandins",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D015735",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345328/ann/4",
+    "target": "PMID:12345328/text#char=913,919",
+    "text": "RU-486",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000031",
+      "type": "Disease"
+    },
+    "id": "PMID:12345328/ann/5",
+    "target": "PMID:12345328/text#char=845,862",
+    "text": "complete abortion",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014839",
+      "type": "Disease"
+    },
+    "id": "PMID:12345328/ann/6",
+    "target": "PMID:12345328/text#char=1210,1218",
+    "text": "vomiting",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009325",
+      "type": "Disease"
+    },
+    "id": "PMID:12345328/ann/7",
+    "target": "PMID:12345328/text#char=1202,1208",
+    "text": "nausea",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D010146",
+      "type": "Disease"
+    },
+    "id": "PMID:12345328/ann/8",
+    "target": "PMID:12345328/text#char=1031,1035",
+    "text": "pain",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003967",
+      "type": "Disease"
+    },
+    "id": "PMID:12345328/ann/9",
+    "target": "PMID:12345328/text#char=1224,1232",
+    "text": "diarrhea",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D018805",
+      "type": "Disease"
+    },
+    "id": "PMID:12345328/ann/10",
+    "target": "PMID:12345328/text#char=159,165",
+    "text": "sepsis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345328/ann/11",
+    "target": "PMID:12345328/text#char=21,26",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345328/ann/12",
+    "target": "PMID:12345328/text#char=603,608",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345328/ann/13",
+    "target": "PMID:12345328/text#char=874,885",
+    "text": "participant",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345328/ann/14",
+    "target": "PMID:12345328/text#char=1352,1357",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345328/ann/0",
+      "to": "PMID:12345328/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345328/ann/15",
+    "target": "PMID:12345328/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345328/ann/2",
+      "to": "PMID:12345328/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345328/ann/16",
+    "target": "PMID:12345328/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345328/ann/4",
+      "to": "PMID:12345328/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345328/ann/17",
+    "target": "PMID:12345328/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345328/ann/4",
+      "to": "PMID:12345328/ann/13",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345328/ann/18",
+    "target": "PMID:12345328/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345328/ann/5",
+      "to": "PMID:12345328/ann/13",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345328/ann/19",
+    "target": "PMID:12345328/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345328/ann/6",
+      "to": "PMID:12345328/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345328/ann/20",
+    "target": "PMID:12345328/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345328/ann/6",
+      "to": "PMID:12345328/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345328/ann/21",
+    "target": "PMID:12345328/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345328/ann/7",
+      "to": "PMID:12345328/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345328/ann/22",
+    "target": "PMID:12345328/text",
+    "type": "Relation"
+  }
+]

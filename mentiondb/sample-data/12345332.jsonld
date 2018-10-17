@@ -1,0 +1,39 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345332/ann/0",
+    "target": "PMID:12345332/text#char=25,29",
+    "text": "PPFA",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345332/ann/1",
+    "target": "PMID:12345332/text#char=154,158",
+    "text": "PPFA",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345332/ann/2",
+    "target": "PMID:12345332/text#char=871,875",
+    "text": "PPFA",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009155",
+      "type": "Disease"
+    },
+    "id": "PMID:12345332/ann/3",
+    "target": "PMID:12345332/text#char=1018,1041",
+    "text": "voluntary contraception",
+    "type": "Span"
+  }
+]

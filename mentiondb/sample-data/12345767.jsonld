@@ -1,0 +1,102 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345767/ann/0",
+    "target": "PMID:12345767/text#char=1916,1920",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345767/ann/1",
+    "target": "PMID:12345767/text#char=1880,1914",
+    "text": "acquired immunodeficiency syndrome",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:133522",
+      "type": "Gene"
+    },
+    "id": "PMID:12345767/ann/2",
+    "target": "PMID:12345767/text#char=709,713",
+    "text": "PERC",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345767/ann/3",
+    "target": "PMID:12345767/text#char=340,352",
+    "text": "participants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345767/ann/4",
+    "target": "PMID:12345767/text#char=464,469",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345767/ann/5",
+    "target": "PMID:12345767/text#char=479,487",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345767/ann/6",
+    "target": "PMID:12345767/text#char=576,581",
+    "text": "Women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345767/ann/0",
+      "to": "PMID:12345767/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345767/ann/7",
+    "target": "PMID:12345767/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345767/ann/4",
+      "to": "PMID:12345767/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345767/ann/8",
+    "target": "PMID:12345767/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345767/ann/5",
+      "to": "PMID:12345767/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345767/ann/9",
+    "target": "PMID:12345767/text",
+    "type": "Relation"
+  }
+]

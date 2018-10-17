@@ -1,0 +1,51 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345157/ann/0",
+    "target": "PMID:12345157/text#char=628,639",
+    "text": "Philippines",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:57667",
+      "type": "Species"
+    },
+    "id": "PMID:12345157/ann/1",
+    "target": "PMID:12345157/text#char=297,300",
+    "text": "HIV",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345157/ann/2",
+    "target": "PMID:12345157/text#char=711,716",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345157/ann/3",
+    "target": "PMID:12345157/text#char=917,925",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345157/ann/0",
+      "to": "PMID:12345157/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345157/ann/4",
+    "target": "PMID:12345157/text",
+    "type": "Relation"
+  }
+]

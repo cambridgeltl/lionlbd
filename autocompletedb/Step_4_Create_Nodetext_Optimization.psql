@@ -1,0 +1,70 @@
+-- Create 'nodetext_optimized' table with extra fields for optimized searching
+
+DROP TABLE IF EXISTS nodetext_optimized;
+
+CREATE TABLE IF NOT EXISTS nodetext_optimized
+(
+    id          SERIAL,
+    oid         VARCHAR(255)    NOT NULL,
+    text        VARCHAR(500)    NOT NULL,
+    type        VARCHAR(100)    NOT NULL,
+    count       INTEGER         NOT NULL,  
+    canonical   INTEGER         NOT NULL,
+    prefix_1    VARCHAR(3),
+    PRIMARY KEY (id)
+);
+
+-- Order 'nodetext' by 'count' field and push into 'nodetext_optimized'
+-- This hopefully reduces speed of subsequent ordering a bit
+
+INSERT INTO nodetext_optimized (oid, text, type,count, canonical) 
+SELECT t.oid, t.text, t.type, t.count, t.canonical FROM nodetext AS t 
+ORDER BY t.count DESC;
+
+-- Update 'prefix_1' field in 'nodetext_optimized' which is designed to avoid weaknesses in trigram searching with popular trigrams
+
+UPDATE nodetext_optimized set prefix_1 = lower(substring(text from 1 for 3));
+
+-- Create indices on 'nodetext_optimized'
+
+CREATE INDEX idx_nodetext_optimized_oid ON nodetext_optimized(oid);
+CREATE INDEX idx_nodetext_optimized_text ON nodetext_optimized USING gin(text gin_trgm_ops);
+CREATE INDEX idx_nodetext_optimized_type ON nodetext_optimized(type);
+CREATE INDEX idx_nodetext_optimized_count ON nodetext_optimized(count);
+CREATE INDEX idx_nodetext_optimized_canonical ON nodetext_optimized(canonical);
+CREATE INDEX idx_nodetext_optimized_prefix_1 ON nodetext_optimized(prefix_1);
+
+-- Create 'nodetext_equivalents' table to save time returning text equivalents for particular nodes
+
+DROP TABLE IF EXISTS nodetext_equivalents;
+
+CREATE TABLE IF NOT EXISTS nodetext_equivalents 
+(
+    oid 		VARCHAR(255) 	NOT NULL,
+    equivalents TEXT,
+    PRIMARY KEY (oid)
+);
+
+-- Build text equivalents for each node and push into 'nodetext_equivalents' table
+
+INSERT INTO nodetext_equivalents (oid, equivalents) 
+SELECT t.oid, e4.equivalents FROM nodetext AS t 
+        JOIN LATERAL
+        (
+            SELECT COALESCE(string_agg(e3.text, ', '), '') AS equivalents FROM 
+            (
+		SELECT e2_5.text FROM ( 
+		    SELECT DISTINCT ON (LOWER(e2.text)) e2.text, e2.count FROM 
+			( SELECT e1.text, e1.count FROM nodetext AS e1 WHERE e1.oid = t.oid ORDER BY e1.count DESC LIMIT 50 ) AS e2
+		ORDER BY LOWER(e2.text),e2.count DESC ) AS e2_5 
+		ORDER BY e2_5.count DESC 
+            ) AS e3
+        ) AS e4 ON true
+WHERE t.canonical = 1;
+
+
+ALTER TABLE nodetext_optimized OWNER TO lion;
+ALTER TABLE nodetext_equivalents OWNER TO lion;
+
+GRANT SELECT ON nodetext_optimized TO PUBLIC;
+GRANT SELECT ON nodetext_equivalents TO PUBLIC;

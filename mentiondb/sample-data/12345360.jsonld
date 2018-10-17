@@ -1,0 +1,42 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345360/ann/0",
+    "target": "PMID:12345360/text#char=422,428",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345360/ann/1",
+    "target": "PMID:12345360/text#char=501,507",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345360/ann/2",
+    "target": "PMID:12345360/text#char=656,662",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345360/ann/0",
+      "to": "PMID:12345360/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345360/ann/3",
+    "target": "PMID:12345360/text",
+    "type": "Relation"
+  }
+]

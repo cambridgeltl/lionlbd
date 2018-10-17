@@ -1,0 +1,62 @@
+[
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345852/ann/0",
+    "target": "PMID:12345852/text#char=1056,1065",
+    "text": "migration",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345852/ann/1",
+    "target": "PMID:12345852/text#char=941,950",
+    "text": "migration",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345852/ann/2",
+    "target": "PMID:12345852/text#char=662,671",
+    "text": "migration",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014085",
+      "type": "Disease"
+    },
+    "id": "PMID:12345852/ann/3",
+    "target": "PMID:12345852/text#char=773,782",
+    "text": "migration",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345852/ann/4",
+    "target": "PMID:12345852/text#char=56,61",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345852/ann/5",
+    "target": "PMID:12345852/text#char=388,394",
+    "text": "people",
+    "type": "Span"
+  }
+]

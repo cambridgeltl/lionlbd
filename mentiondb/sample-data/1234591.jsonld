@@ -1,0 +1,142 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000230",
+      "type": "Disease"
+    },
+    "id": "PMID:1234591/ann/0",
+    "target": "PMID:1234591/text#char=400,414",
+    "text": "adenocarcinoma",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D010954",
+      "type": "Disease"
+    },
+    "id": "PMID:1234591/ann/1",
+    "target": "PMID:1234591/text#char=843,856",
+    "text": "plasmacytomas",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D010954",
+      "type": "Disease"
+    },
+    "id": "PMID:1234591/ann/2",
+    "target": "PMID:1234591/text#char=352,365",
+    "text": "plasmacytomas",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:1234591/ann/3",
+    "target": "PMID:1234591/text#char=39,55",
+    "text": "syngeneic tumors",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D064420",
+      "type": "Disease"
+    },
+    "id": "PMID:1234591/ann/4",
+    "target": "PMID:1234591/text#char=265,273",
+    "text": "toxicity",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:1234591/ann/5",
+    "target": "PMID:1234591/text#char=187,194",
+    "text": "tumours",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "11534(Tax:10090)",
+      "type": "Gene"
+    },
+    "id": "PMID:1234591/ann/6",
+    "target": "PMID:1234591/text#char=416,419",
+    "text": "ADK",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:10090",
+      "type": "Species"
+    },
+    "id": "PMID:1234591/ann/7",
+    "target": "PMID:1234591/text#char=159,163",
+    "text": "mice",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234591/ann/0",
+      "to": "PMID:1234591/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234591/ann/8",
+    "target": "PMID:1234591/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234591/ann/0",
+      "to": "PMID:1234591/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234591/ann/9",
+    "target": "PMID:1234591/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234591/ann/2",
+      "to": "PMID:1234591/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234591/ann/10",
+    "target": "PMID:1234591/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234591/ann/2",
+      "to": "PMID:1234591/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234591/ann/11",
+    "target": "PMID:1234591/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234591/ann/4",
+      "to": "PMID:1234591/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234591/ann/12",
+    "target": "PMID:1234591/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234591/ann/5",
+      "to": "PMID:1234591/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234591/ann/13",
+    "target": "PMID:1234591/text",
+    "type": "Relation"
+  }
+]

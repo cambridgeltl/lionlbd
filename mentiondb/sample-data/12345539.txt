@@ -1,0 +1,2 @@
+Immunization schedule in PAHO member countries.
+The most recent immunization schedules followed in Pan American Health Organization member countries is presented in tabular form. For each country, the number of doses, interval (if applicable), and age for receiving the booster(s) is shown for DPT, OPV, measles, BCG, and MMR. The ideal schedule of vaccinations for tetanus toxoid is also given.

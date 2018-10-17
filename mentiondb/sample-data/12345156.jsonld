@@ -1,0 +1,72 @@
+[
+  {
+    "body": {
+      "id": "EGID:11316",
+      "type": "Gene"
+    },
+    "id": "PMID:12345156/ann/0",
+    "target": "PMID:12345156/text#char=0,4",
+    "text": "COPE",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:11316",
+      "type": "Gene"
+    },
+    "id": "PMID:12345156/ann/1",
+    "target": "PMID:12345156/text#char=273,277",
+    "text": "COPE",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:11316",
+      "type": "Gene"
+    },
+    "id": "PMID:12345156/ann/2",
+    "target": "PMID:12345156/text#char=784,788",
+    "text": "COPE",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:11316",
+      "type": "Gene"
+    },
+    "id": "PMID:12345156/ann/3",
+    "target": "PMID:12345156/text#char=1120,1124",
+    "text": "COPE",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:11316",
+      "type": "Gene"
+    },
+    "id": "PMID:12345156/ann/4",
+    "target": "PMID:12345156/text#char=1347,1351",
+    "text": "COPE",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:11316",
+      "type": "Gene"
+    },
+    "id": "PMID:12345156/ann/5",
+    "target": "PMID:12345156/text#char=1619,1623",
+    "text": "COPE",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:11316",
+      "type": "Gene"
+    },
+    "id": "PMID:12345156/ann/6",
+    "target": "PMID:12345156/text#char=1730,1734",
+    "text": "COPE",
+    "type": "Span"
+  }
+]

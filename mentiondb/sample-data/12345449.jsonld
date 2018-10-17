@@ -1,0 +1,32 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345449/ann/0",
+    "target": "PMID:12345449/text#char=1013,1017",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345449/ann/1",
+    "target": "PMID:12345449/text#char=1147,1151",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012749",
+      "type": "Disease"
+    },
+    "id": "PMID:12345449/ann/2",
+    "target": "PMID:12345449/text#char=617,646",
+    "text": "sexually transmitted diseases",
+    "type": "Span"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345568/ann/0",
+    "target": "PMID:12345568/text#char=60,68",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345568/ann/1",
+    "target": "PMID:12345568/text#char=358,366",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345568/ann/2",
+    "target": "PMID:12345568/text#char=485,493",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345568/ann/3",
+    "target": "PMID:12345568/text#char=678,686",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345568/ann/4",
+    "target": "PMID:12345568/text#char=775,783",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345568/ann/5",
+    "target": "PMID:12345568/text#char=1076,1082",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345568/ann/6",
+    "target": "PMID:12345568/text#char=1124,1132",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345568/ann/3",
+      "to": "PMID:12345568/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345568/ann/7",
+    "target": "PMID:12345568/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345568/ann/5",
+      "to": "PMID:12345568/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345568/ann/8",
+    "target": "PMID:12345568/text",
+    "type": "Relation"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9615",
+      "type": "Species"
+    },
+    "id": "PMID:1234515/ann/0",
+    "target": "PMID:1234515/text#char=31,35",
+    "text": "dogs",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9615",
+      "type": "Species"
+    },
+    "id": "PMID:1234515/ann/1",
+    "target": "PMID:1234515/text#char=212,216",
+    "text": "dogs",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9615",
+      "type": "Species"
+    },
+    "id": "PMID:1234515/ann/2",
+    "target": "PMID:1234515/text#char=317,321",
+    "text": "dogs",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9615",
+      "type": "Species"
+    },
+    "id": "PMID:1234515/ann/3",
+    "target": "PMID:1234515/text#char=485,488",
+    "text": "dog",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9615",
+      "type": "Species"
+    },
+    "id": "PMID:1234515/ann/4",
+    "target": "PMID:1234515/text#char=870,874",
+    "text": "dogs",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9615",
+      "type": "Species"
+    },
+    "id": "PMID:1234515/ann/5",
+    "target": "PMID:1234515/text#char=1477,1481",
+    "text": "dogs",
+    "type": "Span"
+  }
+]

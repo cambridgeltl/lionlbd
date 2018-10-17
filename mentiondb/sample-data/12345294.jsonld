@@ -1,0 +1,112 @@
+[
+  {
+    "body": {
+      "id": "MESH:D004967",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345294/ann/0",
+    "target": "PMID:12345294/text#char=686,694",
+    "text": "estrogen",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D008599",
+      "type": "Disease"
+    },
+    "id": "PMID:12345294/ann/1",
+    "target": "PMID:12345294/text#char=142,161",
+    "text": "menstrual disorders",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345294/ann/2",
+    "target": "PMID:12345294/text#char=30,35",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345294/ann/3",
+    "target": "PMID:12345294/text#char=125,130",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345294/ann/4",
+    "target": "PMID:12345294/text#char=409,414",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345294/ann/5",
+    "target": "PMID:12345294/text#char=460,465",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345294/ann/6",
+    "target": "PMID:12345294/text#char=610,615",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345294/ann/0",
+      "to": "PMID:12345294/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345294/ann/7",
+    "target": "PMID:12345294/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345294/ann/1",
+      "to": "PMID:12345294/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345294/ann/8",
+    "target": "PMID:12345294/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345294/ann/2",
+      "to": "PMID:12345294/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345294/ann/9",
+    "target": "PMID:12345294/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345294/ann/4",
+      "to": "PMID:12345294/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345294/ann/10",
+    "target": "PMID:12345294/text",
+    "type": "Relation"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345288/ann/0",
+    "target": "PMID:12345288/text#char=524,528",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:57667",
+      "type": "Species"
+    },
+    "id": "PMID:12345288/ann/1",
+    "target": "PMID:12345288/text#char=46,49",
+    "text": "HIV",
+    "type": "Span"
+  }
+]

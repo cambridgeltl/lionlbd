@@ -1,0 +1,210 @@
+[
+  {
+    "body": {
+      "id": "MESH:D014745",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234502/ann/0",
+    "target": "PMID:1234502/text#char=25,49",
+    "text": "viloxazine hydrochloride",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014745",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234502/ann/1",
+    "target": "PMID:1234502/text#char=121,145",
+    "text": "viloxazine hydrochloride",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:1234502/ann/2",
+    "target": "PMID:1234502/text#char=148,151",
+    "text": "ICI",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014745",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234502/ann/3",
+    "target": "PMID:1234502/text#char=304,328",
+    "text": "viloxazine hydrochloride",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014745",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234502/ann/4",
+    "target": "PMID:1234502/text#char=450,474",
+    "text": "viloxazine hydrochloride",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:1234502/ann/5",
+    "target": "PMID:1234502/text#char=627,657",
+    "text": "[14C] viloxazine hydrochloride",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014745",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234502/ann/6",
+    "target": "PMID:1234502/text#char=777,787",
+    "text": "viloxazine",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014745",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234502/ann/7",
+    "target": "PMID:1234502/text#char=1391,1415",
+    "text": "viloxazine hydrochloride",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D014745",
+      "type": "Chemical"
+    },
+    "id": "PMID:1234502/ann/8",
+    "target": "PMID:1234502/text#char=1563,1573",
+    "text": "viloxazine",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003866",
+      "type": "Disease"
+    },
+    "id": "PMID:1234502/ann/9",
+    "target": "PMID:1234502/text#char=1294,1303",
+    "text": "depressed",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234502/ann/10",
+    "target": "PMID:1234502/text#char=53,56",
+    "text": "man",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234502/ann/11",
+    "target": "PMID:1234502/text#char=1304,1312",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234502/ann/0",
+      "to": "PMID:1234502/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234502/ann/12",
+    "target": "PMID:1234502/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234502/ann/0",
+      "to": "PMID:1234502/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234502/ann/13",
+    "target": "PMID:1234502/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234502/ann/0",
+      "to": "PMID:1234502/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234502/ann/14",
+    "target": "PMID:1234502/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234502/ann/1",
+      "to": "PMID:1234502/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234502/ann/15",
+    "target": "PMID:1234502/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234502/ann/1",
+      "to": "PMID:1234502/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234502/ann/16",
+    "target": "PMID:1234502/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234502/ann/2",
+      "to": "PMID:1234502/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234502/ann/17",
+    "target": "PMID:1234502/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234502/ann/7",
+      "to": "PMID:1234502/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234502/ann/18",
+    "target": "PMID:1234502/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234502/ann/7",
+      "to": "PMID:1234502/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234502/ann/19",
+    "target": "PMID:1234502/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234502/ann/9",
+      "to": "PMID:1234502/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234502/ann/20",
+    "target": "PMID:1234502/text",
+    "type": "Relation"
+  }
+]

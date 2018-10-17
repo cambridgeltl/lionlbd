@@ -1,0 +1,42 @@
+[
+  {
+    "body": {
+      "id": "MESH:D059373",
+      "type": "Disease"
+    },
+    "id": "PMID:12345455/ann/0",
+    "target": "PMID:12345455/text#char=941,984",
+    "text": "tenderness of the breasts or abdominal pain",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345455/ann/1",
+    "target": "PMID:12345455/text#char=430,435",
+    "text": "woman",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345455/ann/2",
+    "target": "PMID:12345455/text#char=519,524",
+    "text": "woman",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345455/ann/1",
+      "to": "PMID:12345455/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345455/ann/3",
+    "target": "PMID:12345455/text",
+    "type": "Relation"
+  }
+]

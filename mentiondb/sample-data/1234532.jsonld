@@ -1,0 +1,122 @@
+[
+  {
+    "body": {
+      "id": "MESH:D003866",
+      "type": "Disease"
+    },
+    "id": "PMID:1234532/ann/0",
+    "target": "PMID:1234532/text#char=304,313",
+    "text": "depressed",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003866",
+      "type": "Disease"
+    },
+    "id": "PMID:1234532/ann/1",
+    "target": "PMID:1234532/text#char=597,606",
+    "text": "depressed",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003866",
+      "type": "Disease"
+    },
+    "id": "PMID:1234532/ann/2",
+    "target": "PMID:1234532/text#char=118,128",
+    "text": "depression",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003866",
+      "type": "Disease"
+    },
+    "id": "PMID:1234532/ann/3",
+    "target": "PMID:1234532/text#char=35,53",
+    "text": "depressive illness",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001927",
+      "type": "Disease"
+    },
+    "id": "PMID:1234532/ann/4",
+    "target": "PMID:1234532/text#char=374,391",
+    "text": "brain dysfunction",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234532/ann/5",
+    "target": "PMID:1234532/text#char=314,322",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234532/ann/6",
+    "target": "PMID:1234532/text#char=607,615",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234532/ann/0",
+      "to": "PMID:1234532/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234532/ann/7",
+    "target": "PMID:1234532/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234532/ann/0",
+      "to": "PMID:1234532/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234532/ann/8",
+    "target": "PMID:1234532/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234532/ann/1",
+      "to": "PMID:1234532/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234532/ann/9",
+    "target": "PMID:1234532/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234532/ann/2",
+      "to": "PMID:1234532/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234532/ann/10",
+    "target": "PMID:1234532/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234532/ann/4",
+      "to": "PMID:1234532/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234532/ann/11",
+    "target": "PMID:1234532/text",
+    "type": "Relation"
+  }
+]

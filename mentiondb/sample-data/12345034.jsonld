@@ -1,0 +1,72 @@
+[
+  {
+    "body": {
+      "id": "MESH:D009155",
+      "type": "Disease"
+    },
+    "id": "PMID:12345034/ann/0",
+    "target": "PMID:12345034/text#char=161,195",
+    "text": "voluntary family planning services",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002341",
+      "type": "Disease"
+    },
+    "id": "PMID:12345034/ann/1",
+    "target": "PMID:12345034/text#char=852,879",
+    "text": "Family Health International",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002341",
+      "type": "Disease"
+    },
+    "id": "PMID:12345034/ann/2",
+    "target": "PMID:12345034/text#char=881,884",
+    "text": "FHI",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002341",
+      "type": "Disease"
+    },
+    "id": "PMID:12345034/ann/3",
+    "target": "PMID:12345034/text#char=991,994",
+    "text": "FHI",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345034/ann/4",
+    "target": "PMID:12345034/text#char=1634,1639",
+    "text": "human",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345034/ann/5",
+    "target": "PMID:12345034/text#char=2376,2382",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345034/ann/1",
+      "to": "PMID:12345034/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345034/ann/6",
+    "target": "PMID:12345034/text",
+    "type": "Relation"
+  }
+]

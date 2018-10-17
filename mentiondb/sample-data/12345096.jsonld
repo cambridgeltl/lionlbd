@@ -1,0 +1,191 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345096/ann/0",
+    "target": "PMID:12345096/text#char=0,4",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345096/ann/1",
+    "target": "PMID:12345096/text#char=72,76",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345096/ann/2",
+    "target": "PMID:12345096/text#char=1144,1148",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345096/ann/3",
+    "target": "PMID:12345096/text#char=0,4",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345096/ann/4",
+    "target": "PMID:12345096/text#char=178,182",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:57667",
+      "type": "Species"
+    },
+    "id": "PMID:12345096/ann/5",
+    "target": "PMID:12345096/text#char=7,10",
+    "text": "HIV",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:57667",
+      "type": "Species"
+    },
+    "id": "PMID:12345096/ann/6",
+    "target": "PMID:12345096/text#char=292,295",
+    "text": "HIV",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:57667",
+      "type": "Species"
+    },
+    "id": "PMID:12345096/ann/7",
+    "target": "PMID:12345096/text#char=336,339",
+    "text": "HIV",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:57667",
+      "type": "Species"
+    },
+    "id": "PMID:12345096/ann/8",
+    "target": "PMID:12345096/text#char=488,491",
+    "text": "HIV",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:57667",
+      "type": "Species"
+    },
+    "id": "PMID:12345096/ann/9",
+    "target": "PMID:12345096/text#char=889,892",
+    "text": "HIV",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345096/ann/10",
+    "target": "PMID:12345096/text#char=1388,1400",
+    "text": "Participants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345096/ann/11",
+    "target": "PMID:12345096/text#char=1573,1585",
+    "text": "participants",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345096/ann/0",
+      "to": "PMID:12345096/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345096/ann/12",
+    "target": "PMID:12345096/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345096/ann/0",
+      "to": "PMID:12345096/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345096/ann/13",
+    "target": "PMID:12345096/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345096/ann/0",
+      "to": "PMID:12345096/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345096/ann/14",
+    "target": "PMID:12345096/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345096/ann/1",
+      "to": "PMID:12345096/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345096/ann/15",
+    "target": "PMID:12345096/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345096/ann/1",
+      "to": "PMID:12345096/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345096/ann/16",
+    "target": "PMID:12345096/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345096/ann/3",
+      "to": "PMID:12345096/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345096/ann/17",
+    "target": "PMID:12345096/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345096/ann/6",
+      "to": "PMID:12345096/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345096/ann/18",
+    "target": "PMID:12345096/text",
+    "type": "Relation"
+  }
+]

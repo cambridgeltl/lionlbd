@@ -1,0 +1,12 @@
+[
+  {
+    "body": {
+      "id": "MESH:D002177",
+      "type": "Disease"
+    },
+    "id": "PMID:1234598/ann/0",
+    "target": "PMID:1234598/text#char=0,24",
+    "text": "Experimental candidiasis",
+    "type": "Span"
+  }
+]

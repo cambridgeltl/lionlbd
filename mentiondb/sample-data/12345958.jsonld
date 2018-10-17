@@ -1,0 +1,82 @@
+[
+  {
+    "body": {
+      "id": "MESH:D009800",
+      "type": "Disease"
+    },
+    "id": "PMID:12345958/ann/0",
+    "target": "PMID:12345958/text#char=344,360",
+    "text": "low-income teens",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009155",
+      "type": "Disease"
+    },
+    "id": "PMID:12345958/ann/1",
+    "target": "PMID:12345958/text#char=959,984",
+    "text": "voluntary family planning",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345958/ann/2",
+    "target": "PMID:12345958/text#char=427,433",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345958/ann/3",
+    "target": "PMID:12345958/text#char=932,937",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345958/ann/4",
+    "target": "PMID:12345958/text#char=1053,1058",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345958/ann/0",
+      "to": "PMID:12345958/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345958/ann/5",
+    "target": "PMID:12345958/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345958/ann/1",
+      "to": "PMID:12345958/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345958/ann/6",
+    "target": "PMID:12345958/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345958/ann/1",
+      "to": "PMID:12345958/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345958/ann/7",
+    "target": "PMID:12345958/text",
+    "type": "Relation"
+  }
+]

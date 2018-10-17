@@ -1,0 +1,41 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345592/ann/0",
+    "target": "PMID:12345592/text#char=452,459",
+    "text": "Tianjin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345592/ann/1",
+    "target": "PMID:12345592/text#char=1807,1813",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345592/ann/2",
+    "target": "PMID:12345592/text#char=1909,1915",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345592/ann/1",
+      "to": "PMID:12345592/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345592/ann/3",
+    "target": "PMID:12345592/text",
+    "type": "Relation"
+  }
+]

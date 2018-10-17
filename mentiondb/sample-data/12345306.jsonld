@@ -1,0 +1,142 @@
+[
+  {
+    "body": {
+      "id": "MESH:D005947",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345306/ann/0",
+    "target": "PMID:12345306/text#char=1198,1205",
+    "text": "glucose",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D017114",
+      "type": "Disease"
+    },
+    "id": "PMID:12345306/ann/1",
+    "target": "PMID:12345306/text#char=1629,1648",
+    "text": "acute liver disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003324",
+      "type": "Disease"
+    },
+    "id": "PMID:12345306/ann/2",
+    "target": "PMID:12345306/text#char=1585,1627",
+    "text": "cerebrovascular or coronary artery disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D006470",
+      "type": "Disease"
+    },
+    "id": "PMID:12345306/ann/3",
+    "target": "PMID:12345306/text#char=1675,1691",
+    "text": "genital bleeding",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009369",
+      "type": "Disease"
+    },
+    "id": "PMID:12345306/ann/4",
+    "target": "PMID:12345306/text#char=1556,1562",
+    "text": "cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D001943",
+      "type": "Disease"
+    },
+    "id": "PMID:12345306/ann/5",
+    "target": "PMID:12345306/text#char=1522,1554",
+    "text": "ectopic pregnancy, breast cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345306/ann/1",
+      "to": "PMID:12345306/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345306/ann/6",
+    "target": "PMID:12345306/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345306/ann/1",
+      "to": "PMID:12345306/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345306/ann/7",
+    "target": "PMID:12345306/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345306/ann/1",
+      "to": "PMID:12345306/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345306/ann/8",
+    "target": "PMID:12345306/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345306/ann/1",
+      "to": "PMID:12345306/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345306/ann/9",
+    "target": "PMID:12345306/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345306/ann/2",
+      "to": "PMID:12345306/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345306/ann/10",
+    "target": "PMID:12345306/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345306/ann/2",
+      "to": "PMID:12345306/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345306/ann/11",
+    "target": "PMID:12345306/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345306/ann/2",
+      "to": "PMID:12345306/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345306/ann/12",
+    "target": "PMID:12345306/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345306/ann/4",
+      "to": "PMID:12345306/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345306/ann/13",
+    "target": "PMID:12345306/text",
+    "type": "Relation"
+  }
+]

@@ -1,0 +1,321 @@
+[
+  {
+    "body": {
+      "id": "MESH:D017258",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345029/ann/0",
+    "target": "PMID:12345029/text#char=1992,2019",
+    "text": "medroxyprogesterone acetate",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345029/ann/1",
+    "target": "PMID:12345029/text#char=2025,2036",
+    "text": "Noristerate",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:C024319",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345029/ann/2",
+    "target": "PMID:12345029/text#char=2038,2062",
+    "text": "norethisterone enanthate",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D002921",
+      "type": "Disease"
+    },
+    "id": "PMID:12345029/ann/3",
+    "target": "PMID:12345029/text#char=1171,1185",
+    "text": "tubal scarring",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D050197",
+      "type": "Disease"
+    },
+    "id": "PMID:12345029/ann/4",
+    "target": "PMID:12345029/text#char=753,768",
+    "text": "atherosclerosis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D064420",
+      "type": "Disease"
+    },
+    "id": "PMID:12345029/ann/5",
+    "target": "PMID:12345029/text#char=1391,1411",
+    "text": "toxic shock syndrome",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D011471",
+      "type": "Disease"
+    },
+    "id": "PMID:12345029/ann/6",
+    "target": "PMID:12345029/text#char=1697,1712",
+    "text": "prostate cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012488",
+      "type": "Disease"
+    },
+    "id": "PMID:12345029/ann/7",
+    "target": "PMID:12345029/text#char=1158,1169",
+    "text": "salpingitis",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007246",
+      "type": "Disease"
+    },
+    "id": "PMID:12345029/ann/8",
+    "target": "PMID:12345029/text#char=1220,1231",
+    "text": "infertility",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D006973",
+      "type": "Disease"
+    },
+    "id": "PMID:12345029/ann/9",
+    "target": "PMID:12345029/text#char=721,733",
+    "text": "hypertension",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D005221",
+      "type": "Disease"
+    },
+    "id": "PMID:12345029/ann/10",
+    "target": "PMID:12345029/text#char=774,781",
+    "text": "fatigue",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D009325",
+      "type": "Disease"
+    },
+    "id": "PMID:12345029/ann/11",
+    "target": "PMID:12345029/text#char=713,719",
+    "text": "nausea",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000292",
+      "type": "Disease"
+    },
+    "id": "PMID:12345029/ann/12",
+    "target": "PMID:12345029/text#char=1187,1214",
+    "text": "pelvic inflammatory disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000292",
+      "type": "Disease"
+    },
+    "id": "PMID:12345029/ann/13",
+    "target": "PMID:12345029/text#char=1040,1067",
+    "text": "pelvic inflammatory disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D034161",
+      "type": "Disease"
+    },
+    "id": "PMID:12345029/ann/14",
+    "target": "PMID:12345029/text#char=1814,1831",
+    "text": "pelvic infections",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:2796",
+      "type": "Gene"
+    },
+    "id": "PMID:12345029/ann/15",
+    "target": "PMID:12345029/text#char=300,330",
+    "text": "gonadotropin-releasing hormone",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345029/ann/0",
+      "to": "PMID:12345029/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345029/ann/16",
+    "target": "PMID:12345029/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345029/ann/0",
+      "to": "PMID:12345029/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345029/ann/17",
+    "target": "PMID:12345029/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345029/ann/1",
+      "to": "PMID:12345029/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345029/ann/18",
+    "target": "PMID:12345029/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345029/ann/3",
+      "to": "PMID:12345029/ann/7",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345029/ann/19",
+    "target": "PMID:12345029/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345029/ann/3",
+      "to": "PMID:12345029/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345029/ann/20",
+    "target": "PMID:12345029/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345029/ann/3",
+      "to": "PMID:12345029/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345029/ann/21",
+    "target": "PMID:12345029/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345029/ann/4",
+      "to": "PMID:12345029/ann/9",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345029/ann/22",
+    "target": "PMID:12345029/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345029/ann/4",
+      "to": "PMID:12345029/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345029/ann/23",
+    "target": "PMID:12345029/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345029/ann/4",
+      "to": "PMID:12345029/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345029/ann/24",
+    "target": "PMID:12345029/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345029/ann/7",
+      "to": "PMID:12345029/ann/8",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345029/ann/25",
+    "target": "PMID:12345029/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345029/ann/7",
+      "to": "PMID:12345029/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345029/ann/26",
+    "target": "PMID:12345029/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345029/ann/7",
+      "to": "PMID:12345029/ann/13",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345029/ann/27",
+    "target": "PMID:12345029/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345029/ann/8",
+      "to": "PMID:12345029/ann/12",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345029/ann/28",
+    "target": "PMID:12345029/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345029/ann/9",
+      "to": "PMID:12345029/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345029/ann/29",
+    "target": "PMID:12345029/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345029/ann/9",
+      "to": "PMID:12345029/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345029/ann/30",
+    "target": "PMID:12345029/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345029/ann/10",
+      "to": "PMID:12345029/ann/11",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345029/ann/31",
+    "target": "PMID:12345029/text",
+    "type": "Relation"
+  }
+]

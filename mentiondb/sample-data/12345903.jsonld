@@ -1,0 +1,62 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345903/ann/0",
+    "target": "PMID:12345903/text#char=53,57",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345903/ann/1",
+    "target": "PMID:12345903/text#char=16,20",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:57667",
+      "type": "Species"
+    },
+    "id": "PMID:12345903/ann/2",
+    "target": "PMID:12345903/text#char=49,52",
+    "text": "HIV",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345903/ann/0",
+      "to": "PMID:12345903/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345903/ann/3",
+    "target": "PMID:12345903/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345903/ann/0",
+      "to": "PMID:12345903/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345903/ann/4",
+    "target": "PMID:12345903/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345903/ann/1",
+      "to": "PMID:12345903/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345903/ann/5",
+    "target": "PMID:12345903/text",
+    "type": "Relation"
+  }
+]

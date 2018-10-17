@@ -1,0 +1,122 @@
+[
+  {
+    "body": {
+      "id": "MESH:D004403",
+      "type": "Disease"
+    },
+    "id": "PMID:12345477/ann/0",
+    "target": "PMID:12345477/text#char=599,616",
+    "text": "diarrheal disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004403",
+      "type": "Disease"
+    },
+    "id": "PMID:12345477/ann/1",
+    "target": "PMID:12345477/text#char=1521,1538",
+    "text": "Diarrheal Disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345477/ann/2",
+    "target": "PMID:12345477/text#char=717,722",
+    "text": "death",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D004403",
+      "type": "Disease"
+    },
+    "id": "PMID:12345477/ann/3",
+    "target": "PMID:12345477/text#char=642,659",
+    "text": "diarrheal disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345477/ann/4",
+    "target": "PMID:12345477/text#char=589,597",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345477/ann/5",
+    "target": "PMID:12345477/text#char=733,741",
+    "text": "children",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345477/ann/0",
+      "to": "PMID:12345477/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345477/ann/6",
+    "target": "PMID:12345477/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345477/ann/0",
+      "to": "PMID:12345477/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345477/ann/7",
+    "target": "PMID:12345477/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345477/ann/2",
+      "to": "PMID:12345477/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345477/ann/8",
+    "target": "PMID:12345477/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345477/ann/2",
+      "to": "PMID:12345477/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345477/ann/9",
+    "target": "PMID:12345477/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345477/ann/3",
+      "to": "PMID:12345477/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345477/ann/10",
+    "target": "PMID:12345477/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345477/ann/3",
+      "to": "PMID:12345477/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345477/ann/11",
+    "target": "PMID:12345477/text",
+    "type": "Relation"
+  }
+]

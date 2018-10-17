@@ -1,0 +1,80 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345822/ann/0",
+    "target": "PMID:12345822/text#char=47,54",
+    "text": "Hygiene",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345822/ann/1",
+    "target": "PMID:12345822/text#char=154,161",
+    "text": "Hygiene",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D003643",
+      "type": "Disease"
+    },
+    "id": "PMID:12345822/ann/2",
+    "target": "PMID:12345822/text#char=836,842",
+    "text": "deaths",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345822/ann/3",
+    "target": "PMID:12345822/text#char=285,290",
+    "text": "Child",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345822/ann/4",
+    "target": "PMID:12345822/text#char=454,459",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9103",
+      "type": "Species"
+    },
+    "id": "PMID:12345822/ann/5",
+    "target": "PMID:12345822/text#char=1075,1081",
+    "text": "Turkey",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345822/ann/6",
+    "target": "PMID:12345822/text#char=1362,1367",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345822/ann/0",
+      "to": "PMID:12345822/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345822/ann/7",
+    "target": "PMID:12345822/text",
+    "type": "Relation"
+  }
+]

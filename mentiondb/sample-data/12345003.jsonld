@@ -1,0 +1,42 @@
+[
+  {
+    "body": {
+      "id": "taxonomy:9913",
+      "type": "Species"
+    },
+    "id": "PMID:12345003/ann/0",
+    "target": "PMID:12345003/text#char=654,660",
+    "text": "cattle",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:3641",
+      "type": "Species"
+    },
+    "id": "PMID:12345003/ann/1",
+    "target": "PMID:12345003/text#char=1734,1739",
+    "text": "cacao",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9913",
+      "type": "Species"
+    },
+    "id": "PMID:12345003/ann/2",
+    "target": "PMID:12345003/text#char=2043,2049",
+    "text": "cattle",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345003/ann/3",
+    "target": "PMID:12345003/text#char=2440,2445",
+    "text": "human",
+    "type": "Span"
+  }
+]

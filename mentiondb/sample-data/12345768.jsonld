@@ -1,0 +1,32 @@
+[
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345768/ann/0",
+    "target": "PMID:12345768/text#char=1348,1382",
+    "text": "acquired immunodeficiency syndrome",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:259307",
+      "type": "Gene"
+    },
+    "id": "PMID:12345768/ann/1",
+    "target": "PMID:12345768/text#char=0,3",
+    "text": "Lao",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:259307",
+      "type": "Gene"
+    },
+    "id": "PMID:12345768/ann/2",
+    "target": "PMID:12345768/text#char=108,111",
+    "text": "Lao",
+    "type": "Span"
+  }
+]

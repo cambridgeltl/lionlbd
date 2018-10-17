@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LION DEMO</title>
+<style>
+body { font-family: sans-serif; font-size: 14px; line-height: 1.6em; margin: 0; padding: 0; }
+.container { width: 800px; margin: 0 auto; }
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #000; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000; }
+
+input { font-size: 28px; padding: 10px; border: 1px solid #CCC; display: block; margin: 20px 0; }
+
+</style>
+<meta>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+
+
+</head>
+<body>
+	<div class="container">
+		<h1>LION DEMO</h1>
+		<div class="row">
+		<div class="col-md-8">
+			<form action="" method="post" name="lion">
+			<input type="text" name="autocomplete" id="autocomplete" class="form-control" placeholder="Type an entity description" value="{{selectedText}}" />
+			<input type="text" hidden="True" name="nodeID" id="nodeID" value="{{selectedNode}}" />
+				<input type="text" name="mincount" id="mincount" value="{{mincount}}"/>
+				<!-- <div><label>Normalize graph <input type="checkbox" name="isNorm" id="isNorm" VALUE="True" {{isNorm}}/>  </label></div> -->
+			<p><input type="submit" name="search" value="Discover !">
+
+			</p>
+
+			</form>
+		</div>
+		<div id="selection" class="required"></div>
+
+		</div>
+
+	</div>
+	<div>
+
+	</div>
+	<div id="disp" class="required" style= "width:50%; margin:0 auto;">
+
+	</div>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	
+	<script type=text/javascript src="{{url_for('static', filename='jquery.autocomplete.js') }}"></script>
+	
+
+	<script type="text/javascript">
+    
+    $(document).ready(function(){
+    	 
+    	$("#autocomplete").autocomplete({
+    		//lookup: countries,
+    		serviceUrl:"ajaxautocomplete", //tell the script where to send requests
+    	  	type:'POST',
+    	    width: 450, //set width
+    	    
+    	    //callback just to show it's working
+    	    onSelect: function (suggestion) {
+
+       				document.getElementById("nodeID").value = suggestion.data
+    				},
+    	showNoSuggestionNotice: true,
+        noSuggestionNotice: 'Sorry, no matching results',
+    	});
+    });
+    </script>
+
+
+
+<script src="https://cdn.zoomcharts-cloud.com/1/latest/zoomcharts.js"></script>
+
+	{% if not noDisc %}
+
+	</div>
+		<div id='demo' style='width:100%; height:100%;'>
+
+		</div>
+	{% else %}
+		<div id='error' style='width:100%; height:300px;'>
+		<Strong>{{noDisc}}</Strong>
+	{% endif %}
+
+
+
+<script>
+    var data = {
+
+        "nodes":
+			 {{nodes|tojson|safe}}
+
+        ,
+        "links":
+        {{edges|tojson|safe}}
+    };
+
+
+
+    var t = new NetChart({
+        container: document.getElementById("demo"),
+        area: { height: 600 },
+        data: { preloaded: data },
+        events:{ onDoubleClick: graphDoubleClick},
+        style:{{nodeClassStyle|tojson|safe}},
+        legend: { enabled: true }
+    });
+
+	function graphClick(event, args){
+        var div = document.getElementById("disp");
+        if (args.clickNode){
+
+    		div.innerHTML = "<h1><b><a href = http://127.0.0.1:5000/displayNode?nodeID="+event.clickNode.id+">" + args.clickNode.label + "</a></h1></b>" ;
+
+        }
+
+    }
+
+    function graphDoubleClick(event){
+        var div = document.getElementById("disp");
+        if (event.clickNode){
+
+
+    		var win = window.open("http://127.0.0.1:5000/displayNode?nodeID=" + event.clickNode.id, '_blank');
+ 			win.focus();
+        }
+
+         if (event.clickLink){
+
+			var win = window.open("http://127.0.0.1:5000/displayEdge?edgeID=" + event.clickLink.id, '_blank');
+ 			win.focus();
+        }
+
+    }
+
+
+</script>
+
+
+</body>
+</html>
+

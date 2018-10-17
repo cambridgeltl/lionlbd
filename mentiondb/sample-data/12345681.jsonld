@@ -1,0 +1,62 @@
+[
+  {
+    "body": {
+      "id": "MESH:C538659",
+      "type": "Disease"
+    },
+    "id": "PMID:12345681/ann/0",
+    "target": "PMID:12345681/text#char=1366,1391",
+    "text": "South-South collaboration",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "EGID:246329",
+      "type": "Gene"
+    },
+    "id": "PMID:12345681/ann/1",
+    "target": "PMID:12345681/text#char=34,37",
+    "text": "NAM",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345681/ann/2",
+    "target": "PMID:12345681/text#char=931,937",
+    "text": "people",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345681/ann/3",
+    "target": "PMID:12345681/text#char=1097,1102",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345681/ann/4",
+    "target": "PMID:12345681/text#char=1127,1130",
+    "text": "men",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345681/ann/3",
+      "to": "PMID:12345681/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345681/ann/5",
+    "target": "PMID:12345681/text",
+    "type": "Relation"
+  }
+]

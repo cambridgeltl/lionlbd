@@ -1,0 +1,102 @@
+[
+  {
+    "body": {
+      "id": "MESH:D010121",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345820/ann/0",
+    "target": "PMID:12345820/text#char=531,539",
+    "text": "oxytocin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D010121",
+      "type": "Chemical"
+    },
+    "id": "PMID:12345820/ann/1",
+    "target": "PMID:12345820/text#char=782,790",
+    "text": "oxytocin",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007744",
+      "type": "Disease"
+    },
+    "id": "PMID:12345820/ann/2",
+    "target": "PMID:12345820/text#char=1094,1113",
+    "text": "labor complications",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007239",
+      "type": "Disease"
+    },
+    "id": "PMID:12345820/ann/3",
+    "target": "PMID:12345820/text#char=720,730",
+    "text": "infections",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D007744",
+      "type": "Disease"
+    },
+    "id": "PMID:12345820/ann/4",
+    "target": "PMID:12345820/text#char=1190,1209",
+    "text": "labor complications",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345820/ann/5",
+    "target": "PMID:12345820/text#char=1179,1184",
+    "text": "women",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345820/ann/1",
+      "to": "PMID:12345820/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345820/ann/6",
+    "target": "PMID:12345820/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345820/ann/2",
+      "to": "PMID:12345820/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345820/ann/7",
+    "target": "PMID:12345820/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345820/ann/2",
+      "to": "PMID:12345820/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345820/ann/8",
+    "target": "PMID:12345820/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345820/ann/4",
+      "to": "PMID:12345820/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345820/ann/9",
+    "target": "PMID:12345820/text",
+    "type": "Relation"
+  }
+]

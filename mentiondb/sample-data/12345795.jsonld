@@ -1,0 +1,31 @@
+[
+  {
+    "body": {
+      "type": "Chemical"
+    },
+    "id": "PMID:12345795/ann/0",
+    "target": "PMID:12345795/text#char=273,284",
+    "text": "countryside",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9103",
+      "type": "Species"
+    },
+    "id": "PMID:12345795/ann/1",
+    "target": "PMID:12345795/text#char=251,257",
+    "text": "Turkey",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345795/ann/0",
+      "to": "PMID:12345795/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345795/ann/2",
+    "target": "PMID:12345795/text",
+    "type": "Relation"
+  }
+]

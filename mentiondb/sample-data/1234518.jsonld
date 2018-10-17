@@ -1,0 +1,152 @@
+[
+  {
+    "body": {
+      "id": "MESH:D004630",
+      "type": "Disease"
+    },
+    "id": "PMID:1234518/ann/0",
+    "target": "PMID:1234518/text#char=813,842",
+    "text": "cardiorespiratory emergencies",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234518/ann/1",
+    "target": "PMID:1234518/text#char=459,466",
+    "text": "patient",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234518/ann/2",
+    "target": "PMID:1234518/text#char=609,616",
+    "text": "patient",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234518/ann/3",
+    "target": "PMID:1234518/text#char=1225,1232",
+    "text": "patient",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234518/ann/4",
+    "target": "PMID:1234518/text#char=1329,1336",
+    "text": "patient",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234518/ann/5",
+    "target": "PMID:1234518/text#char=1381,1388",
+    "text": "patient",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234518/ann/6",
+    "target": "PMID:1234518/text#char=1619,1626",
+    "text": "patient",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234518/ann/7",
+    "target": "PMID:1234518/text#char=1752,1759",
+    "text": "patient",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234518/ann/8",
+    "target": "PMID:1234518/text#char=2076,2084",
+    "text": "patients",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234518/ann/9",
+    "target": "PMID:1234518/text#char=2248,2255",
+    "text": "patient",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234518/ann/10",
+    "target": "PMID:1234518/text#char=2319,2326",
+    "text": "patient",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:1234518/ann/11",
+    "target": "PMID:1234518/text#char=2508,2515",
+    "text": "patient",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:1234518/ann/3",
+      "to": "PMID:1234518/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234518/ann/12",
+    "target": "PMID:1234518/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234518/ann/4",
+      "to": "PMID:1234518/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234518/ann/13",
+    "target": "PMID:1234518/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:1234518/ann/9",
+      "to": "PMID:1234518/ann/10",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:1234518/ann/14",
+    "target": "PMID:1234518/text",
+    "type": "Relation"
+  }
+]

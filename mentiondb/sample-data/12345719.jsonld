@@ -1,0 +1,162 @@
+[
+  {
+    "body": {
+      "id": "MESH:D029424",
+      "type": "Disease"
+    },
+    "id": "PMID:12345719/ann/0",
+    "target": "PMID:12345719/text#char=327,359",
+    "text": "chronic obstructive lung disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D029424",
+      "type": "Disease"
+    },
+    "id": "PMID:12345719/ann/1",
+    "target": "PMID:12345719/text#char=116,148",
+    "text": "chronic obstructive lung disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D008175",
+      "type": "Disease"
+    },
+    "id": "PMID:12345719/ann/2",
+    "target": "PMID:12345719/text#char=100,111",
+    "text": "lung cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D029424",
+      "type": "Disease"
+    },
+    "id": "PMID:12345719/ann/3",
+    "target": "PMID:12345719/text#char=39,43",
+    "text": "COLD",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D029424",
+      "type": "Disease"
+    },
+    "id": "PMID:12345719/ann/4",
+    "target": "PMID:12345719/text#char=150,154",
+    "text": "COLD",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D008175",
+      "type": "Disease"
+    },
+    "id": "PMID:12345719/ann/5",
+    "target": "PMID:12345719/text#char=23,34",
+    "text": "lung cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D008175",
+      "type": "Disease"
+    },
+    "id": "PMID:12345719/ann/6",
+    "target": "PMID:12345719/text#char=311,322",
+    "text": "lung cancer",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345719/ann/0",
+      "to": "PMID:12345719/ann/6",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345719/ann/7",
+    "target": "PMID:12345719/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345719/ann/1",
+      "to": "PMID:12345719/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345719/ann/8",
+    "target": "PMID:12345719/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345719/ann/1",
+      "to": "PMID:12345719/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345719/ann/9",
+    "target": "PMID:12345719/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345719/ann/1",
+      "to": "PMID:12345719/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345719/ann/10",
+    "target": "PMID:12345719/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345719/ann/1",
+      "to": "PMID:12345719/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345719/ann/11",
+    "target": "PMID:12345719/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345719/ann/2",
+      "to": "PMID:12345719/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345719/ann/12",
+    "target": "PMID:12345719/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345719/ann/2",
+      "to": "PMID:12345719/ann/4",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345719/ann/13",
+    "target": "PMID:12345719/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345719/ann/2",
+      "to": "PMID:12345719/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345719/ann/14",
+    "target": "PMID:12345719/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345719/ann/3",
+      "to": "PMID:12345719/ann/5",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345719/ann/15",
+    "target": "PMID:12345719/text",
+    "type": "Relation"
+  }
+]

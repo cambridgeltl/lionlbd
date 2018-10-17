@@ -1,0 +1,112 @@
+[
+  {
+    "body": {
+      "id": "MESH:D012749",
+      "type": "Disease"
+    },
+    "id": "PMID:12345764/ann/0",
+    "target": "PMID:12345764/text#char=1078,1081",
+    "text": "STD",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345764/ann/1",
+    "target": "PMID:12345764/text#char=1123,1127",
+    "text": "AIDS",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D000163",
+      "type": "Disease"
+    },
+    "id": "PMID:12345764/ann/2",
+    "target": "PMID:12345764/text#char=1087,1121",
+    "text": "acquired immunodeficiency syndrome",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "MESH:D012749",
+      "type": "Disease"
+    },
+    "id": "PMID:12345764/ann/3",
+    "target": "PMID:12345764/text#char=1048,1076",
+    "text": "sexually transmitted disease",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "id": "taxonomy:9606",
+      "type": "Species"
+    },
+    "id": "PMID:12345764/ann/4",
+    "target": "PMID:12345764/text#char=496,502",
+    "text": "People",
+    "type": "Span"
+  },
+  {
+    "body": {
+      "from": "PMID:12345764/ann/0",
+      "to": "PMID:12345764/ann/1",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345764/ann/5",
+    "target": "PMID:12345764/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345764/ann/0",
+      "to": "PMID:12345764/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345764/ann/6",
+    "target": "PMID:12345764/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345764/ann/0",
+      "to": "PMID:12345764/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345764/ann/7",
+    "target": "PMID:12345764/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345764/ann/1",
+      "to": "PMID:12345764/ann/2",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345764/ann/8",
+    "target": "PMID:12345764/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345764/ann/1",
+      "to": "PMID:12345764/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345764/ann/9",
+    "target": "PMID:12345764/text",
+    "type": "Relation"
+  },
+  {
+    "body": {
+      "from": "PMID:12345764/ann/2",
+      "to": "PMID:12345764/ann/3",
+      "type": "Cooccurrence"
+    },
+    "id": "PMID:12345764/ann/10",
+    "target": "PMID:12345764/text",
+    "type": "Relation"
+  }
+]
